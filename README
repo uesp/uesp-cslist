@@ -1,0 +1,28 @@
+Database connections:
+
+  csread_conn.inc read/write 	used by csread when reading .esm's to update
+			       	database
+  csdata_conn.inc read		used by webfrontend to read data
+
+For Skyrim, the database CSData_SRData is used.
+
+==============================================================================
+Updating database:
+
+  csread.php is invoked manually to update the database. It needs to be edited
+  to refelect the job at hand. To add the data of a new file, the version
+  found at examples/csread.addfile.php can be used. Steps that need to be
+  done:
+
+    * Copy the .esm and string files to the cs_input directory.
+    * Add definitions for the new file to the end of the arrays
+      in srread.inc .
+    * Call "php csread.php", the new file will be automatically
+      detected and data for it added. This works only for the first
+      time the script is invoked after addding new file definitions
+      to srread.inc .
+
+  Currently only Skyrim data can be added, Morrowind and Oblivion data
+  would need minor changes in the code. It is probably a bad idea to
+  add missing Update versions out of order (and probably not important
+  anyway).

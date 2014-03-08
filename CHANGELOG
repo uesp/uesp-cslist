@@ -1,0 +1,65 @@
+// most recent changes at top
+* cslist.php - for mw, add rectype= to urls of search results
+* csread.inc - add support for lookup tables with 4 character string as key
+* cslist.php - display_search() changed count($list)==1 check to >=1 so an exact match is not ignored if it is found for both edid and name
+* srdata.inc - added derive_playable() for ARMO
+* csitem.inc - convert_formid(), explicitely check for fileid 6 (HF), to get cdata conditional params right for HF and updates - needs to be fixed and done properly
+* srdata.inc - GenItem_BOOK fix skill/spell detection by using flags
+* srread.inc - REFR.XTEL replaced cell_rev_id/door_dup_id with no_alarm flag
+* srdata.inc, srread.inc - changed MGEF.MDOB to formID
+* sr_genitem.inc - effect_value, effect_cost magnitude smaller than 1 is treated as 1
+* srdata.inc - SRItem_NPC_ display a level of 0 as such, but use a value of 1 for calculations, as this is what the game does (EncBandit04TemplateMelee)
+* sr_genitem.inc - moved factor of 8 (for weapon gold value) from effect_value to derive_value to fix manual-calc case (which needs that factor too), check explicitely for _rectype to identify weapons, since Keening has no enchant_charge
+* srread.inc - added BOD2 definition to ARMA and ARMO
+* cswrite_conn.inc - removed since unused
+* csread_conn.inc, csdata_conn.inc - changed to use /home/uesp/secrets/cslist.secrets for host/user/password
+* INFO.INAM for MW is not unique
+** mwdata.inc - MWItem_DIAL set group_id, MWItem_INFO already does this
+** outputformat.inc - format_link_info use group_id if set to refine query
+* outputformat.inc - OutputHtml.get_item_url() urlencode $edid, Morrowind list edids contain + chars
+* obdata.inc - new class OBItem_DIAL to list associated INFO records
+* cslist.php - display_cell() use strictmatch option to prevent false positives 
+ if there is no record with that rectype
+* edid for MW is not unique, change edid links to specify rectype
+** outputformat.inc - OutputHtml.get_item_url() add rectype param for mw in edid
+ case
+** cslist.php - display_cell() added rectype url param to get_item call
+* csitem.inc - commented out a section of code in CSItem.display_item_data()
+ that produced an error on MW CELL pages and seems to have no visible effect
+ for other pages/games so far (likely unfinished)
+* mwdata.inc - new class MWItem_DIAL to show actual dialogue
+* srread.inc - added INFO.DNAM
+* obdata.inc - OBItem_NPC_, show dialogue, will need tweaking
+* srread.inc - updated NPC_.ACBS flags (ghost/invulnerable)
+* srdata.inc - SRItem_KYWD.get_index_member, change previous change to use already calculated _data['used_by'] instead
+* srread.inc - added playable flag for MISC
+* srread.inc - added basic FURN data definition
+* srdata.inc - SRItem_KYWD.get_index_member instead of trying to determine table for members from edid, just search through all KWDA_Record tables; did not work for new keywords from add-ons before
+* srdata.inc - experimentally changed _query_filter for SRItem_REFR to include REFRs with a set edid too
+* srdata.inc - added classes SRItem_PGRE, SRItem_PHZD extending GenItem_RefItem
+* srread.inc - added data definition for PGRE and PHZD
+* srread.inc - updated FACT.DATA flags, added lookup for FACT.XNAM.combat
+* csitem.inc - function convert_formid changed >1 to >=1 to handle Hearthfire formids in CTDA correctly
+* srdata.inc - change three dialogue queries to use cpar1_formid instead of cond_param1
+* srread.inc - INFO.CTDA add cpar1_formid definition
+//Dialogue Issue: as a hack dump param1 twice for now, once as int and
+//once as formid - use formid for queries that want formids
+* genitem.inc - charge_uses() round printed cost to one decimal, like it is done for NPC leveled stats
+* srread.inc - ENCH.ENIT, changed enchantcost to enchantcost_raw to account for autocalc cases
+* srread.inc - REFR.XLOC, fixed leveled flag, simplified (always 20 bytes in SR)
+* srread.inc  - added ACSR data definition
+* created table LCTN_ACSR_Record like LCTN_LCSR_Record; added LCTN/ACSR record to Reclist table
+//Issue: NPCs of add-ons show no dialogue
+//Cause: Condition paramter in INFO_CTDA_Record are stored unprocessed,
+//       the comparison to the processed formid fails
+//Fix: a) Store processed condition parameters - needs checking condition
+//        function wether it's a formid
+//  or b) convert processed formid back to original for comparison, then
+//        check the fileid in Allitems to get rid of random clashes between
+//	  two add-ons sharing the same unprocessed formid
+* srdata.inc
+    SRItem_NPC_.miscstat_text() - fixed formula in case of level_mult != 1
+* srread.inc, csread.inc
+    Added _fileidprefix array to srread.inc and used that in csread.inc to
+    determine when to replace the formid prefix with the filemod number.
+    Won't work for Morrowind or Oblivion without further changes.

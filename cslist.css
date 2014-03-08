@@ -1,0 +1,156 @@
+/* CSS styles for alc_calc.php, v 0.4 */
+
+/* mimic wiki's font sizing:
+** 'Font size:
+**  We take advantage of keyword scaling- browsers won't go below 9px'
+*/
+body {	font: x-small sans-serif;
+	color: black;
+	background-color: #996633;
+        margin: 0;
+	padding: 0;}
+/* scale back up to a sane default */
+#globalWrapper {
+	font-size: 127%;
+	width: 100%;
+	margin: 0;
+	padding: 0;}
+div {
+	margin: 0;
+	padding: 0;}
+
+/* separated sections for main text */
+div.section,
+ div.section_grayed {
+	background-color: #FBEFD5;
+	border-style: solid;
+	border-width: thin;
+	margin: 1em;
+	padding: .5em;}
+div.section_grayed,
+ div.section_grayed a:link,
+ div.section_grayed a:visited {color: #999999;}
+.disabled_input {color: #999999;}
+
+img {
+	border-style: solid;
+	border-width: thin;}
+
+p {	margin: .4em 0 .5em 0;}
+
+hr {
+	height: 1px;
+	color: #aaa;
+	background-color: #aaa;
+	border: 0;
+	margin: .1em 0 .2em 0;}
+
+h1, h2, h3, h4, h5, h6, th {
+	background: none;
+	font-weight: normal;
+        margin: 0em;
+	padding-top: .1em;
+	padding-bottom: .5em;
+	border-bottom: 1px solid #aaa;
+}
+h1 { font-size: 150%; font-weight: bold;}
+h2, h3, h4, h5, h6, th {
+	border-bottom: none;
+	font-weight: bold;
+}
+h1, h2, h3 { clear:both;}
+h2 { font-size: 132%;}
+h3 { margin-top: .5em;
+     margin-bottom: .5em;}
+h3, th { font-size: 116%;}
+h4 { font-size: 100%; }
+h5 { font-size: 80%;  }
+
+em {
+	font-weight: bold;
+	font-style: normal;}
+ul {
+	list-style-type: square;
+	margin: 0 0 0 1.5em;
+	padding: 0;
+	list-style-image: url(bullet.gif);
+}
+ol {
+	margin: .3em 0 0 3.2em;
+	padding: 0;
+	list-style-image: none;
+}
+li {
+	margin-bottom: .1em;
+}
+form {
+	border: none;
+	margin: 0;
+}
+
+a:link {color: blue; text-decoration: none;}
+a:visited {color: purple; text-decoration: none;}
+
+p.note { font-size:80%;}
+.noemph {font-weight: normal;}
+.rightalign,
+ .rightalign_small {
+	position: absolute;
+	right: 1.5em;}
+.rightalign_small {
+	font-weight:normal;
+	font-size:small;}
+
+/* block used for potion statistics */
+div.infoblock {
+	float: right;
+	border:solid thin #aaaaaa;
+	line-height: 1.1;
+        width:22%;
+        padding:0.3em;
+        margin-bottom: 0.5em}
+div.infoblock ul {
+	line-height: 1.1;}
+div.infoblock li {
+	margin: 0;}
+
+.error { color: red;}
+.unchecked { color: red; font-style: italic;}
+
+table {
+  font-size: 100%;
+  color: inherit;
+}
+table td, table th {
+  vertical-align: top;
+}
+
+table.wikitable {
+  margin-top: 10px;
+  background-color: #FDF5E6;
+  border-collapse: collapse;
+}
+table.wikitable td, table.wikitable th {
+  border: solid thin #aaaaaa;
+  padding: 0.2em;
+}
+table.wikitable th {
+  background-color: #F5DEB3;
+}
+
+/* borderless tables used for layout */
+table.noborder {
+  background-color:transparent;
+  border: none;
+  margin: 0em;
+  padding: 0em;
+}
+
+pre {
+  width:auto;
+  white-space:-moz-pre-wrap;
+  white-space:-pre-wrap;
+  white-space:-o-pre-wrap;
+  white-space:pre-wrap;
+  word-wrap:break-word;
+}
