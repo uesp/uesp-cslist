@@ -1,0 +1,13 @@
+#
+# Deployment file for the UESP CSList source as used by the uespdeploy script.
+#
+
+name = uesp.cslist
+
+ignore = .hg*
+ignore = *.deploy
+ignore = *.sh
+ignore = maintenance/*
+
+dest = content3.uesp.net:/home/uesp/www/cslist/
+

@@ -1,0 +1,1840 @@
+Warning: ZNAM found in record CREA as well as in 'any'
+Warning: ZNAM found in record NPC_ as well as in 'any'
+Warning: data definition provided for non-existent record type ACRE
+Warning: data definition provided for non-existent record type BSGN
+Warning: data definition provided for non-existent record type CLOT
+Warning: data definition provided for non-existent record type CREA
+Warning: data definition provided for non-existent record type FOOD
+Warning: data definition provided for non-existent record type LVLC
+Warning: data definition provided for non-existent record type NOTE
+Warning: data definition provided for non-existent record type RCCT
+Warning: data definition provided for non-existent record type RCPE
+Warning: data definition provided for non-existent record type SCPT
+Warning: data definition provided for non-existent record type SKIL
+
+Stats for record GMST
+  DATA 4 t1583 string_frac (10, 0.63%) zero_frac (61, 3.85%) float_one (39, 2.46%) float_int (226, 14.28%) floatrange (-150|500000)
+  EDID 4-56 t1583 string (all)
+
+Stats for record KYWD
+  CNAM 4 t199 string_frac (6, 3.02%) zero_frac (42, 21.11%) longrange (3|16777215)
+  EDID 4-75 t825 string (all)
+
+Stats for record LCRT
+  CNAM 4 t404 zero_frac (15, 3.71%) longrange (-1|16777215)
+  EDID 5-44 t406 string (all)
+
+Stats for record AACT
+  EDID 11-25 t69 string (all)
+
+Stats for record TXST
+  DNAM 2 t567 byterange (0|6)
+  DODT 36 t52 offsets:  7-int-19 3-int-18 11-int-18 15-int-2
+  DODT-0  t52 float_int (52, 100.00%) floatrange (8|512)
+  DODT-4  t52 float_int (52, 100.00%) floatrange (24|512)
+  DODT-8  t52 float_int (52, 100.00%) floatrange (8|512)
+  DODT-12  t52 float_int (52, 100.00%) floatrange (24|512)
+  DODT-16  t52 float_int (52, 100.00%) floatrange (12|128)
+  DODT-20  t52 zero_frac (4, 7.69%) float_int (46, 88.46%) floatrange (4|40000)
+  DODT-24  t52 float_one (51, 98.08%) floatrange (0.17499999701977|1)
+  DODT-28  t52 longrange (-1414854652|8355332) flags_set  52@2 23@9 28@10 28@11 30@12 30@13 30@14
+  DODT-32  t52 zero_frac (2, 3.85%) longrange (2631720|16777215) byterange (-1|40) flags_set  49@0 49@1 49@2 50@3 49@4 50@5 49@6 49@7 49@8 49@9 49@10 50@11 49@12 50@13 49@14 49@15
+  EDID 7-43 t572 string (all)
+  OBND 12 t572
+  OBND-0  t572 zero_frac (527, 92.13%) longrange (-7798816|-1900552) flags_set  44@3 44@4 45@5 45@6 45@7 45@8 45@9 45@10 45@11 45@12 45@13 45@14 45@15
+  OBND-4  t572 zero_frac (527, 92.13%) longrange (524268|2097072) flags_set  44@2 44@3 1@4 45@5 44@6 45@7 45@8 45@9 45@10 45@11 45@12 45@13 45@14 45@15
+  OBND-8  t572 zero_frac (527, 92.13%) longrange (1245213|5177463) flags_set  45@0 1@1 45@2 44@3 45@4 1@5 1@6
+  TX00 21-67 t572 string (all)
+  TX01 14-68 t561 string (all)
+  TX02 26-47 t37 string (all)
+  TX03 23-48 t171 string (all)
+  TX04 41-58 t110 string (all)
+  TX05 19-31 t40 string (all)
+  TX07 23-58 t186 string (all)
+
+Stats for record GLOB
+  EDID 7-41 t664 string (all)
+  FLTV 4 t664 zero_frac (351, 52.86%) float_one (20, 3.01%) float_int (258, 38.86%) floatrange (0.125|28800)
+  FNAM 1 t664 string (all)
+
+Stats for record CLAS
+  DATA 36 t138
+  DATA-0  t138 zero_frac (17, 12.32%) longrange (-262144|-65536) flags_set  11@0 13@1 2@2 1@3 4@4 4@5 4@6 1@10
+  DATA-4  t138 zero_frac (16, 11.59%) longrange (12810|67197441) byterange (0|100) flags_set  21@0 21@1 20@2 21@3 7@4 20@8 48@9 4@10 38@11 28@12 14@13 42@14
+  DATA-8  t138 zero_frac (31, 22.46%) longrange (1|50332419) byterange (0|4) flags_set  33@0 59@1 4@2 32@8 51@9
+  DATA-12  t138 zero_frac (19, 13.77%) longrange (1|83886080) byterange (0|5) flags_set  31@0 38@1 1@2 6@8 18@9
+  DATA-16  t138 zero_frac (68, 49.28%) longrange (259|84082688) byterange (0|5) flags_set  8@0 12@1 2@2 26@8 28@9 4@10
+  DATA-20  t138 zero_frac (73, 52.90%) longrange (1|67174913) byterange (0|6) flags_set  32@0 36@1 1@2 4@8 14@9 1@10
+  DATA-24  t138 zero_frac (12, 8.70%) floatrange (0.0099999997764826|0.5) longrange (1008981770|1056964608) flags_set  114@0 1@1 114@2 115@3 114@6 114@7 1@8 1@9 115@10 114@11 1@12 115@14 115@15
+  DATA-28  t138 zero_frac (131, 94.93%) longrange (50|300) byterange (0|100) flags_set  4@1 3@2 1@3 4@4 7@5 2@6 1@8
+  DATA-32  t138 longrange (257|16908292) byterange (0|7)
+  DESC 4 t138 zero (all)
+  EDID 5-29 t138 string (all)
+  FULL 4 t138 longrange (1381|75388)
+
+Stats for record FACT
+  CIS2 21 t2 string (all)
+  CITC 4 t36 longrange (1|1)
+  CRGR 4 t48 longrange (158035|158035) flags_set  48@0 48@1 48@4 48@6 48@8 48@11 48@13 48@14
+  CRVA 12-20 t1083 zero_frac (4, 0.37%) longrange (1|65536257)
+  CTDA 32 t36
+  CTDA-0  t36 longrange (91423744|402745856)
+  CTDA-4  t36 zero_frac (2, 5.56%) float_one (34, 94.44%) floatrange (1|1)
+  CTDA-8  t36 longrange (59|629) flags_set  36@0 33@1 27@2 8@3 10@4 11@5 27@6 1@7 2@9
+  CTDA-12  t36 longrange (101195|886824)
+  CTDA-16  t36 zero_frac (26, 72.22%) longrange (10|636611528) flags_set  3@1 5@2 6@3 7@4 5@5 2@6 1@7 2@8 2@9 2@11 2@13 2@14 2@15
+  CTDA-20  t36 zero_frac (35, 97.22%) longrange (2|2)
+  CTDA-24  t36 zero_frac (35, 97.22%) longrange (105949|105949) flags_set  1@0 1@2 1@3 1@4 1@6 1@7 1@8 1@10 1@11 1@12 1@15
+  CTDA-28  t36 longrange (-1|-1)
+  DATA 4 t1084 zero_frac (306, 28.23%) longrange (1|77761) flags_set  340@0 11@1 58@6 40@7 40@8 40@9 40@10 31@11 13@12 37@13 145@14 372@15
+  EDID 8-46 t1084 string (all)
+  FNAM 4 t10 longrange (2236|68411)
+  FULL 4 t435 longrange (2|75359)
+  JAIL 4 t31 longrange (157669|257881) flags_set  27@0 24@1 23@2 8@3 30@4 1@5 5@6 1@7 31@8 31@9 31@10 30@11 31@13 31@14 30@15
+  JOUT 4 t33 longrange (166752|661891) flags_set  1@0 1@1 32@5 32@6 1@7 33@8 32@9 33@11 1@12 32@15
+  MNAM 4 t37 longrange (306|70653)
+  PLCN 4 t12 longrange (157672|980023)
+  PLVD 12 t150 offsets:  1-int-1 2-int-1
+  PLVD-0  t150 zero_frac (40, 26.67%) longrange (1|12)
+  PLVD-4  t150 zero_frac (30, 20.00%) longrange (78790|830353)
+  PLVD-8  t150 zero (all)
+  RNAM 4 t73 zero_frac (23, 31.51%) longrange (1|9)
+  STOL 4 t12 longrange (257791|1084728)
+  VENC 4 t145 longrange (411549|1113575)
+  VEND 4 t149 longrange (418611|1104340)
+  VENV 12 t996
+  VENV-0  t996 zero_frac (847, 85.04%) longrange (1245191|1638400) byterange (0|25) flags_set  10@0 10@1 10@2 47@3
+  VENV-4  t996 zero_frac (940, 94.38%) longrange (256|10000) flags_set  7@2 3@3 8@4 8@5 7@6 8@7 31@8 16@9 10@10 2@11 1@13
+  VENV-8  t996 zero_frac (959, 96.29%) longrange (256|257) byterange (0|1)
+  WAIT 4 t34 longrange (157670|257881) flags_set  27@0 26@1 24@2 9@3 31@4 3@5 5@6 4@7 31@8 31@9 34@10 30@11 3@12 34@13 31@14 33@15
+  XNAM 12 t1036
+  XNAM-0  t1036 rectypes (FACT=1032 )
+  XNAM-4  t1036 zero_frac (1035, 99.90%) longrange (100|100)
+  XNAM-8  t1036 zero_frac (69, 6.66%) longrange (1|3)
+
+Stats for record HDPT
+  DATA 1 t766 byterange (0|28)
+  EDID 10-38 t766 string (all)
+  FULL 4 t692 longrange (141|75063)
+  HNAM 4 t271 rectypes (HDPT=271 )
+  MODL 31-76 t751 string (all)
+  MODT 12-84 t751 longrange (-1728747754|706711345) flags_set  20@0 718@1 38@2 58@4 20@5 13@6 58@8 71@9 58@10 33@11 38@13 38@14 33@15
+  NAM0 4 t1154 zero_frac (143, 12.39%) longrange (1|2)
+  NAM1 47-79 t1154 string (all)
+  PNAM 4 t766 zero_frac (210, 27.42%) longrange (1|6)
+  RNAM 4 t757 longrange (688161|1080218) flags_set  381@0 509@1 389@2 302@3 437@4 738@5 18@6 23@7 21@8 23@9 2@10 19@11 19@12 5@13 21@14 736@15
+  TNAM 4 t307 rectypes (TXST=307 )
+
+Stats for record EYES
+  DATA 1 t8 byterange (1|5)
+  EDID 5-18 t8 string (all)
+  FULL 4 t8 longrange (1303|62222)
+  ICON 34-54 t8 string (all)
+
+Stats for record RACE
+  AHCF 4 t373 longrange (534983|1013093) flags_set  200@0 151@1 217@2 145@3 254@4 359@5 35@6 14@7 35@8 4@9 355@10 14@11 25@12 35@13 21@14
+  AHCM 4 t378 longrange (534982|1013093) flags_set  202@0 153@1 218@2 149@3 253@4 350@5 49@6 28@7 49@8 4@9 346@10 28@11 25@12 49@13 21@14
+  ANAM 26-66 t193 string (all)
+  ATKD 44 t1337 offsets:  3-int-20 23-int-89 39-int-1 35-int-7
+  ATKD-0  t1337 zero_frac (7, 0.52%) float_one (653, 48.84%) float_int (438, 32.76%) floatrange (0.30000001192093|5)
+  ATKD-4  t1337 zero_frac (170, 12.72%) float_one (791, 59.16%) floatrange (0.050000000745058|1)
+  ATKD-8  t1337 zero_frac (1228, 91.85%) rectypes (SPEL=109 )
+  ATKD-12  t1337 zero_frac (451, 33.73%) longrange (2|20)
+  ATKD-16  t1337 zero_frac (1276, 95.44%) float_int (61, 4.56%) floatrange (-135|180)
+  ATKD-20  t1337 float_int (1337, 100.00%) floatrange (25|180)
+  ATKD-24  t1337 zero_frac (670, 50.11%) float_one (391, 29.24%) float_int (5, 0.37%) floatrange (0.050000000745058|10)
+  ATKD-28  t1337 zero_frac (780, 58.34%) rectypes (KYWD=557 )
+  ATKD-32  t1337 zero_frac (1335, 99.85%) float_one (2, 0.15%) floatrange (1|1) longrange (1065353216|1065353216)
+  ATKD-36  t1337 zero_frac (1267, 94.76%) float_one (18, 1.35%) float_int (36, 2.69%) floatrange (0.5|20)
+  ATKD-40  t1337 float_one (1308, 97.83%) float_int (1, 0.07%) floatrange (0.0099999997764826|3)
+  ATKE 10-39 t1337 string (all)
+  BODT 12 t99 offsets:  2-int-3
+  BODT-0  t99 zero_frac (61, 61.62%) longrange (-2147483048|2680) flags_set  4@0 28@2 32@3 32@4 5@5 32@6 32@9 5@11
+  BODT-4  t99 zero_frac (59, 59.60%) longrange (5452800|10867200)
+  BODT-8  t99 longrange (2|2)
+  DATA 128 t99 offsets:  35-int-2 19-int-3 27-int-3 99-int-38 87-int-26 51-int-6 55-int-6 59-int-3 15-int-2 83-int-3 75-int-2 29-int-1
+  DATA-0  t99 longrange (16711696|336529926) byterange (-1|40)
+  DATA-4  t99 longrange (16711935|85331732) byterange (-1|23)
+  DATA-8  t99 longrange (16711935|85394710) byterange (-1|33)
+  DATA-12  t99 longrange (255|255) byterange (-1|0) flags_set  99@0 99@1 99@2 99@3 99@4 99@5 99@6 99@7
+  DATA-16  t99 float_one (65, 65.66%) floatrange (0.64999997615814|1.8999999761581)
+  DATA-20  t99 float_one (75, 75.76%) floatrange (0.75|1.1000000238419)
+  DATA-24  t99 float_one (88, 88.89%) floatrange (0.5|1)
+  DATA-28  t99 float_one (94, 94.95%) floatrange (0.5|1)
+  DATA-32  t99 longrange (-2146400000|1419807042) flags_set  10@0 33@1 5@2 32@3 8@4 2@5 53@6 3@7 97@8 1@9 3@10 95@11 3@13 25@14 72@15
+  DATA-36  t99 float_int (98, 98.99%) floatrange (5|1000)
+  DATA-40  t99 zero_frac (43, 43.43%) float_int (56, 56.57%) floatrange (4|200)
+  DATA-44  t99 zero_frac (1, 1.01%) float_int (98, 98.99%) floatrange (10|250)
+  DATA-48  t99 float_int (91, 91.92%) floatrange (150|9999)
+  DATA-52  t99 float_one (48, 48.48%) float_int (15, 15.15%) floatrange (0.10000000149012|7)
+  DATA-56  t99 float_one (76, 76.77%) float_int (8, 8.08%) floatrange (0.0099999997764826|4)
+  DATA-60  t99 float_one (73, 73.74%) float_int (16, 16.16%) floatrange (0.0099999997764826|4)
+  DATA-64  t99 zero_frac (8, 8.08%) longrange (1|3)
+  DATA-68  t99 zero_frac (34, 34.34%) longrange (-1|-1)
+  DATA-72  t99 zero_frac (1, 1.01%) longrange (-1|1)
+  DATA-76  t99 zero_frac (94, 94.95%) floatrange (0.34999999403954|0.75) longrange (1051931443|1061158912) flags_set  3@0 3@1 3@4 3@5 3@8 3@9 3@12 3@13
+  DATA-80  t99 longrange (-1|9)
+  DATA-84  t99 zero_frac (64, 64.65%) float_one (3, 3.03%) float_int (8, 8.08%) floatrange (0.10000000149012|20) longrange (1036831949|1101004800) flags_set  24@0 23@1 1@2 1@3 23@4 23@5 1@6 1@7 23@8 23@9 1@10 1@11 23@12 23@13 1@14 1@15
+  DATA-88  t99 zero_frac (31, 31.31%) float_one (3, 3.03%) float_int (64, 64.65%) floatrange (0.80000001192093|15)
+  DATA-92  t99 zero_frac (3, 3.03%) float_int (96, 96.97%) floatrange (5|20)
+  DATA-96  t99 float_one (20, 20.20%) float_int (78, 78.79%) floatrange (1|100)
+  DATA-100  t99 float_int (97, 97.98%) floatrange (32|512)
+  DATA-104  t99 zero_frac (19, 19.19%) longrange (-1|2)
+  DATA-108  t99 zero_frac (75, 75.76%) float_int (18, 18.18%) floatrange (10|90)
+  DATA-112  t99 zero_frac (96, 96.97%) float_int (3, 3.03%) floatrange (400|400) longrange (1137180672|1137180672)
+  DATA-116  t99 float_one (5, 5.05%) floatrange (0.11999999731779|1) longrange (1039516303|1065353216) flags_set  2@0 5@1 2@2 5@3 3@4 5@7 3@8 2@9 3@11 3@12 2@14 5@15
+  DATA-120  t99 float_int (99, 100.00%) floatrange (5|50)
+  DATA-124  t99 zero_frac (42, 42.42%) longrange (1|2)
+  DESC 4 t99 zero_frac (76, 76.77%) longrange (178|71330) flags_set  9@0 16@1 7@2 16@3 13@4 15@5 12@6 16@7 6@8 12@9 12@10 8@11 11@12 11@13 10@14 11@15
+  DFTF 4 t23 rectypes (TXST=23 )
+  DFTM 4 t21 rectypes (TXST=21 )
+  DNAM 8 t26
+  DNAM-0  t26 longrange (898512|898512) flags_set  26@4 26@6 26@7 26@8 26@10 26@12 26@13 26@15
+  DNAM-4  t26 zero_frac (3, 11.54%) longrange (898512|898512)
+  EDID 8-28 t99 string (all)
+  FLMV 4 t3 longrange (113914|113914)
+  FNAM 0 t329 string (all)
+  FTSF 4 t111 rectypes (TXST=111 )
+  FTSM 4 t129 rectypes (TXST=129 )
+  FULL 4 t98 longrange (61|72214)
+  GNAM 4 t99 longrange (29|843141)
+  HCLF 8 t22
+  HCLF-0  t22 zero_frac (3, 13.64%) longrange (534983|656439)
+  HCLF-4  t22 longrange (656428|987704) byterange (0|56) flags_set  11@0 11@1 13@2 6@3 17@4 22@5 1@9 21@10 1@12
+  HEAD 4 t238 rectypes (HDPT=238 )
+  INDX 4 t436 zero_frac (261, 59.86%) longrange (1|4)
+  KSIZ 4 t97 longrange (1|5)
+  KWDA 4-20 t97 offsets:  2-int-1 rectypes (KYWD=56 ) longrange (79764|80250) flags_set  17@0 4@1 46@2 10@3 56@4 3@5 3@6 53@7 56@8 53@9 53@10 3@11 56@12 56@13
+  KWDA-0  t41 rectypes (KYWD=41 )
+  KWDA-4  t41 rectypes (KYWD=41 )
+  LNAM 4 t88 longrange (253497|1052461) flags_set  47@0 5@1 47@2 42@3 82@4 44@5 5@6 3@7 6@8 44@9 42@10 47@11 84@12 5@13 87@14 41@15
+  MNAM 0 t330 string (all)
+  MODL 28-55 t396 string (all)
+  MODT 12 t589 longrange (2|2)
+  MPAI 4 t260 zero_frac (65, 25.00%) longrange (1|3)
+  MPAV 32 t260
+  MPAV-0  t260 longrange (-2145386946|2145386496) flags_set  194@0 241@1 241@2 241@3 241@4 240@5 189@6 184@7 204@8 219@9 218@10 219@11 218@12 218@13 219@14 218@15
+  MPAV-4  t260 longrange (-128|-1)
+  MPAV-8  t260 longrange (-1|-1)
+  MPAV-12  t260 longrange (-1|-1)
+  MPAV-16  t260 longrange (-1|-1)
+  MPAV-20  t260 longrange (-1|-1)
+  MPAV-24  t260 longrange (-1|-1)
+  MPAV-28  t260 longrange (-1|-1)
+  MTNM 4 t495 string (all)
+  MTYP 4 t10 longrange (366165|723856)
+  NAM0 0 t65 string (all)
+  NAM1 0 t99 string (all)
+  NAM3 0 t99 string (all)
+  NAM4 4 t98 longrange (77622|1103308)
+  NAM5 4 t91 longrange (127602|992196)
+  NAM7 4 t26 longrange (683765|683765) flags_set  26@0 26@2 26@4 26@5 26@6 26@7 26@9 26@10 26@11 26@13 26@14
+  NAM8 4 t15 rectypes (RACE=15 )
+  NAME 1-16 t3168 string (all)
+  ONAM 4 t88 longrange (253493|1052460) flags_set  82@0 46@1 46@2 2@3 82@4 44@5 5@6 3@7 6@8 44@9 42@10 47@11 84@12 5@13 87@14 41@15
+  PHTN 2-10 t64 string (all)
+  PHWT 32-64 t1677 zero_frac (1323, 78.89%) float_one (39, 2.33%) floatrange (0.10000000149012|1)
+  PNAM 4 t99 float_int (99, 100.00%) floatrange (5|5)
+  QNAM 4 t260 longrange (81730|218776)
+  RNAM 4 t1 rectypes (RACE=1 )
+  RNMV 4 t42 longrange (113913|887902)
+  RPRF 4 t113 longrange (498662|1102794)
+  RPRM 4 t105 longrange (95500|1102799)
+  SNMV 4 t5 longrange (113913|366167)
+  SPCT 4 t67 longrange (1|6)
+  SPED 44 t10 offsets:  3-int-2 7-int-2 11-int-2 15-int-2 19-int-2 23-int-2 27-int-2
+  SPED-0  t10 zero_frac (6, 60.00%) float_int (3, 30.00%) floatrange (70.879997253418|192) longrange (1116586639|1128267776)
+  SPED-4  t10 zero_frac (6, 60.00%) float_int (3, 30.00%) floatrange (70.879997253418|500) longrange (1116586639|1140457472)
+  SPED-8  t10 zero_frac (6, 60.00%) float_int (3, 30.00%) floatrange (70.879997253418|192) longrange (1116586639|1128267776)
+  SPED-12  t10 zero_frac (6, 60.00%) float_int (3, 30.00%) floatrange (70.879997253418|500) longrange (1116586639|1140457472)
+  SPED-16  t10 float_int (4, 40.00%) floatrange (34.709999084473|192) longrange (1108006666|1128267776)
+  SPED-20  t10 float_int (6, 60.00%) floatrange (70.879997253418|525.45001220703)
+  SPED-24  t10 zero_frac (2, 20.00%) float_int (3, 30.00%) floatrange (39.650001525879|192) longrange (1109301658|1128267776)
+  SPED-28  t10 zero_frac (1, 10.00%) float_int (3, 30.00%) floatrange (39.650001525879|500) longrange (1109301658|1140457472)
+  SPED-32  t10 floatrange (1.0471975803375|3.1415927410126) longrange (1065749138|1078530011)
+  SPED-36  t10 floatrange (1.4727088212967|3.1415927410126) longrange (1069318585|1078530011)
+  SPED-40  t10 floatrange (0.78539818525314|3.1415927410126) longrange (1061752795|1078530011)
+  SPLO 4 t133 rectypes (SPEL=133 )
+  SWMV 4 t11 longrange (113913|887902) flags_set  6@0 8@1 6@2 6@3 11@4 6@5 8@6 5@7 3@8 7@9 8@10 9@11 7@12 3@13 3@14 8@15
+  TINC 4 t20612 longrange (158038|1092444)
+  TIND 4 t757 longrange (158038|1092440) flags_set  708@0 720@1 54@2 703@3 44@4 10@5 26@6 19@7 23@8 738@9 727@10 738@11 31@12 741@13 721@14 29@15
+  TINI 2 t1445 string_frac (735, 50.87%) byterange (0|74)
+  TINL 2 t31
+  TINP 2 t1404 byterange (0|14)
+  TINT 1-78 t1445 string (all)
+  TINV 4 t20612 string_frac (1456, 7.06%) zero_frac (1417, 6.87%) float_one (12326, 59.80%) floatrange (0.070000000298023|1)
+  TIRS 2 t20612 string_frac (2110, 10.24%)
+  UNAM 4 t99 float_int (99, 100.00%) floatrange (3|3)
+  UNES 4 t99 longrange (81730|81733) byterange (0|69)
+  VNAM 4 t99 longrange (-4095|2147480067)
+  VTCK 8 t99
+  VTCK-0  t99 longrange (80594|1111671)
+  VTCK-4  t99 longrange (80605|1111671)
+  WKMV 4 t42 longrange (113913|887902)
+  WNAM 4 t97 longrange (3428|1078801)
+
+Stats for record SOUN
+  EDID 8-57 t997 string (all)
+  FNAM 13-74 t552 string (all)
+  OBND 12 t997
+  OBND-0  t997 zero_frac (829, 83.15%) longrange (-1703963|65408) flags_set  159@0 7@1 159@2 9@3 6@4 158@5 159@6 162@7 158@8 163@9 163@10 168@11 168@12 168@13 168@14 168@15
+  OBND-4  t997 zero_frac (829, 83.15%) longrange (1834996|123011071) flags_set  7@0 7@1 159@2 16@3 168@4 168@5 168@6 168@7 168@8 168@9 168@10 168@11 168@12 168@13 168@14 168@15
+  OBND-8  t997 zero_frac (829, 83.15%) longrange (65536|786459) byterange (0|27)
+  SDSC 4 t997 longrange (3565|1113959)
+  SNDD 36 t659 offsets:  5-int-12 1-int-5 29-int-1
+  SNDD-0  t659 zero_frac (118, 17.91%) longrange (1547|16452882) flags_set  157@0 160@1 358@2 101@3 505@4 34@5 18@6 283@8 141@9 327@10 378@11 189@12 27@13 15@14 6@15
+  SNDD-4  t659 zero_frac (223, 33.84%) longrange (1|6160) flags_set  339@0 47@4 16@6 48@7 17@9 23@11 8@12
+  SNDD-8  t659 zero_frac (126, 19.12%) longrange (44|10000)
+  SNDD-12  t659 longrange (3276900|4063332) byterange (0|100) flags_set  659@2 659@5 659@6
+  SNDD-16  t659 longrange (327700|917537) byterange (0|33) flags_set  1@0 658@2 658@4 1@5
+  SNDD-20  t659 zero_frac (224, 33.99%) longrange (983040|6553600) byterange (0|100)
+  SNDD-24  t659 longrange (128|255) flags_set  10@0 10@1 10@2 10@3 10@4 10@5 10@6 659@7
+  SNDD-28  t659 zero_frac (653, 99.09%) longrange (15255|20279) flags_set  6@0 6@1 6@2 6@4 1@5 5@7 6@8 6@9 1@10 6@11 5@12 5@13 1@14
+  SNDD-32  t659 zero_frac (653, 99.09%) longrange (76065|81089) flags_set  6@0 5@5 1@6 1@7 5@8 1@10 6@11 1@12 6@13
+
+Stats for record ASPC
+  BNAM 4 t34 longrange (809834|1079785) flags_set  5@0 24@1 23@2 18@3 2@4 18@5 23@6 5@7 14@8 24@9 2@10 16@11 34@12 23@13 16@14 3@15
+  EDID 11-46 t45 string (all)
+  OBND 12 t45
+  OBND-0  t45 zero_frac (26, 57.78%) longrange (-1075724841|-33489408) flags_set  5@0 8@1 7@2 3@3 6@4 9@5 6@6 6@7 7@8 13@9 9@10 15@11 19@12 19@13 18@14 19@15
+  OBND-4  t45 zero_frac (26, 57.78%) longrange (33619456|1110039657) flags_set  7@0 4@1 3@2 7@3 3@4 6@5 6@6 3@7 5@8 16@9 13@10 17@11 18@12 17@13 19@14 19@15
+  OBND-8  t45 zero_frac (26, 57.78%) longrange (11993600|1008862500) flags_set  3@0 4@1 6@2 3@3 3@4 7@5 5@6 5@7 6@8 13@9 3@10 4@11 1@12 1@14
+  RDAT 4 t32 longrange (104605|1112334)
+  SNAM 4 t35 longrange (247561|1085023)
+
+Stats for record MGEF
+  CTDA 32 t879 offsets:  5-int-22 3-int-5
+  CTDA-0  t879 zero_frac (586, 66.67%) longrange (1|160)
+  CTDA-4  t879 zero_frac (482, 54.84%) float_one (318, 36.18%) float_int (67, 7.62%) floatrange (0.15000000596046|60)
+  CTDA-8  t879 longrange (5636142|5636820)
+  CTDA-12  t879 zero_frac (312, 35.49%) longrange (7|1108356)
+  CTDA-16  t879 zero (all)
+  CTDA-20  t879 zero_frac (778, 88.51%) longrange (1|2)
+  CTDA-24  t879 zero_frac (829, 94.31%) longrange (20|20)
+  CTDA-28  t879 longrange (-1|-1)
+  DATA 152 t950 offsets:  65-int-3 70-int-14 3-int-56 89-int-6 103-int-10 5-int-2 74-int-3 55-int-30 111-int-9 69-int-4 47-int-40 29-int-3 19-int-4 97-int-4 30-int-2 94-int-2 6-int-4 133-int-1 134-int-1 143-int-1 73-int-1 41-int-2 129-int-1
+  DATA-0  t950 zero_frac (30, 3.16%) longrange (1|1073745922) flags_set  323@0 477@1 280@2 39@3 25@4 106@8 211@9 101@10 563@11 483@12 12@14 170@15
+  DATA-4  t950 zero_frac (360, 37.89%) float_one (38, 4.00%) float_int (310, 32.63%)
+  DATA-8  t950 zero_frac (828, 87.16%) longrange (87228|1113109) flags_set  49@0 54@1 59@2 65@3 59@4 59@5 50@6 50@7 40@8 76@9 34@10 91@11 66@12 57@13 86@14 56@15
+  DATA-12  t950 longrange (-1|22)
+  DATA-16  t950 longrange (-1|44)
+  DATA-20  t950 zero_frac (404, 42.53%) longrange (-2008481792|2147418112)
+  DATA-24  t950 zero_frac (616, 64.84%) longrange (82156|1008909)
+  DATA-28  t950 zero_frac (631, 66.42%) float_one (208, 21.89%) floatrange (0.0099999997764826|1)
+  DATA-32  t950 zero_frac (467, 49.16%) longrange (326|1113593)
+  DATA-36  t950 zero_frac (808, 85.05%) longrange (111122|1111301) flags_set  60@0 60@1 80@2 97@3 32@4 87@5 97@6 89@7 81@8 46@9 115@10 99@11 56@12 110@13 46@14 59@15
+  DATA-40  t950 zero_frac (730, 76.84%) longrange (1|100)
+  DATA-44  t950 zero_frac (823, 86.63%) longrange (1|6000) flags_set  57@0 65@1 74@2 75@3 38@4 44@5 62@6 27@7 5@8 3@9 1@10 1@12
+  DATA-48  t950 zero_frac (522, 54.95%) float_one (21, 2.21%) float_int (41, 4.32%) floatrange (0.10000000149012|30)
+  DATA-52  t950 zero_frac (841, 88.53%) float_one (1, 0.11%) float_int (108, 11.37%) floatrange (1|2)
+  DATA-56  t950 zero_frac (842, 88.63%) float_one (44, 4.63%) float_int (53, 5.58%) floatrange (0.10000000149012|5)
+  DATA-60  t950 zero_frac (877, 92.32%) float_one (29, 3.05%) float_int (13, 1.37%) floatrange (0.5|2)
+  DATA-64  t950 zero_frac (226, 23.79%) longrange (1|43)
+  DATA-68  t950 zero_frac (23, 2.42%) longrange (-1|163)
+  DATA-72  t950 zero_frac (635, 66.84%) longrange (77444|1113502)
+  DATA-76  t950 zero_frac (860, 90.53%) longrange (140719|1113759) flags_set  42@0 39@1 43@2 47@3 35@4 72@5 47@6 56@7 48@8 44@9 33@10 34@11 25@12 50@13 58@14 29@15
+  DATA-80  t950 zero_frac (265, 27.89%) longrange (1|2)
+  DATA-84  t950 zero_frac (548, 57.68%) longrange (1|4)
+  DATA-88  t950 longrange (-1|132)
+  DATA-92  t950 zero_frac (526, 55.37%) longrange (111121|1111969)
+  DATA-96  t950 zero_frac (726, 76.42%) longrange (98596|1111970) flags_set  114@0 67@1 112@2 77@3 132@4 78@5 74@6 108@7 108@8 133@9 97@10 113@11 127@12 129@13 143@14 124@15
+  DATA-100  t950 zero_frac (636, 66.95%) longrange (3586|1113591)
+  DATA-104  t950 zero_frac (620, 65.26%) float_one (237, 24.95%) float_int (19, 2.00%) floatrange (0.0099999997764826|10)
+  DATA-108  t950 zero_frac (944, 99.37%) longrange (131571|941922) flags_set  5@0 6@1 5@4 6@5 6@6 5@7 6@8 1@9 1@10 1@11 1@12 1@14
+  DATA-112  t950 zero_frac (2, 0.21%) float_one (929, 97.79%) float_int (8, 0.84%) floatrange (1|3)
+  DATA-116  t950 zero_frac (938, 98.74%) longrange (331988|1113692) flags_set  6@0 3@1 8@2 6@3 5@4 4@5 7@6 4@7 6@8 6@9 7@10 5@11 8@12 9@13 4@14 6@15
+  DATA-120  t950 zero (all)
+  DATA-124  t950 zero (all)
+  DATA-128  t950 zero_frac (914, 96.21%) rectypes (SPEL=36 )
+  DATA-132  t950 zero_frac (798, 84.00%) longrange (130308|1113073) flags_set  64@0 121@1 98@2 83@3 75@4 32@5 44@6 97@7 108@8 66@9 86@10 63@11 63@12 100@13 114@14 104@15
+  DATA-136  t950 zero_frac (923, 97.16%) longrange (113353|1112372) flags_set  14@0 11@1 10@2 16@3 13@4 13@5 20@6 8@7 16@8 15@9 10@10 18@11 20@12 13@13 18@14 12@15
+  DATA-140  t950 zero_frac (813, 85.58%) longrange (1|3)
+  DATA-144  t950 zero_frac (946, 99.58%) float_int (1, 0.11%) floatrange (50|1000000) longrange (1112014848|1232348160)
+  DATA-148  t950 zero_frac (947, 99.68%) float_int (1, 0.11%) floatrange (60|600000) longrange (1114636288|1225948160)
+  DNAM 4 t950 zero_frac (432, 45.47%) longrange (74095|75449)
+  EDID 8-50 t950 string (all)
+  FULL 4 t947 longrange (101|75454)
+  KSIZ 4 t505 longrange (1|3)
+  KWDA 4-12 t505 rectypes (KYWD=388 ) longrange (118445|1108831)
+  KWDA-0  t117 rectypes (KYWD=117 )
+  KWDA-4  t117 rectypes (KYWD=117 )
+  MDOB 4 t835 longrange (16|1113844) flags_set  676@0 98@1 736@2 46@3 75@4 757@5 175@6 728@7 755@8 160@9 716@10 121@11 768@12 714@13 113@14 153@15
+  SNDD 8-40 t630 offsets:  1-int-1 zero_frac (525, 83.33%) longrange (1|4)
+  SNDD-0  t82 zero_frac (1, 1.22%) longrange (3|5)
+  SNDD-4  t82 longrange (3975|1052682)
+  VMAD 28-721 t242 longrange (131077|131077) byterange (0|5) flags_set  242@0 242@2
+
+Stats for record LTEX
+  EDID 8-29 t68 string (all)
+  GNAM 4 t39 longrange (79294|1087690)
+  HNAM 2 t68 byterange (0|30)
+  MNAM 4 t68 longrange (77620|115025)
+  SNAM 1 t68 byterange (30|30)
+  TNAM 4 t67 rectypes (TXST=67 )
+
+Stats for record ENCH
+  CIS2 20 t8 string (all)
+  CTDA 32 t36 offsets:  3-int-2
+  CTDA-0  t36 longrange (307624960|307625121)
+  CTDA-4  t36 float_one (18, 50.00%) float_int (18, 50.00%) floatrange (1|50)
+  CTDA-8  t36 longrange (14|629)
+  CTDA-12  t36 zero_frac (11, 30.56%) longrange (7|1112812)
+  CTDA-16  t36 zero_frac (28, 77.78%) longrange (311379632|311380432) flags_set  4@4 3@5 3@6 6@7 4@8 3@9 3@10 5@11 8@14
+  CTDA-20  t36 zero_frac (27, 75.00%) longrange (1|1)
+  CTDA-24  t36 zero (all)
+  CTDA-28  t36 longrange (-1|-1)
+  EDID 12-52 t604 string (all)
+  EFID 4 t829 rectypes (MGEF=829 )
+  EFIT 12 t829 offsets:  5-int-1
+  EFIT-0  t829 zero_frac (48, 5.79%) float_one (28, 3.38%) float_int (746, 89.99%) floatrange (0.20000000298023|500)
+  EFIT-4  t829 zero_frac (817, 98.55%) longrange (5|20)
+  EFIT-8  t829 zero_frac (624, 75.27%) longrange (1|259200) flags_set  119@0 95@1 80@2 64@3 56@4 20@5 1@6 3@7 1@8 2@9 3@10 3@11 2@12 2@13 2@14 2@15
+  ENIT 32-36 t604 zero_frac (55, 9.11%) longrange (1|5244)
+  FULL 4 t596 longrange (36|75450)
+  OBND 12 t604
+  OBND-0  t604 zero (all)
+  OBND-4  t604 zero (all)
+  OBND-8  t604 zero (all)
+
+Stats for record SPEL
+  CIS2 16-30 t3 string (all)
+  CTDA 32 t438 offsets:  5-int-3 3-int-1 9-int-28 10-int-1
+  CTDA-0  t438 longrange (307624960|307625121)
+  CTDA-4  t438 zero_frac (183, 41.78%) float_one (105, 23.97%) float_int (149, 34.02%) floatrange (0.20000000298023|100)
+  CTDA-8  t438 longrange (14|722)
+  CTDA-12  t438 zero_frac (129, 29.45%) longrange (1|1113442)
+  CTDA-16  t438 zero_frac (435, 99.32%) longrange (311709504|312094672) flags_set  1@4 2@6 2@7 2@8 3@9 2@10 3@11 1@12 2@13 1@14 1@15
+  CTDA-20  t438 zero_frac (424, 96.80%) longrange (1|2)
+  CTDA-24  t438 zero_frac (434, 99.09%) longrange (20|20)
+  CTDA-28  t438 longrange (-1|-1)
+  DESC 4 t827 zero_frac (733, 88.63%) longrange (329|75246) flags_set  58@0 49@1 45@2 46@3 43@4 52@5 48@6 49@7 41@8 38@9 51@10 41@11 29@12 19@13 11@14 4@15
+  EDID 5-44 t827 string (all)
+  EFID 4 t1309 rectypes (MGEF=1307 )
+  EFIT 12 t1309
+  EFIT-0  t1309 zero_frac (223, 17.04%) float_one (72, 5.50%) float_int (940, 71.81%) floatrange (0.050000000745058|2000)
+  EFIT-4  t1309 zero_frac (1130, 86.33%) longrange (1|6000) flags_set  92@0 98@1 107@2 119@3 58@4 45@5 66@6 30@7 11@8 5@9 3@10 1@12
+  EFIT-8  t1309 zero_frac (687, 52.48%) longrange (1|86313600)
+  ETYP 4 t827 longrange (81730|154606) flags_set  123@0 155@1 722@2 50@3 50@5 827@6 50@7 827@8 827@9 777@10 827@11 827@12 777@13 50@14
+  FULL 4 t798 longrange (187|75446)
+  MDOB 4 t618 longrange (275877|1113844)
+  OBND 12 t827
+  OBND-0  t827 zero (all)
+  OBND-4  t827 zero (all)
+  OBND-8  t827 zero (all)
+  SPIT 36 t827 offsets:  29-int-29 27-int-6 3-int-8 11-int-17
+  SPIT-0  t827 zero_frac (361, 43.65%) longrange (1|1101664)
+  SPIT-4  t827 zero_frac (572, 69.17%) longrange (1|15532033)
+  SPIT-8  t827 zero_frac (407, 49.21%) longrange (1|11)
+  SPIT-12  t827 zero_frac (507, 61.31%) float_one (11, 1.33%) float_int (20, 2.42%) floatrange (0.10000000149012|5)
+  SPIT-16  t827 zero_frac (262, 31.68%) longrange (1|2)
+  SPIT-20  t827 zero_frac (419, 50.67%) longrange (1|4)
+  SPIT-24  t827 zero_frac (808, 97.70%) float_one (2, 0.24%) float_int (2, 0.24%) floatrange (1|4) longrange (1065353216|1082130432) flags_set  5@0 15@1 2@2 8@3 13@4 7@5 2@6 8@7 13@8 7@9 2@10 8@11 13@12 7@13 2@14 8@15
+  SPIT-28  t827 zero_frac (788, 95.28%) float_int (39, 4.72%) floatrange (20|250)
+  SPIT-32  t827 zero_frac (695, 84.04%) longrange (804023|1066685) flags_set  76@0 59@1 62@2 79@3 53@4 68@5 64@6 132@7 2@9 132@10 15@11 15@13 117@14
+
+Stats for record SCRL
+  CTDA 32 t26
+  CTDA-0  t26 longrange (307624960|307624992)
+  CTDA-4  t26 zero_frac (9, 34.62%) float_one (17, 65.38%) floatrange (1|1)
+  CTDA-8  t26 longrange (72|719)
+  CTDA-12  t26 zero_frac (8, 30.77%) rectypes (KYWD=14 ) longrange (7|220505)
+  CTDA-16  t26 zero (all)
+  CTDA-20  t26 zero (all)
+  CTDA-24  t26 zero (all)
+  CTDA-28  t26 longrange (-1|-1)
+  DATA 8 t74
+  DATA-0  t74 longrange (25|500) flags_set  6@0 38@1 30@2 22@3 57@4 68@5 46@6 29@7 13@8
+  DATA-4  t74 floatrange (0.5|0.5) longrange (1056964608|1056964608) byterange (0|63)
+  DESC 4 t74 zero_frac (71, 95.95%) longrange (70211|74408) flags_set  1@0 1@1 1@2 2@3 1@5 1@6 1@7 3@9 1@12 2@13
+  EDID 11-27 t74 string (all)
+  EFID 4 t99 rectypes (MGEF=99 )
+  EFIT 12 t99
+  EFIT-0  t99 zero_frac (22, 22.22%) float_one (5, 5.05%) float_int (70, 70.71%) floatrange (0.050000000745058|100)
+  EFIT-4  t99 zero_frac (71, 71.72%) longrange (15|250) flags_set  9@0 10@1 15@2 16@3 8@4 13@5 16@6 5@7
+  EFIT-8  t99 zero_frac (32, 32.32%) longrange (5|86313600)
+  ETYP 4 t74 longrange (81732|81733) byterange (0|69) flags_set  14@0 74@2 74@6 74@8 74@9 74@10 74@11 74@12 74@13
+  FULL 4 t74 longrange (606|71453)
+  KSIZ 4 t44 longrange (1|1)
+  KWDA 4 t44 rectypes (KYWD=44 )
+  MDOB 4 t74 longrange (487055|487055) flags_set  74@0 74@1 74@2 74@3 74@7 74@9 74@10 74@11 74@13 74@14
+  MODL 28 t74 string (all)
+  MODT 36 t74 longrange (2|2)
+  OBND 12 t74
+  OBND-0  t74 zero_frac (9, 12.16%) longrange (-327693|-131081)
+  OBND-4  t74 zero_frac (9, 12.16%) longrange (851966|1179644)
+  OBND-8  t74 zero_frac (9, 12.16%) longrange (131075|262148) byterange (0|6)
+  SPIT 36 t74 offsets:  11-int-5
+  SPIT-0  t74 zero_frac (1, 1.35%) longrange (1|335310944)
+  SPIT-4  t74 zero (all)
+  SPIT-8  t74 zero (all)
+  SPIT-12  t74 zero_frac (59, 79.73%) float_one (1, 1.35%) float_int (5, 6.76%) floatrange (0.5|3) longrange (1056964608|1077936128)
+  SPIT-16  t74 longrange (2|3)
+  SPIT-20  t74 zero_frac (33, 44.59%) longrange (2|4)
+  SPIT-24  t74 zero (all)
+  SPIT-28  t74 zero (all)
+  SPIT-32  t74 zero (all)
+
+Stats for record ACTI
+  DEST 8 t610 offsets:  3-int-9
+  DEST-0  t610 longrange (1|150)
+  DEST-4  t610 longrange (4|672202753) flags_set  576@0 12@1 33@2
+  DMDL 21-66 t601 string (all)
+  DMDS 35 t488
+  DMDS-0  t488 longrange (1|1)
+  DMDS-4  t488 longrange (19|19)
+  DMDS-8  t488 longrange (1701734733|1701734733) flags_set  488@0 488@2 488@3 488@6 488@8 488@11 488@13 488@14
+  DMDS-12  t488 floatrange (917.78607177734|917.78607177734) longrange (1147499087|1147499087) flags_set  488@0 488@1 488@2 488@3 488@6 488@9 488@12 488@13 488@14
+  DMDS-16  t488 longrange (1701605477|1701605477) flags_set  488@0 488@2 488@5 488@6 488@12 488@13 488@14
+  DMDS-20  t488 longrange (811885940|811885940) flags_set  488@2 488@4 488@5 488@6 488@8 488@10 488@13 488@14
+  DMDS-24  t488 longrange (-2110571983|2134063668) flags_set  245@0 246@1 120@2 488@4 488@5 488@9 488@11 488@12 488@13
+  DMDS-28  t488 longrange (16777226|33558748)
+  DMDS-32  t488 byterange (0|0)
+  DMDT 12-132 t601 longrange (-1652256106|1069894442) flags_set  601@1 3@2 2@3 3@4 2@5 5@6 3@7 2@8 5@9 2@11 3@12 5@13 7@14 8@15
+  DSTD 20 t732
+  DSTD-0  t732 longrange (100|251789573) byterange (0|100) flags_set  60@0 672@1 21@2 94@3 652@4 611@5 57@6 78@8 71@9 6@10
+  DSTD-4  t732 zero_frac (712, 97.27%) longrange (1|300) byterange (0|100) flags_set  6@0 2@1 8@2 6@3 7@4 5@5 1@6 2@8
+  DSTD-8  t732 zero_frac (714, 97.54%) longrange (394527|1114010) flags_set  3@0 7@1 7@2 6@3 5@4 5@5 2@6 5@7 15@8 4@9 15@10 6@11 12@12 2@13 2@14 7@15
+  DSTD-12  t732 zero (all)
+  DSTD-16  t732 zero (all)
+  DSTF 0 t732 string (all)
+  EDID 8-52 t1870 string (all)
+  FNAM 2 t1753 byterange (0|1)
+  FULL 4 t957 longrange (115|75335)
+  KNAM 4 t39 rectypes (KYWD=39 )
+  KSIZ 4 t83 longrange (1|2)
+  KWDA 4-8 t83 rectypes (KYWD=76 )
+  KWDA-0  t7 rectypes (KYWD=7 )
+  KWDA-4  t7 rectypes (KYWD=7 )
+  MODL 12-92 t1344 string (all)
+  MODS 24-184 t536 longrange (1|5)
+  MODT 12-264 t1248 longrange (-2105029963|2139825103)
+  OBND 12 t1870 offsets:  7-int-2 3-int-5
+  OBND-0  t1870 zero_frac (617, 32.99%) longrange (-2147450880|55705810)
+  OBND-4  t1870 zero_frac (614, 32.83%) longrange (-46858569|2147450880)
+  OBND-8  t1870 zero_frac (613, 32.78%) longrange (-4652451|2147450879)
+  PNAM 4 t1784 string_frac (4, 0.22%) zero_frac (21, 1.18%) longrange (32768|16777088) flags_set  35@0 35@1 1673@2 1672@3 39@4 39@5 1683@6 1681@7 34@8 31@9 1678@10 1675@11 35@12 36@13 1677@14 46@15
+  RNAM 4 t681 longrange (1709|75337)
+  SNAM 4 t18 longrange (249322|1113038)
+  VMAD 23-2495 t1382 longrange (65540|131077) byterange (0|5) flags_set  1090@0 1382@2
+  VNAM 4 t34 longrange (247756|1113849)
+  WNAM 4 t62 longrange (24|1100942)
+
+Stats for record TACT
+  EDID 11-34 t25 string (all)
+  FNAM 2 t25 byterange (0|0)
+  FULL 4 t11 longrange (10712|71633)
+  MODL 12-46 t25 string (all)
+  MODT 12-120 t18 longrange (-1943939512|597369081) flags_set  5@0 16@1 5@2 6@3 2@4 1@5 7@6 2@7 5@8 6@9 1@10 5@11 2@12 5@13 2@14 6@15
+  OBND 12 t25
+  OBND-0  t25 longrange (-32899399|-983049)
+  OBND-4  t25 longrange (524288|21495501) flags_set  9@0 8@1 6@2 2@3 5@4 5@5 6@6 6@7 8@8 9@9 9@10 9@11 9@12 9@13 9@14 9@15
+  OBND-8  t25 longrange (589863|33751339) flags_set  18@0 24@1 11@2 10@3 12@4 12@5 4@6 5@7 2@8
+  PNAM 4 t25 zero_frac (18, 72.00%) longrange (3361996|3361996)
+  VNAM 4 t25 longrange (45|688228)
+
+Stats for record ARMO
+  BAMT 4 t237 longrange (77639|92537) flags_set  156@0 4@1 4@2 233@3 233@4 233@5 237@6 237@8 4@9 4@10 237@11 237@13 233@14
+  BIDS 4 t237 longrange (99323|937136) flags_set  65@0 236@1 171@2 236@3 237@4 237@5 236@6 237@7 236@8 236@9 1@10 1@11 1@14 236@15
+  BODT 8-12 t2762 longrange (-2147483648|3145728) flags_set  175@0 587@1 813@2 378@3 2@4 168@5 152@6 367@7 1@8 238@9 10@10 1@11 659@12 130@13 6@14 8@15
+  BODT-0  t9 longrange (2|16)
+  BODT-4  t9 longrange (16|48)
+  DATA 8 t2762 offsets:  3-int-359
+  DATA-0  t2762 zero_frac (192, 6.95%) longrange (1|5000)
+  DATA-4  t2762 zero_frac (200, 7.24%) float_one (483, 17.49%) float_int (1749, 63.32%) floatrange (0.25|50)
+  DESC 4 t2752 zero_frac (2724, 98.98%) longrange (31932|75432) flags_set  13@0 9@1 15@2 17@3 12@4 14@5 15@6 20@7 7@8 9@9 24@10 18@11 13@12 5@13 1@14
+  DNAM 4 t2762 zero_frac (862, 31.21%) longrange (100|5000)
+  EDID 8-45 t2762 string (all)
+  EITM 4 t2167 rectypes (ENCH=2167 )
+  ETYP 4 t237 longrange (82408|82408) flags_set  237@3 237@5 237@6 237@7 237@8 237@14
+  FULL 4 t2623 longrange (7|75391)
+  KSIZ 4 t2621 longrange (1|6)
+  KWDA 4-24 t2621 rectypes (KYWD=2588 )
+  KWDA-0  t33 rectypes (KYWD=33 )
+  KWDA-4  t33 rectypes (KYWD=33 )
+  MO2S 20-46 t90 longrange (1|2)
+  MO2T 12-108 t2612 longrange (2|2)
+  MO4S 25-46 t48 longrange (1|2)
+  MO4T 12-60 t731 longrange (2|2)
+  MOD2 22-68 t2612 string (all)
+  MOD4 23-52 t731 string (all)
+  MODL 4 t4298 longrange (3431|1113316)
+  OBND 12 t2762
+  OBND-0  t2762 zero_frac (1159, 41.96%) longrange (-11665232|4194317)
+  OBND-4  t2762 zero_frac (1159, 41.96%) longrange (-6225920|13303845)
+  OBND-8  t2762 zero_frac (1159, 41.96%) longrange (-4194293|19988620) flags_set  883@0 876@1 704@2 1073@3 490@4 43@5 4@6 1@7 1@8 1@9 1@10 1@11 1@12 1@13 1@14 1@15
+  RNAM 4 t2762 rectypes (RACE=664 ) longrange (25|1088636) flags_set  2474@0 160@1 192@2 2329@3 2178@4 64@5 599@6 104@7 604@8 569@9 578@10 63@11 606@12 639@13 14@14 19@15
+  TNAM 4 t2057 longrange (77382|1103460)
+  VMAD 41-171 t8 longrange (131077|131077) byterange (0|5)
+  YNAM 4 t388 longrange (256121|256121) flags_set  388@0 388@3 388@4 388@5 388@6 388@11 388@13 388@14 388@15
+  ZNAM 4 t388 longrange (256265|256265) flags_set  388@0 388@3 388@8 388@11 388@13 388@14 388@15
+
+Stats for record BOOK
+  CNAM 4 t821 zero_frac (788, 95.98%) longrange (72543|75143) flags_set  14@0 22@1 19@2 14@3 14@4 16@5 24@6 3@7 32@8 1@9 32@10 2@11 2@12 31@13
+  DATA 16 t821 offsets:  5-int-5
+  DATA-0  t821 zero_frac (406, 49.45%) longrange (1|65284) byterange (-1|4)
+  DATA-4  t821 zero_frac (21, 2.56%) rectypes (SPEL=94 ) longrange (-1|1112046)
+  DATA-8  t821 zero_frac (238, 28.99%) longrange (2|2500)
+  DATA-12  t821 zero_frac (263, 32.03%) float_one (553, 67.36%) float_int (2, 0.24%) floatrange (0.5|20)
+  DESC 4 t821 zero_frac (7, 0.85%) longrange (68|75326)
+  EDID 7-44 t821 string (all)
+  FULL 4 t819 longrange (38|75330)
+  INAM 4 t819 longrange (86996|1088986)
+  KSIZ 4 t816 longrange (1|3)
+  KWDA 4-12 t816 rectypes (KYWD=647 ) longrange (595944|1006768) flags_set  618@1 1@2 2@3 27@4 647@5 2@6 646@7 619@8 620@9 647@10 28@11 647@12 619@13 27@14
+  KWDA-0  t169 rectypes (KYWD=169 )
+  KWDA-4  t169 rectypes (KYWD=169 )
+  MODL 25-49 t821 string (all)
+  MODT 12-108 t821 longrange (2|2)
+  OBND 12 t821
+  OBND-0  t821 zero_frac (144, 17.54%) longrange (-983052|-262152)
+  OBND-4  t821 zero_frac (144, 17.54%) longrange (65535|3801081)
+  OBND-8  t821 zero_frac (144, 17.54%) longrange (5|458753) byterange (0|16) flags_set  590@0 444@1 225@2 522@3 7@4
+  VMAD 41-803 t28 longrange (131077|131077) byterange (0|5) flags_set  28@0 28@2
+  YNAM 4 t273 longrange (817748|817748) flags_set  273@2 273@4 273@6 273@9 273@11 273@12 273@13 273@14
+
+Stats for record CONT
+  CNTO 8 t9597
+  CNTO-0  t9597 longrange (10|1113579)
+  CNTO-4  t9597 longrange (1|20000) flags_set  9137@0 536@1 424@2 293@3 62@4 12@5 6@6 7@7 3@8 7@9 4@10 1@11 1@14
+  COCT 4 t355 longrange (1|2138) flags_set  181@0 150@1 159@2 88@3 68@4 9@5 10@6 1@7 6@8 2@9 1@10 1@11
+  COED 12 t1
+  COED-0  t1 rectypes (FACT=1 )
+  COED-4  t1 longrange (-1|-1)
+  COED-8  t1 float_one (1, 100.00%) floatrange (1|1)
+  DATA 5 t436
+  DATA-0  t436 zero_frac (163, 37.39%) longrange (1|4)
+  DATA-4  t436 byterange (0|0)
+  EDID 8-44 t436 string (all)
+  FULL 4 t434 longrange (337|75348)
+  MODL 19-54 t436 string (all)
+  MODS 59-63 t3 longrange (2|3)
+  MODT 12-228 t436 longrange (2|2)
+  OBND 12 t436
+  OBND-0  t436 zero_frac (12, 2.75%) longrange (-298057840|14352439)
+  OBND-4  t436 zero_frac (12, 2.75%) longrange (-10743629|25427930) flags_set  41@0 39@1 36@2 31@3 59@4 68@5 65@6 71@7 68@8 68@9 68@10 68@11 71@12 68@13 68@14 68@15
+  OBND-8  t436 zero_frac (12, 2.75%) longrange (65557|283115787)
+  QNAM 4 t135 longrange (247920|1063361)
+  SNAM 4 t137 longrange (247917|1063360)
+  VMAD 28-853 t6 longrange (131077|131077) byterange (0|5)
+
+Stats for record DOOR
+  ANAM 4 t90 longrange (182987|1112344)
+  EDID 9-36 t244 string (all)
+  FNAM 1 t244 string_frac (4, 1.64%) byterange (0|32)
+  FULL 4 t228 longrange (812|75288)
+  MODL 18-84 t243 string (all)
+  MODS 183 t1 longrange (7|7)
+  MODT 12-204 t242 longrange (-1793681382|1822435932) flags_set  7@0 238@1 9@2 6@3 11@4 8@5 10@6 6@7 10@8 6@9 9@10 9@11 5@12 9@13 4@14 7@15
+  OBND 12 t244 offsets:  3-int-5 5-int-1
+  OBND-0  t244 zero_frac (2, 0.82%) longrange (-39256664|25165042)
+  OBND-4  t244 zero_frac (1, 0.41%) longrange (-45809666|39321600)
+  OBND-8  t244 zero_frac (1, 0.41%) longrange (-130898|50859554)
+  SNAM 4 t96 longrange (144233|1113306)
+  VMAD 60-100 t5 longrange (131077|131077) byterange (0|5)
+
+Stats for record INGR
+  DATA 8 t94
+  DATA-0  t94 zero_frac (4, 4.26%) longrange (1|250) flags_set  47@0 46@1 37@2 24@3 12@4 5@5 3@6 1@7
+  DATA-4  t94 float_one (5, 5.32%) floatrange (0.10000000149012|1) longrange (1036831949|1065353216) flags_set  55@0 3@1 55@2 58@3 3@4 55@6 58@7 3@8 55@10 58@11 3@12 55@14 58@15
+  EDID 6-31 t94 string (all)
+  EFID 4 t376 rectypes (MGEF=376 )
+  EFIT 12 t376
+  EFIT-0  t376 zero_frac (14, 3.72%) float_one (43, 11.44%) float_int (319, 84.84%) floatrange (1|200)
+  EFIT-4  t376 zero (all)
+  EFIT-8  t376 zero_frac (78, 20.74%) longrange (1|300) byterange (0|60)
+  ENIT 8 t94
+  ENIT-0  t94 longrange (12|129)
+  ENIT-4  t94 zero (all)
+  FULL 4 t94 longrange (19|71465)
+  KSIZ 4 t78 longrange (1|2)
+  KWDA 4-8 t78 rectypes (KYWD=62 ) longrange (577002|659030) flags_set  58@0 62@1 3@2 59@3 3@4 59@5 62@6 59@7 59@8 3@9 62@10 62@11 59@14 59@15
+  KWDA-0  t16 rectypes (KYWD=16 )
+  KWDA-4  t16 rectypes (KYWD=16 )
+  MODL 19-44 t94 string (all)
+  MODT 36-84 t94 longrange (2|2)
+  OBND 12 t94
+  OBND-0  t94 longrange (-2228253|-1) flags_set  50@0 55@1 47@2 68@3 90@4 94@5 94@6 94@7 94@8 94@9 94@10 94@11 94@12 94@13 94@14 94@15
+  OBND-4  t94 zero_frac (3, 3.19%) longrange (65529|2424815)
+  OBND-8  t94 longrange (7|1900551) byterange (0|34) flags_set  54@0 49@1 45@2 36@3 2@4 1@5
+  VMAD 124 t1
+  VMAD-0  t1 longrange (131077|131077) byterange (0|5)
+  VMAD-4  t1 longrange (1703937|1703937) byterange (0|26)
+  VMAD-8  t1 longrange (1634300514|1634300514)
+  VMAD-12  t1 longrange (1634035826|1634035826)
+  VMAD-16  t1 longrange (1850307698|1850307698)
+  VMAD-20  t1 longrange (1684370023|1684370023)
+  VMAD-24  t1 longrange (1953391977|1953391977)
+  VMAD-28  t1 longrange (1769104211|1769104211)
+  VMAD-32  t1 longrange (50361456|50361456)
+  VMAD-36  t1 longrange (1677725696|1677725696) byterange (0|100)
+  VMAD-40  t1 longrange (1699901045|1699901045)
+  VMAD-44  t1 longrange (1835626081|1835626081)
+  VMAD-48  t1 longrange (1399157857|1399157857)
+  VMAD-52  t1 longrange (23489637|23489637)
+  VMAD-56  t1 longrange (-16777215|-16777215) byterange (-1|1)
+  VMAD-60  t1 longrange (236268031|236268031) byterange (-1|41)
+  VMAD-64  t1 floatrange (8.0048828125|8.0048828125) longrange (1090524160|1090524160) byterange (0|65)
+  VMAD-68  t1 longrange (1919905138|1919905138)
+  VMAD-72  t1 longrange (1634300482|1634300482)
+  VMAD-76  t1 longrange (1634027634|1634027634)
+  VMAD-80  t1 longrange (1833268338|1833268338)
+  VMAD-84  t1 longrange (24736880|24736880)
+  VMAD-88  t1 longrange (-16777215|-16777215) byterange (-1|1)
+  VMAD-92  t1 longrange (97520127|97520127)
+  VMAD-96  t1 floatrange (8.003662109375|8.003662109375) longrange (1090522880|1090522880) byterange (0|65)
+  VMAD-100  t1 longrange (1919905138|1919905138)
+  VMAD-104  t1 longrange (1634300482|1634300482)
+  VMAD-108  t1 longrange (1634027634|1634027634)
+  VMAD-112  t1 longrange (16872562|16872562)
+  VMAD-116  t1 longrange (-65536|-65536) byterange (-1|0)
+  VMAD-120  t1 longrange (380936|380936)
+  YNAM 4 t55 longrange (247738|1113425)
+  ZNAM 4 t36 longrange (247737|334289) flags_set  19@0 19@3 19@4 2@5 34@6 36@7 36@8 19@9 19@10 17@11 34@12 2@14 2@15
+
+Stats for record LIGH
+  DATA 48 t435 offsets:  5-int-8 35-int-19 6-int-3 1-int-7 31-int-4
+  DATA-0  t435 longrange (-1|240) flags_set  432@0 432@1 432@2 432@3 435@4 435@5 435@6 435@7 432@8 432@9 432@10 432@11 432@12 432@13 432@14 432@15
+  DATA-4  t435 longrange (20|2000) flags_set  8@0 14@1 31@2 40@3 45@4 68@5 48@6 55@7 301@8 51@9 12@10
+  DATA-8  t435 zero_frac (2, 0.46%) longrange (210|16777215)
+  DATA-12  t435 zero_frac (37, 8.51%) longrange (1|12417) flags_set  384@0 3@1 167@3 11@6 42@7 39@10 12@11 94@12 194@13
+  DATA-16  t435 float_one (359, 82.53%) float_int (76, 17.47%) floatrange (1|10)
+  DATA-20  t435 float_int (435, 100.00%) floatrange (30|90)
+  DATA-24  t435 zero_frac (6, 1.38%) float_one (136, 31.26%) float_int (31, 7.13%)
+  DATA-28  t435 zero_frac (4, 0.92%) float_one (225, 51.72%) floatrange (0.050000000745058|1)
+  DATA-32  t435 zero_frac (222, 51.03%) float_one (5, 1.15%) float_int (1, 0.23%) floatrange (0.10000000149012|5) longrange (1036831949|1084227584) flags_set  52@0 55@1 52@2 89@3 49@4 12@5 50@6 88@7 50@8 12@9 52@10 87@11 48@12 11@13 51@14 88@15
+  DATA-36  t435 zero_frac (231, 53.10%) float_one (55, 12.64%) float_int (123, 28.28%) floatrange (0.10000000149012|512)
+  DATA-40  t435 zero_frac (434, 99.77%) longrange (2|2)
+  DATA-44  t435 zero_frac (434, 99.77%) floatrange (0.5|0.5) longrange (1056964608|1056964608) byterange (0|63)
+  EDID 8-42 t435 string (all)
+  FNAM 4 t435 string_frac (4, 0.92%) float_one (249, 57.24%) float_int (117, 26.90%) floatrange (0.10000000149012|10)
+  FULL 4 t3 longrange (36608|55156)
+  MODL 24-32 t10 string (all)
+  MODT 60-96 t10 longrange (2|859828139)
+  OBND 12 t435
+  OBND-0  t435 zero_frac (98, 22.53%) longrange (-333453863|-589833) flags_set  9@0 322@1 43@2 281@3 283@4 5@5 324@6 321@7 325@8 325@9 325@10 325@11 325@12 326@13 326@14 326@15
+  OBND-4  t435 zero_frac (98, 22.53%) longrange (655358|260372249)
+  OBND-8  t435 zero_frac (98, 22.53%) longrange (393258|374871336) flags_set  49@0 15@1 15@2 286@3 3@4 336@5 1@6 3@7 4@8 2@10 1@12
+  SNAM 4 t3 longrange (249322|249322)
+
+Stats for record MISC
+  DATA 8 t371 offsets:  3-int-33
+  DATA-0  t371 zero_frac (115, 31.00%) longrange (1|2500)
+  DATA-4  t371 zero_frac (43, 11.59%) float_one (62, 16.71%) float_int (133, 35.85%) floatrange (0.10000000149012|25)
+  EDID 5-35 t371 string (all)
+  FULL 4 t362 longrange (78|74465)
+  ICON 19 t1 string (all)
+  KSIZ 4 t205 longrange (1|2)
+  KWDA 4-8 t205 rectypes (KYWD=195 )
+  KWDA-0  t10 rectypes (KYWD=10 )
+  KWDA-4  t10 rectypes (KYWD=10 )
+  MODL 19-87 t371 string (all)
+  MODS 22-34 t13 longrange (1|1)
+  MODT 12-168 t371 longrange (-14426078|2032809229) flags_set  4@0 367@1 5@2 6@3 3@4 4@5 2@6 2@8 2@9 1@10 3@11 4@12 7@13 6@14 6@15
+  OBND 12 t371
+  OBND-0  t371 zero_frac (31, 8.36%) longrange (-3866647|458781)
+  OBND-4  t371 zero_frac (30, 8.09%) longrange (65521|7995390)
+  OBND-8  t371 zero_frac (31, 8.36%) longrange (1|7602216) flags_set  172@0 149@1 133@2 141@3 89@4 16@5 3@6
+  VMAD 26-114 t11 longrange (131077|131077) byterange (0|5) flags_set  11@0 11@2
+  YNAM 4 t8 longrange (256338|1076767)
+  ZNAM 4 t8 longrange (256341|1076768)
+
+Stats for record APPA
+  DATA 8 t45
+  DATA-0  t45 zero (all)
+  DATA-4  t45 zero (all)
+  DESC 4 t45 zero (all)
+  EDID 14-23 t45 string (all)
+  FULL 4 t45 longrange (648|64354)
+  OBND 12 t45
+  OBND-0  t45 zero (all)
+  OBND-4  t45 zero (all)
+  OBND-8  t45 zero (all)
+  QUAL 4 t45 zero_frac (9, 20.00%) longrange (1|4)
+
+Stats for record STAT
+  DNAM 8 t9720
+  DNAM-0  t9720 float_int (9720, 100.00%) floatrange (30|120)
+  DNAM-4  t9720 zero_frac (7651, 78.71%) longrange (151849|1084036) flags_set  1783@0 503@1 996@2 1728@3 1264@4 915@5 397@6 319@7 1648@8 545@9 1188@10 1142@11 1754@12 967@13 797@14 1361@15
+  EDID 6-48 t9720 string (all)
+  MNAM 1040 t824 offsets:  35-int-1 43-int-1 275-int-1 363-int-2 411-int-1 419-int-1 535-int-1 831-int-2 875-int-3 939-int-2 971-int-2 446-int-3 786-int-3 66-int-3 225-int-3 597-int-3 773-int-3 779-int-118 841-int-6 1005-int-23 401-int-2 239-int-1 641-int-12 173-int-20 221-int-21 349-int-20 397-int-23 573-int-20 605-int-21 653-int-20 781-int-20 829-int-21 957-int-37 377-int-27 519-int-27 878-int-14 793-int-6 861-int-19 445-int-15 497-int-4 945-int-3 837-int-11 149-int-4 621-int-7 845-int-6 1025-int-6 189-int-7 797-int-13 47-int-11 95-int-10 175-int-11 223-int-10 303-int-10 351-int-10 391-int-10 407-int-10 423-int-10 431-int-10 439-int-11 455-int-11 471-int-10 479-int-10 487-int-10 503-int-10 607-int-10 687-int-10 735-int-10 775-int-10 791-int-10 807-int-10 815-int-11 823-int-11 839-int-10 855-int-11 863-int-12 871-int-10 887-int-10 943-int-10 991-int-10 865-int-3 477-int-7 629-int-8 669-int-6 869-int-8 977-int-7 433-int-3 462-int-1 642-int-1 902-int-2 65-int-3 766-int-1 885-int-9 259-int-1 141-int-1 301-int-1 579-int-2 717-int-1 877-int-1 801-int-1 893-int-2 969-int-4 745-int-5 993-int-2 873-int-2 909-int-4 918-int-4 1001-int-4 1017-int-5 170-int-1 179-int-1 883-int-2 89-int-1 981-int-2 129-int-2 49-int-4 710-one-1 449-int-1 559-int-3 45-int-2 57-int-2 106-int-2 226-int-2 333-int-2 633-int-2 645-int-2 850-int-2 134-int-1 90-int-2 894-int-1 929-int-1 113-int-1 114-int-1 374-int-1 126-int-1 187-int-2 235-int-1 315-int-1 443-int-1 491-int-1 563-int-3 571-int-2 595-int-1 611-int-1 619-int-1 627-int-7 643-int-1 699-int-1 747-int-1 827-int-1 915-int-2 931-int-1 947-int-1 955-int-1 963-int-2 979-int-1 995-int-7 1003-int-1 1011-int-2 1027-int-1 985-int-1 137-int-1 329-int-1 625-int-1 722-int-1 746-int-1 761-int-1 762-int-2 1013-int-1 339-int-1 355-int-1 557-int-1 769-int-4 567-int-7 1007-int-6 555-int-1 293-int-1 109-int-1 565-int-1 119-int-1 155-int-1 251-int-1 323-int-1 359-int-1 659-int-1 731-int-1 767-int-1 819-int-1 843-int-1 867-int-1 879-int-2 891-int-1 903-int-1 927-int-1 935-int-1 951-int-1 975-int-1 987-int-1 999-int-1 169-int-2 450-int-4 689-int-4 810-int-4 857-int-4 913-int-4 457-int-1 609-int-3 649-int-1 849-int-1 901-int-3 241-int-3 390-int-3 566-int-3 742-int-4 754-int-3 862-int-3 157-int-1 809-int-1 721-int-1 103-int-1 139-int-1 151-int-1 163-int-1 203-int-1 299-int-1 415-int-1 451-int-1 473-int-2 817-int-2 858-int-1 1031-int-1 85-int-1 637-int-1 513-int-1 813-int-1 237-int-1 33-int-1 402-int-1 430-int-1 454-int-1 478-int-1 490-int-1 502-int-1 526-int-1 626-int-1 654-int-1 434-int-1 470-int-1 583-int-1
+  MNAM-0  t824 longrange (1547980620|1550085964) flags_set  824@2 824@3 824@6 824@8 824@9 824@10 824@11 67@13 824@14
+  MNAM-4  t824 longrange (1330398025|1953392983)
+  MNAM-8  t824 longrange (1113351527|2017813353) flags_set  366@0 204@1 485@2 147@3 406@4 802@5 824@6 544@8 380@9 212@10 293@11 260@12 763@13 823@14
+  MNAM-12  t824 longrange (1006633062|2002866260)
+  MNAM-16  t824 longrange (811753836|2053465458)
+  MNAM-20  t824 longrange (776228684|2036691527)
+  MNAM-24  t824 longrange (26217|2037609313)
+  MNAM-28  t824 zero_frac (10, 1.21%) longrange (-1023383959|2147483647)
+  MNAM-32  t824 zero_frac (13, 1.58%) float_one (3, 0.36%) float_int (1, 0.12%) longrange (-2109734134|2003791443)
+  MNAM-36  t824 zero_frac (41, 4.98%) float_one (25, 3.03%) float_int (1, 0.12%)
+  MNAM-40  t824 zero_frac (56, 6.80%) float_one (27, 3.28%) float_int (1, 0.12%)
+  MNAM-44  t824 zero_frac (74, 8.98%) longrange (-1163267902|1936877921)
+  MNAM-48  t824 zero_frac (123, 14.93%) float_one (26, 3.16%) float_int (1, 0.12%)
+  MNAM-52  t824 zero_frac (126, 15.29%) float_one (27, 3.28%)
+  MNAM-56  t824 zero_frac (142, 17.23%) longrange (-1209119310|1967037342)
+  MNAM-60  t824 zero_frac (98, 11.89%) longrange (-1979847938|1879189554)
+  MNAM-64  t824 zero_frac (114, 13.83%) longrange (-1676561830|2133204224)
+  MNAM-68  t824 zero_frac (163, 19.78%) longrange (-1972126918|2139164801)
+  MNAM-72  t824 zero_frac (136, 16.50%) float_one (34, 4.13%) float_int (1, 0.12%)
+  MNAM-76  t824 zero_frac (102, 12.38%) float_one (75, 9.10%) float_int (1, 0.12%)
+  MNAM-80  t824 zero_frac (138, 16.75%) float_one (48, 5.83%) float_int (1, 0.12%)
+  MNAM-84  t824 zero_frac (149, 18.08%) longrange (-1131233863|1987007324)
+  MNAM-88  t824 zero_frac (173, 21.00%) longrange (-2147482976|1953852483)
+  MNAM-92  t824 zero_frac (110, 13.35%) longrange (-1112516448|1801678674)
+  MNAM-96  t824 zero_frac (62, 7.52%) longrange (-2008600671|1936417647)
+  MNAM-100  t824 zero_frac (85, 10.32%) longrange (-2147266306|1816357731)
+  MNAM-104  t824 zero_frac (80, 9.71%) longrange (-2147483648|2088731519)
+  MNAM-108  t824 zero_frac (69, 8.37%) longrange (-1758709595|1952539503)
+  MNAM-112  t824 zero_frac (76, 9.22%) longrange (-1239277207|1951625844)
+  MNAM-116  t824 zero_frac (80, 9.71%) longrange (-1613382915|1936877921)
+  MNAM-120  t824 zero_frac (101, 12.26%) longrange (-1113201843|2009164414)
+  MNAM-124  t824 zero_frac (89, 10.80%) longrange (-1115180224|1852142694)
+  MNAM-128  t824 zero_frac (101, 12.26%) float_one (43, 5.22%) float_int (2, 0.24%)
+  MNAM-132  t824 zero_frac (110, 13.35%) longrange (-2147483648|1699900259)
+  MNAM-136  t824 zero_frac (114, 13.83%) longrange (-1105432656|1701667182)
+  MNAM-140  t824 zero_frac (82, 9.95%) longrange (-1156490119|1867734084)
+  MNAM-144  t824 zero_frac (75, 9.10%) longrange (-1743649792|1952868690)
+  MNAM-148  t824 zero_frac (78, 9.47%) longrange (-1726470783|1983749880)
+  MNAM-152  t824 zero_frac (85, 10.32%) longrange (-2147483648|2074051743)
+  MNAM-156  t824 zero_frac (79, 9.59%) longrange (-1578902889|1701602414)
+  MNAM-160  t824 zero_frac (112, 13.59%) longrange (-1239277207|1853179506)
+  MNAM-164  t824 zero_frac (103, 12.50%) float_one (33, 4.00%) float_int (2, 0.24%)
+  MNAM-168  t824 zero_frac (90, 10.92%) longrange (-2078295171|2086606831)
+  MNAM-172  t824 zero_frac (141, 17.11%) longrange (-1245888705|1919508852)
+  MNAM-176  t824 zero_frac (148, 17.96%) longrange (-2147483648|1376000588)
+  MNAM-180  t824 zero_frac (209, 25.36%) longrange (-1414812927|1768828484)
+  MNAM-184  t824 zero_frac (148, 17.96%) longrange (-2147483648|1920204902)
+  MNAM-188  t824 zero_frac (137, 16.63%) longrange (-2147483648|1983615471)
+  MNAM-192  t824 zero_frac (112, 13.59%) longrange (-1828799687|2133207296)
+  MNAM-196  t824 zero_frac (141, 17.11%) longrange (-1394944450|1668239964)
+  MNAM-200  t824 zero_frac (144, 17.48%) float_one (31, 3.76%) float_int (2, 0.24%)
+  MNAM-204  t824 zero_frac (148, 17.96%) longrange (-1636153873|1208083272)
+  MNAM-208  t824 zero_frac (127, 15.41%) longrange (-1225575906|2128628704)
+  MNAM-212  t824 zero_frac (170, 20.63%) longrange (-1096620534|1701734733)
+  MNAM-216  t824 zero_frac (165, 20.02%) longrange (-1894645688|1920233029)
+  MNAM-220  t824 zero_frac (117, 14.20%) longrange (-1766411076|2087381674)
+  MNAM-224  t824 zero_frac (125, 15.17%) longrange (-1905782899|1953065059)
+  MNAM-228  t824 zero_frac (141, 17.11%) longrange (-1666293594|2000609276)
+  MNAM-232  t824 zero_frac (139, 16.87%) longrange (-1725340372|2005205066)
+  MNAM-236  t824 zero_frac (142, 17.23%) float_one (52, 6.31%) float_int (1, 0.12%)
+  MNAM-240  t824 zero_frac (138, 16.75%) longrange (-2140250023|1866751086)
+  MNAM-244  t824 zero_frac (146, 17.72%) longrange (-1258291204|2053002366)
+  MNAM-248  t824 zero_frac (150, 18.20%) longrange (-2055405483|1866749010)
+  MNAM-252  t824 zero_frac (144, 17.48%) longrange (-2001644475|2123575530)
+  MNAM-256  t824 zero_frac (134, 16.26%) longrange (-1238237098|1936018780)
+  MNAM-260  t824 zero_frac (2, 0.24%) longrange (1547980544|1550085964) flags_set  749@2 749@3 749@6 822@8 822@9 822@10 822@11 69@13 822@14
+  MNAM-264  t824 zero_frac (1, 0.12%) longrange (-2147483648|1953392983)
+  MNAM-268  t824 zero_frac (2, 0.24%) longrange (1113351527|2017813353) flags_set  364@0 204@1 485@2 145@3 406@4 800@5 822@6 542@8 378@9 212@10 293@11 260@12 761@13 821@14
+  MNAM-272  t824 zero_frac (1, 0.12%) float_one (1, 0.12%) longrange (1062600806|2002866260)
+  MNAM-276  t824 zero_frac (1, 0.12%) longrange (-2147483648|2053465458)
+  MNAM-280  t824 zero_frac (2, 0.24%) longrange (776228684|2036691527)
+  MNAM-284  t824 zero_frac (2, 0.24%) longrange (26217|2037609313)
+  MNAM-288  t824 zero_frac (9, 1.09%) float_one (2, 0.24%) longrange (-2147483648|2133212160)
+  MNAM-292  t824 zero_frac (13, 1.58%) longrange (-1225575936|2139164801)
+  MNAM-296  t824 zero_frac (28, 3.40%) float_one (27, 3.28%) float_int (2, 0.24%)
+  MNAM-300  t824 zero_frac (52, 6.31%) longrange (-2147483648|1935753777)
+  MNAM-304  t824 zero_frac (82, 9.95%) longrange (-1225575906|2139887169)
+  MNAM-308  t824 zero_frac (105, 12.74%) float_one (23, 2.79%) float_int (4, 0.49%)
+  MNAM-312  t824 zero_frac (124, 15.05%) longrange (-2095151874|1951622252)
+  MNAM-316  t824 zero_frac (131, 15.90%) longrange (-1914177933|1785210885)
+  MNAM-320  t824 zero_frac (115, 13.96%) longrange (-1223120160|2007588308)
+  MNAM-324  t824 zero_frac (133, 16.14%) longrange (-1627379531|2105452708)
+  MNAM-328  t824 zero_frac (161, 19.54%) longrange (-1479933847|1966455796)
+  MNAM-332  t824 zero_frac (151, 18.33%) longrange (-1667457892|2147309257)
+  MNAM-336  t824 zero_frac (130, 15.78%) longrange (-1414812927|1918986307)
+  MNAM-340  t824 zero_frac (127, 15.41%) longrange (-1950628335|1864134559)
+  MNAM-344  t824 zero_frac (129, 15.66%) float_one (27, 3.28%) float_int (2, 0.24%)
+  MNAM-348  t824 zero_frac (144, 17.48%) longrange (-1430258337|2084497135)
+  MNAM-352  t824 zero_frac (133, 16.14%) longrange (-2106444191|1448412344)
+  MNAM-356  t824 zero_frac (139, 16.87%) longrange (-2077079592|2044805806)
+  MNAM-360  t824 zero_frac (151, 18.33%) longrange (-1414812927|2082442494)
+  MNAM-364  t824 zero_frac (140, 16.99%) longrange (-1134737177|2093825615)
+  MNAM-368  t824 zero_frac (174, 21.12%) longrange (-2121917635|1832926941)
+  MNAM-372  t824 zero_frac (167, 20.27%) longrange (-1934934350|2069857281)
+  MNAM-376  t824 zero_frac (232, 28.16%) longrange (-1467678609|1837010238)
+  MNAM-380  t824 zero_frac (192, 23.30%) float_one (49, 5.95%) float_int (2, 0.24%)
+  MNAM-384  t824 zero_frac (204, 24.76%) longrange (-1875182252|1937705360)
+  MNAM-388  t824 zero_frac (188, 22.82%) longrange (-1167573624|1378677744)
+  MNAM-392  t824 zero_frac (175, 21.24%) longrange (-1904639131|2088732125)
+  MNAM-396  t824 zero_frac (173, 21.00%) longrange (-1414812927|2074738940)
+  MNAM-400  t824 zero_frac (160, 19.42%) longrange (-1139196012|2120220788)
+  MNAM-404  t824 zero_frac (183, 22.21%) longrange (-1726821976|1952868690)
+  MNAM-408  t824 zero_frac (185, 22.45%) longrange (-1254536211|2080343071)
+  MNAM-412  t824 zero_frac (189, 22.94%) longrange (-2064531217|1952868690)
+  MNAM-416  t824 zero_frac (218, 26.46%) float_one (26, 3.16%) float_int (3, 0.36%)
+  MNAM-420  t824 zero_frac (214, 25.97%) longrange (-1414812927|1668236372)
+  MNAM-424  t824 zero_frac (192, 23.30%) longrange (-2147483648|2002976972)
+  MNAM-428  t824 zero_frac (197, 23.91%) float_one (47, 5.70%) float_int (1, 0.12%)
+  MNAM-432  t824 zero_frac (156, 18.93%) longrange (-1926650592|1919508852)
+  MNAM-436  t824 zero_frac (169, 20.51%) longrange (-1909584724|1679143709)
+  MNAM-440  t824 zero_frac (194, 23.54%) longrange (-2075817019|1962904351)
+  MNAM-444  t824 zero_frac (191, 23.18%) longrange (-1910737851|1954047232)
+  MNAM-448  t824 zero_frac (166, 20.15%) longrange (-2063666941|2057841151)
+  MNAM-452  t824 zero_frac (157, 19.05%) longrange (-1734459949|1918986307)
+  MNAM-456  t824 zero_frac (172, 20.87%) longrange (-1414812927|2095579301)
+  MNAM-460  t824 zero_frac (172, 20.87%) longrange (-2046411078|1936933234)
+  MNAM-464  t824 zero_frac (193, 23.42%) float_one (35, 4.25%) float_int (1, 0.12%)
+  MNAM-468  t824 zero_frac (203, 24.64%) longrange (-1667484581|1717987692)
+  MNAM-472  t824 zero_frac (166, 20.15%) longrange (-2147483648|1869767781)
+  MNAM-476  t824 zero_frac (172, 20.87%) longrange (-1655732391|1936617317)
+  MNAM-480  t824 zero_frac (172, 20.87%) longrange (-1651132213|2132607144)
+  MNAM-484  t824 zero_frac (191, 23.18%) longrange (-1760474762|2109423385)
+  MNAM-488  t824 zero_frac (195, 23.67%) longrange (-1169685647|1835626049)
+  MNAM-492  t824 zero_frac (171, 20.75%) longrange (-1740733838|1869372531)
+  MNAM-496  t824 zero_frac (201, 24.39%) longrange (-1929457107|2077268967)
+  MNAM-500  t824 zero_frac (193, 23.42%) longrange (-1663271993|2146404037)
+  MNAM-504  t824 zero_frac (195, 23.67%) longrange (-1509623747|1809757309)
+  MNAM-508  t824 zero_frac (156, 18.93%) longrange (-1712308507|1634560366)
+  MNAM-512  t824 zero_frac (142, 17.23%) longrange (-2147483648|2121335749)
+  MNAM-516  t824 zero_frac (113, 13.71%) longrange (-2147483648|1627537146)
+  MNAM-520  t824 zero_frac (2, 0.24%) float_one (1, 0.12%) longrange (504697856|1550085964)
+  MNAM-524  t824 zero_frac (2, 0.24%) longrange (16|2119115205) flags_set  520@0 339@1 477@2 432@3 230@4 1@5 821@6 1@7 762@8 441@9 593@10 631@11 124@12 820@13 820@14 1@15
+  MNAM-528  t824 zero_frac (2, 0.24%) longrange (-2097832379|2017813353) flags_set  362@0 202@1 485@2 145@3 405@4 800@5 821@6 544@8 380@9 212@10 293@11 259@12 761@13 820@14 2@15
+  MNAM-532  t824 zero_frac (2, 0.24%) float_one (1, 0.12%) longrange (-1095895607|2002866260)
+  MNAM-536  t824 zero_frac (3, 0.36%) longrange (811753836|2146404037)
+  MNAM-540  t824 zero_frac (2, 0.24%) float_one (1, 0.12%) longrange (-1214251008|2036691527)
+  MNAM-544  t824 zero_frac (2, 0.24%) longrange (-1214251008|2037609313)
+  MNAM-548  t824 zero_frac (7, 0.85%) float_one (2, 0.24%) float_int (1, 0.12%) longrange (-2147483648|2017800752)
+  MNAM-552  t824 zero_frac (14, 1.70%) longrange (-1102446490|2106107890)
+  MNAM-556  t824 zero_frac (30, 3.64%) float_one (34, 4.13%) float_int (2, 0.24%)
+  MNAM-560  t824 zero_frac (46, 5.58%) longrange (-2147457431|1942945894)
+  MNAM-564  t824 zero_frac (136, 16.50%) longrange (-2147483648|2139362382)
+  MNAM-568  t824 zero_frac (171, 20.75%) longrange (-1219023923|2139101221)
+  MNAM-572  t824 zero_frac (166, 20.15%) longrange (-2147483648|2121335749)
+  MNAM-576  t824 zero_frac (181, 21.97%) float_one (41, 4.98%) float_int (3, 0.36%)
+  MNAM-580  t824 zero_frac (203, 24.64%) float_one (42, 5.10%)
+  MNAM-584  t824 zero_frac (198, 24.03%) longrange (-2147483648|1935588124)
+  MNAM-588  t824 zero_frac (207, 25.12%) float_one (58, 7.04%) float_int (3, 0.36%)
+  MNAM-592  t824 zero_frac (199, 24.15%) float_one (30, 3.64%) float_int (2, 0.24%)
+  MNAM-596  t824 zero_frac (201, 24.39%) float_one (34, 4.13%) float_int (3, 0.36%)
+  MNAM-600  t824 zero_frac (159, 19.30%) longrange (-2109734144|1971235387)
+  MNAM-604  t824 zero_frac (157, 19.05%) longrange (-2147483648|1982984099)
+  MNAM-608  t824 zero_frac (156, 18.93%) float_one (23, 2.79%) float_int (2, 0.24%)
+  MNAM-612  t824 zero_frac (194, 23.54%) longrange (-1881522429|2145372211)
+  MNAM-616  t824 zero_frac (205, 24.88%) float_one (21, 2.55%) float_int (2, 0.24%)
+  MNAM-620  t824 zero_frac (216, 26.21%) float_one (52, 6.31%) float_int (2, 0.24%)
+  MNAM-624  t824 zero_frac (121, 14.68%) float_one (43, 5.22%) float_int (1, 0.12%)
+  MNAM-628  t824 zero_frac (178, 21.60%) longrange (-1902914605|1918986307)
+  MNAM-632  t824 zero_frac (166, 20.15%) float_one (41, 4.98%) float_int (3, 0.36%)
+  MNAM-636  t824 zero_frac (167, 20.27%) longrange (-1431655040|2076643799)
+  MNAM-640  t824 zero_frac (169, 20.51%) longrange (-1672934541|1967540296)
+  MNAM-644  t824 zero_frac (166, 20.15%) longrange (-1560592573|1953066610)
+  MNAM-648  t824 zero_frac (160, 19.42%) float_one (26, 3.16%) float_int (1, 0.12%)
+  MNAM-652  t824 zero_frac (160, 19.42%) longrange (-1568142811|1767072869)
+  MNAM-656  t824 zero_frac (182, 22.09%) float_one (26, 3.16%) float_int (1, 0.12%)
+  MNAM-660  t824 zero_frac (203, 24.64%) float_one (19, 2.31%) float_int (1, 0.12%)
+  MNAM-664  t824 zero_frac (193, 23.42%) longrange (-2147483293|2143946303)
+  MNAM-668  t824 zero_frac (210, 25.49%) float_one (54, 6.55%) float_int (1, 0.12%)
+  MNAM-672  t824 zero_frac (152, 18.45%) longrange (-1911026629|2143946047)
+  MNAM-676  t824 zero_frac (154, 18.69%) longrange (-1183954944|1743778111)
+  MNAM-680  t824 zero_frac (210, 25.49%) float_one (23, 2.79%) float_int (1, 0.12%)
+  MNAM-684  t824 zero_frac (207, 25.12%) longrange (-1465232032|1951622252)
+  MNAM-688  t824 zero_frac (144, 17.48%) float_one (30, 3.64%) float_int (2, 0.24%)
+  MNAM-692  t824 zero_frac (152, 18.45%) float_one (21, 2.55%) float_int (2, 0.24%)
+  MNAM-696  t824 zero_frac (209, 25.36%) longrange (-1146890486|2143946303)
+  MNAM-700  t824 zero_frac (158, 19.17%) float_one (51, 6.19%) float_int (8, 0.97%)
+  MNAM-704  t824 zero_frac (222, 26.94%) longrange (-2069957477|2143946047)
+  MNAM-708  t824 zero_frac (204, 24.76%) float_one (28, 3.40%) float_int (1, 0.12%)
+  MNAM-712  t824 zero_frac (176, 21.36%) longrange (-2147483648|2065597534)
+  MNAM-716  t824 zero_frac (194, 23.54%) longrange (-1268115939|2071190200)
+  MNAM-720  t824 zero_frac (178, 21.60%) longrange (-1414812927|1936018780)
+  MNAM-724  t824 zero_frac (186, 22.57%) float_one (36, 4.37%) float_int (1, 0.12%)
+  MNAM-728  t824 zero_frac (181, 21.97%) longrange (-1442838446|2143946303)
+  MNAM-732  t824 zero_frac (169, 20.51%) longrange (-1426060718|2133867879)
+  MNAM-736  t824 zero_frac (169, 20.51%) longrange (-2147483273|2143946047)
+  MNAM-740  t824 zero_frac (188, 22.82%) float_one (29, 3.52%) float_int (2, 0.24%)
+  MNAM-744  t824 zero_frac (184, 22.33%) float_one (11, 1.33%) float_int (2, 0.24%)
+  MNAM-748  t824 zero_frac (185, 22.45%) float_one (40, 4.85%) float_int (2, 0.24%)
+  MNAM-752  t824 zero_frac (200, 24.27%) longrange (-1826727787|1952215909)
+  MNAM-756  t824 zero_frac (205, 24.88%) float_one (30, 3.64%) float_int (2, 0.24%)
+  MNAM-760  t824 zero_frac (175, 21.24%) longrange (-2147483648|2143946303)
+  MNAM-764  t824 zero_frac (179, 21.72%) longrange (-1244470919|1936617317)
+  MNAM-768  t824 zero_frac (180, 21.84%) longrange (-1661114613|2143946047)
+  MNAM-772  t824 zero_frac (176, 21.36%) float_one (38, 4.61%) float_int (1, 0.12%)
+  MNAM-776  t824 zero_frac (187, 22.69%) float_one (20, 2.43%) float_int (2, 0.24%)
+  MNAM-780  t824 zero_frac (138, 16.75%) float_one (42, 5.10%) float_int (2, 0.24%)
+  MNAM-784  t824 zero_frac (111, 13.47%) float_one (13, 1.58%) float_int (1, 0.12%)
+  MNAM-788  t824 zero_frac (110, 13.35%) float_one (32, 3.88%) float_int (2, 0.24%)
+  MNAM-792  t824 zero_frac (127, 15.41%) longrange (-2126857896|2143946303)
+  MNAM-796  t824 zero_frac (129, 15.66%) longrange (-1880462742|2142911711)
+  MNAM-800  t824 zero_frac (97, 11.77%) longrange (-1906529237|2143946047)
+  MNAM-804  t824 zero_frac (94, 11.41%) float_one (63, 7.65%) float_int (1, 0.12%)
+  MNAM-808  t824 zero_frac (156, 18.93%) float_one (10, 1.21%) float_int (10, 1.21%) longrange (-2147483264|2031786621)
+  MNAM-812  t824 zero_frac (155, 18.81%) float_one (45, 5.46%) float_int (2, 0.24%)
+  MNAM-816  t824 zero_frac (117, 14.20%) longrange (-2036597792|1936026912)
+  MNAM-820  t824 zero_frac (200, 24.27%) float_one (43, 5.22%) float_int (1, 0.12%)
+  MNAM-824  t824 zero_frac (190, 23.06%) longrange (-1327886336|2145263818)
+  MNAM-828  t824 zero_frac (193, 23.42%) longrange (-1477210379|2078245919)
+  MNAM-832  t824 zero_frac (207, 25.12%) longrange (-2147483648|2143946047)
+  MNAM-836  t824 zero_frac (247, 29.98%) float_one (42, 5.10%) float_int (1, 0.12%)
+  MNAM-840  t824 zero_frac (231, 28.03%) float_one (36, 4.37%) float_int (1, 0.12%)
+  MNAM-844  t824 zero_frac (231, 28.03%) longrange (-2147483648|1803545631)
+  MNAM-848  t824 zero_frac (249, 30.22%) float_one (35, 4.25%) float_int (3, 0.36%)
+  MNAM-852  t824 zero_frac (243, 29.49%) float_one (41, 4.98%) float_int (1, 0.12%)
+  MNAM-856  t824 zero_frac (244, 29.61%) longrange (-2147483648|2143946303)
+  MNAM-860  t824 zero_frac (214, 25.97%) float_one (65, 7.89%) float_int (3, 0.36%)
+  MNAM-864  t824 zero_frac (165, 20.02%) longrange (-1876549747|2143946047)
+  MNAM-868  t824 zero_frac (188, 22.82%) longrange (-1734000923|1667854447)
+  MNAM-872  t824 zero_frac (262, 31.80%) longrange (-1165163593|1952609619)
+  MNAM-876  t824 zero_frac (231, 28.03%) float_one (51, 6.19%) float_int (1, 0.12%)
+  MNAM-880  t824 zero_frac (181, 21.97%) float_one (70, 8.50%) float_int (1, 0.12%)
+  MNAM-884  t824 zero_frac (196, 23.79%) float_one (41, 4.98%) float_int (2, 0.24%)
+  MNAM-888  t824 zero_frac (183, 22.21%) longrange (-1414812927|2143946303)
+  MNAM-892  t824 zero_frac (236, 28.64%) float_one (56, 6.80%) float_int (1, 0.12%)
+  MNAM-896  t824 zero_frac (207, 25.12%) longrange (-1763111386|2143946047)
+  MNAM-900  t824 zero_frac (178, 21.60%) float_one (42, 5.10%) float_int (1, 0.12%)
+  MNAM-904  t824 zero_frac (218, 26.46%) float_one (40, 4.85%) float_int (1, 0.12%)
+  MNAM-908  t824 zero_frac (224, 27.18%) float_one (47, 5.70%) float_int (2, 0.24%)
+  MNAM-912  t824 zero_frac (171, 20.75%) float_one (54, 6.55%) float_int (1, 0.12%)
+  MNAM-916  t824 zero_frac (191, 23.18%) float_one (55, 6.67%)
+  MNAM-920  t824 zero_frac (189, 22.94%) longrange (-2067872869|2143946303)
+  MNAM-924  t824 zero_frac (234, 28.40%) longrange (-1414812927|1828655575)
+  MNAM-928  t824 zero_frac (174, 21.12%) longrange (-1424469109|2143946047)
+  MNAM-932  t824 zero_frac (209, 25.36%) float_one (54, 6.55%) float_int (4, 0.49%)
+  MNAM-936  t824 zero_frac (212, 25.73%) float_one (40, 4.85%) float_int (2, 0.24%)
+  MNAM-940  t824 zero_frac (169, 20.51%) float_one (52, 6.31%) float_int (17, 2.06%)
+  MNAM-944  t824 zero_frac (203, 24.64%) float_one (47, 5.70%) float_int (3, 0.36%)
+  MNAM-948  t824 zero_frac (199, 24.15%) float_one (62, 7.52%) float_int (2, 0.24%)
+  MNAM-952  t824 zero_frac (215, 26.09%) longrange (-1290269554|2143946303)
+  MNAM-956  t824 zero_frac (241, 29.25%) float_one (50, 6.07%) float_int (6, 0.73%)
+  MNAM-960  t824 zero_frac (200, 24.27%) longrange (-1826684303|2143946047)
+  MNAM-964  t824 zero_frac (224, 27.18%) float_one (51, 6.19%) float_int (1, 0.12%)
+  MNAM-968  t824 zero_frac (240, 29.13%) longrange (-2076203970|1997603096)
+  MNAM-972  t824 zero_frac (244, 29.61%) longrange (-1866735031|1822397791)
+  MNAM-976  t824 zero_frac (278, 33.74%) float_one (44, 5.34%) float_int (7, 0.85%)
+  MNAM-980  t824 zero_frac (223, 27.06%) float_one (51, 6.19%) float_int (2, 0.24%)
+  MNAM-984  t824 zero_frac (281, 34.10%) longrange (-2074106754|2143946303)
+  MNAM-988  t824 zero_frac (240, 29.13%) float_one (54, 6.55%) float_int (2, 0.24%)
+  MNAM-992  t824 zero_frac (214, 25.97%) longrange (-1696661216|1936018780)
+  MNAM-996  t824 zero_frac (236, 28.64%) float_one (36, 4.37%) float_int (2, 0.24%)
+  MNAM-1000  t824 zero_frac (223, 27.06%) float_one (22, 2.67%) float_int (1, 0.12%)
+  MNAM-1004  t824 zero_frac (261, 31.67%) longrange (-1373109539|2107150374)
+  MNAM-1008  t824 zero_frac (256, 31.07%) float_one (36, 4.37%) float_int (1, 0.12%)
+  MNAM-1012  t824 zero_frac (237, 28.76%) longrange (-1163931648|2130708562)
+  MNAM-1016  t824 zero_frac (288, 34.95%) longrange (-1151917811|2143946303)
+  MNAM-1020  t824 zero_frac (227, 27.55%) float_one (51, 6.19%) float_int (1, 0.12%)
+  MNAM-1024  t824 zero_frac (300, 36.41%) longrange (-2131619994|2143946047)
+  MNAM-1028  t824 zero_frac (287, 34.83%) float_one (39, 4.73%) float_int (1, 0.12%)
+  MNAM-1032  t824 zero_frac (285, 34.59%) longrange (-1935686789|2078245951)
+  MNAM-1036  t824 zero_frac (278, 33.74%) float_one (64, 7.77%) float_int (1, 0.12%)
+  MODL 12-88 t9712 string (all)
+  MODS 25-193 t971 longrange (1|4)
+  MODT 12-564 t9594 longrange (-2130743752|2139825103)
+  OBND 12 t9720 offsets:  3-int-35 7-int-23 5-int-2 1-int-1
+  OBND-0  t9720 zero_frac (269, 2.77%) longrange (-2147450880|351206179)
+  OBND-4  t9720 zero_frac (286, 2.94%) longrange (-132513631|2147450880)
+  OBND-8  t9720 zero_frac (269, 2.77%) longrange (-50268016|2147450879)
+
+Stats for record MSTT
+  DATA 1 t691 byterange (0|2)
+  DEST 8 t2
+  DEST-0  t2 longrange (100|100)
+  DEST-4  t2 longrange (1507332|1572866) byterange (0|24)
+  DMDL 48-52 t3 string (all)
+  DMDT 24 t2
+  DMDT-0  t2 longrange (184770017|184770017)
+  DMDT-4  t2 longrange (7562340|7562340)
+  DMDT-8  t2 longrange (-235202290|-235202290)
+  DMDT-12  t2 longrange (-338250497|-338250497)
+  DMDT-16  t2 longrange (7562340|7562340)
+  DMDT-20  t2 longrange (-235202290|-235202290)
+  DSTD 20 t6
+  DSTD-0  t6 longrange (65611|218169394) byterange (0|75)
+  DSTD-4  t6 zero_frac (5, 83.33%) longrange (2|2)
+  DSTD-8  t6 zero_frac (5, 83.33%) longrange (1072382|1072382)
+  DSTD-12  t6 zero (all)
+  DSTD-16  t6 zero (all)
+  DSTF 0 t6 string (all)
+  EDID 4-44 t691 string (all)
+  MODL 20-70 t691 string (all)
+  MODS 25-67 t90 longrange (1|3)
+  MODT 12-240 t680 longrange (-2102808850|2139825103)
+  OBND 12 t691 offsets:  3-int-3
+  OBND-0  t691 zero_frac (14, 2.03%) longrange (-2147450880|134346985)
+  OBND-4  t691 zero_frac (14, 2.03%) longrange (-88080903|2147450880)
+  OBND-8  t691 zero_frac (14, 2.03%) longrange (-1032519147|2147450879)
+  SNAM 4 t92 longrange (3967|1109664)
+
+Stats for record GRAS
+  DATA 32 t27 offsets:  23-int-1
+  DATA-0  t27 floatrange (-191889568|0.6640647649765) longrange (-853802994|1059717158)
+  DATA-4  t27 zero_frac (1, 3.70%) float_one (3, 11.11%) floatrange (-429928640|1) longrange (-842203136|1065353216) flags_set  2@0 3@1 1@2 2@3 1@4 1@5 1@6 3@7 1@8
+  DATA-8  t27 zero_frac (23, 85.19%) longrange (2|2)
+  DATA-12  t27 float_int (27, 100.00%) floatrange (29|68)
+  DATA-16  t27 floatrange (0.20000000298023|0.40000000596046) longrange (1045220557|1053609165)
+  DATA-20  t27 floatrange (0.050000000745058|0.30000001192093) longrange (1028443341|1050253722) flags_set  21@0 4@1 21@2 25@3 4@4 21@6 25@7 4@8 21@10 25@11 4@12 21@14 25@15
+  DATA-24  t27 float_int (27, 100.00%) floatrange (50|600)
+  DATA-28  t27 float_one (3, 11.11%) floatrange (-431595712|1.0000007152557) longrange (-842150650|1065353222) flags_set  27@1 27@2 20@8 20@10 20@11 20@14 20@15
+  EDID 12-19 t27 string (all)
+  MODL 32-41 t27 string (all)
+  MODT 24 t27 longrange (-2136098525|2118980937)
+  OBND 12 t27
+  OBND-0  t27 zero_frac (6, 22.22%) longrange (-3670073|-1441817)
+  OBND-4  t27 zero_frac (6, 22.22%) longrange (1703935|3604478)
+  OBND-8  t27 zero_frac (6, 22.22%) longrange (458775|17891378) byterange (0|93)
+
+Stats for record TREE
+  CNAM 48 t154 offsets:  39-int-65 43-int-33 9-int-12 3-int-2 23-int-2 27-int-2 31-int-2 10-int-2
+  CNAM-0  t154 zero_frac (36, 23.38%) float_one (111, 72.08%) float_int (7, 4.55%) floatrange (1|10)
+  CNAM-4  t154 zero_frac (1, 0.65%) float_one (104, 67.53%) float_int (25, 16.23%) floatrange (1|10)
+  CNAM-8  t154 zero_frac (36, 23.38%) floatrange (0.029999999329448|0.40000000596046) longrange (1022739087|1053609165) flags_set  118@0 111@1 9@2 118@3 7@6 9@7 109@8 111@9 116@10 7@11 109@12 118@14 118@15
+  CNAM-12  t154 zero_frac (1, 0.65%) floatrange (0.030000001192093|0.60000002384186) longrange (1022739088|1058642330) flags_set  18@0 42@1 8@2 26@3 137@4 8@5 20@6 143@7 42@8 111@9 22@10 32@11 42@12 22@13 121@14 145@15
+  CNAM-16  t154 zero_frac (1, 0.65%) floatrange (0.040000002831221|0.40000000596046) longrange (1025758987|1053609165) flags_set  145@0 119@1 40@2 151@3 8@4 20@5 28@6 48@7 123@8 123@9 145@10 30@11 115@12 147@14 133@15
+  CNAM-20  t154 zero_frac (1, 0.65%) floatrange (0.034000001847744|0.40000000596046) longrange (1024148374|1053609165) flags_set  48@0 139@1 125@2 42@3 133@4 36@5 44@6 123@7 113@8 107@9 48@10 24@11 34@12 18@13 125@14 10@15
+  CNAM-24  t154 zero_frac (1, 0.65%) float_int (15, 9.74%) floatrange (0.075000002980232|5)
+  CNAM-28  t154 zero_frac (1, 0.65%) float_int (15, 9.74%) floatrange (0.025000000372529|5)
+  CNAM-32  t154 zero_frac (1, 0.65%) float_one (2, 1.30%) float_int (20, 12.99%) floatrange (0.035000000149012|4)
+  CNAM-36  t154 float_one (154, 100.00%) floatrange (1|1)
+  CNAM-40  t154 float_one (2, 1.30%) float_int (120, 77.92%) floatrange (0.5|10)
+  CNAM-44  t154 float_one (19, 12.34%) float_int (5, 3.25%) floatrange (0.10000000149012|2.5)
+  EDID 12-34 t154 string (all)
+  FULL 4 t32 longrange (2473|64451)
+  MODL 23-46 t154 string (all)
+  MODT 24-120 t154 longrange (-1989616280|1756309779)
+  OBND 12 t154 offsets:  3-int-1
+  OBND-0  t154 longrange (-69010569|-655385)
+  OBND-4  t154 longrange (393067|70516451)
+  OBND-8  t154 longrange (655415|163905860)
+  PFIG 4 t32 longrange (79018|1103462)
+  PFPC 4 t154 string_frac (30, 19.48%) zero_frac (124, 80.52%) longrange (1684300900|1684300900) byterange (0|100)
+  SNAM 4 t32 longrange (248841|1052552) flags_set  25@0 1@1 16@2 15@3 17@4 3@5 24@6 25@7 29@8 12@9 16@10 24@11 24@12 4@13 3@14 7@15
+
+Stats for record FLOR
+  EDID 7-37 t86 string (all)
+  FNAM 2 t86 byterange (0|0)
+  FULL 4 t86 longrange (343|72814)
+  MODL 18-51 t86 string (all)
+  MODS 33-38 t21 longrange (1|1)
+  MODT 36-84 t86 longrange (2|2)
+  OBND 12 t86
+  OBND-0  t86 zero_frac (16, 18.60%) longrange (-32637041|4259838)
+  OBND-4  t86 zero_frac (16, 18.60%) longrange (-35913833|11927531)
+  OBND-8  t86 zero_frac (16, 18.60%) longrange (8|16187533)
+  PFIG 4 t83 longrange (146799|968816)
+  PFPC 4 t86 string_frac (82, 95.35%) zero_frac (4, 4.65%) longrange (1684300900|1684300900) byterange (0|100) flags_set  82@2 82@5 82@6 82@10 82@13 82@14
+  PNAM 4 t86 zero (all)
+  RNAM 4 t71 longrange (41879|72808)
+  SNAM 4 t83 longrange (260298|1113424)
+  VMAD 59-152 t3 longrange (131077|131077) byterange (0|5)
+
+Stats for record FURN
+  DEST 8 t2
+  DEST-0  t2 longrange (1|100)
+  DEST-4  t2 longrange (1572866|1572866) byterange (0|24)
+  DSTD 20 t4
+  DSTD-0  t4 longrange (131328|201326848) byterange (0|100)
+  DSTD-4  t4 zero (all)
+  DSTD-8  t4 zero (all)
+  DSTD-12  t4 zero (all)
+  DSTD-16  t4 zero (all)
+  DSTF 0 t4 string (all)
+  EDID 9-36 t400 string (all)
+  ENAM 4 t187 zero_frac (175, 93.58%) longrange (1|2)
+  FNAM 2 t400 byterange (0|2)
+  FNMK 4 t4 rectypes (KYWD=4 )
+  FNPR 4 t500 longrange (65537|1572865) byterange (0|24) flags_set  320@0 178@1 2@2
+  FULL 4 t319 longrange (35|75423)
+  KNAM 4 t379 rectypes (KYWD=379 )
+  KSIZ 4 t246 longrange (1|7)
+  KWDA 4-28 t246 rectypes (KYWD=127 ) longrange (190701|1074452)
+  KWDA-0  t119 rectypes (KYWD=119 )
+  KWDA-4  t119 rectypes (KYWD=119 )
+  MNAM 4 t400 zero_frac (2, 0.50%) float_int (230, 57.50%)
+  MODL 25-79 t400 string (all)
+  MODS 30-31 t50 longrange (1|1)
+  MODT 12-424 t340 longrange (-1477752755|2125256681) flags_set  13@0 329@1 13@2 11@3 3@4 12@5 13@6 12@7 8@8 4@9 12@10 10@11 7@12 4@13 9@14 6@15
+  NAM0 4 t185 longrange (2|1179648) byterange (0|18) flags_set  4@1
+  OBND 12 t400 offsets:  3-int-5
+  OBND-0  t400 zero_frac (46, 11.50%) longrange (-102434332|-524310)
+  OBND-4  t400 zero_frac (46, 11.50%) longrange (720882|102562400)
+  OBND-8  t400 zero_frac (46, 11.50%) longrange (786508|132382941)
+  PNAM 4 t400 zero_frac (389, 97.25%) longrange (3361996|3361996) flags_set  11@2 11@3 11@6 11@7 11@10 11@11 11@14
+  VMAD 20-277 t34 longrange (65540|131077) byterange (0|5) flags_set  31@0 34@2
+  WBDT 2 t400 byterange (-1|23)
+  XMRK 27-41 t33 string (all)
+
+Stats for record WEAP
+  BAMT 4 t2459 longrange (99329|947495)
+  BIDS 4 t2428 longrange (99327|103369)
+  CNAM 4 t2210 longrange (77495|1024705)
+  CRDT 16 t2484 offsets:  3-int-1
+  CRDT-0  t2484 zero_frac (263, 10.59%) longrange (1|13)
+  CRDT-4  t2484 zero_frac (89, 3.58%) float_one (2388, 96.14%) floatrange (1|1.5)
+  CRDT-8  t2484 longrange (-256|-255) byterange (-1|1)
+  CRDT-12  t2484 zero (all)
+  DATA 10 t2484 offsets:  3-int-256
+  DATA-0  t2484 zero_frac (49, 1.97%) longrange (1|4000)
+  DATA-4  t2484 zero_frac (56, 2.25%) float_one (2, 0.08%) float_int (2323, 93.52%) floatrange (0.5|36)
+  DATA-8  t2484 byterange (0|60)
+  DESC 4 t2484 zero_frac (2451, 98.67%) longrange (67563|75286) flags_set  13@0 21@1 15@2 16@3 18@4 21@5 15@6 14@7 16@8 14@9 26@10 22@11 13@12 1@13
+  DNAM 100 t2484 offsets:  37-int-2 95-int-372 3-int-38 47-int-240 7-int-1
+  DNAM-0  t2484 zero_frac (18, 0.72%) longrange (1|8)
+  DNAM-4  t2484 float_one (546, 21.98%) float_int (13, 0.52%) floatrange (0.5|10)
+  DNAM-8  t2484 float_one (1248, 50.24%) floatrange (0.69999998807907|1.5)
+  DNAM-12  t2484 longrange (9502720|9502920) flags_set  1@0 54@3 2@4 3@5 1336@6 40@7
+  DNAM-16  t2484 zero_frac (2474, 99.60%) floatrange (0.40000000596046|0.40000000596046) longrange (1053609165|1053609165) flags_set  10@0 10@2 10@3 10@6 10@7 10@10 10@11 10@14 10@15
+  DNAM-20  t2484 zero (all)
+  DNAM-24  t2484 longrange (130816|130821) byterange (-1|5) flags_set  119@0 119@2 2484@8 2484@9 2484@10 2484@11 2484@12 2484@13 2484@14 2484@15
+  DNAM-28  t2484 zero_frac (2188, 88.08%) float_int (296, 11.92%) floatrange (500|500)
+  DNAM-32  t2484 zero_frac (2188, 88.08%) floatrange (2000|2000) longrange (1157234688|1157234688)
+  DNAM-36  t2484 zero (all)
+  DNAM-40  t2484 zero_frac (1130, 45.49%) longrange (1|8448)
+  DNAM-44  t2484 float_one (2484, 100.00%) floatrange (1|1)
+  DNAM-48  t2484 float_one (418, 16.83%) float_int (196, 7.89%) floatrange (0.10000000149012|5)
+  DNAM-52  t2484 zero_frac (195, 7.85%) floatrange (0.5|0.5) longrange (1056964608|1056964608) byterange (0|63)
+  DNAM-56  t2484 zero_frac (195, 7.85%) float_one (2289, 92.15%) floatrange (1|1)
+  DNAM-60  t2484 zero_frac (195, 7.85%) floatrange (0.33000001311302|0.33000001311302) longrange (1051260355|1051260355) flags_set  2289@0 2289@1 2289@6 2289@7 2289@8 2289@10 2289@12 2289@13 2289@14 2289@15
+  DNAM-64  t2484 zero (all)
+  DNAM-68  t2484 zero (all)
+  DNAM-72  t2484 zero (all)
+  DNAM-76  t2484 longrange (-1|22)
+  DNAM-80  t2484 zero (all)
+  DNAM-84  t2484 zero (all)
+  DNAM-88  t2484 longrange (-1|-1)
+  DNAM-92  t2484 zero (all)
+  DNAM-96  t2484 zero_frac (655, 26.37%) float_one (283, 11.39%) floatrange (0.25|1.5)
+  EAMT 2 t2273 string_frac (5, 0.22%)
+  EDID 6-40 t2484 string (all)
+  EITM 4 t2293 rectypes (ENCH=2293 )
+  ETYP 4 t2479 longrange (81730|81733) byterange (0|69)
+  FULL 4 t2451 longrange (69|75443)
+  INAM 4 t2406 longrange (81068|937136)
+  KSIZ 4 t2466 longrange (1|5)
+  KWDA 4-20 t2466 rectypes (KYWD=2362 )
+  KWDA-0  t104 rectypes (KYWD=104 )
+  KWDA-4  t104 rectypes (KYWD=104 )
+  MODL 22-48 t2466 string (all)
+  MODS 29 t1 longrange (1|1)
+  MODT 12-180 t2466 longrange (2|2)
+  NAM8 4 t2465 longrange (247599|937745)
+  NAM9 4 t2465 longrange (247598|937744)
+  NNAM 11 t4 string (all)
+  OBND 12 t2484
+  OBND-0  t2484 zero_frac (72, 2.90%) longrange (-6750218|1114109) flags_set  1315@0 1088@1 1117@2 1224@3 1983@4 2306@5 2343@6 2343@7 2343@8 2343@9 2343@10 2343@11 2343@12 2343@13 2343@14 2343@15
+  OBND-4  t2484 zero_frac (74, 2.98%) longrange (-131072|4653054) flags_set  1206@0 1635@1 2023@2 2093@3 2252@4 2257@5 2257@6 2257@7 2257@8 2257@9 2257@10 2257@11 2257@12 2257@13 2257@14 2257@15
+  OBND-8  t2484 zero_frac (70, 2.82%) longrange (1|1835071)
+  SNAM 4 t12 longrange (247762|247762) flags_set  12@1 12@4 12@6 12@7 12@8 12@9 12@10 12@14 12@15
+  TNAM 4 t2435 longrange (247600|1072451)
+  UNAM 4 t7 longrange (614630|614630)
+  VMAD 46-80 t8 longrange (131077|131077) byterange (0|5)
+  VNAM 4 t2484 zero_frac (619, 24.92%) longrange (1|2)
+  WNAM 4 t2458 longrange (81591|1107766)
+
+Stats for record AMMO
+  DATA 16 t35 offsets:  7-int-4
+  DATA-0  t35 longrange (82415|1093797)
+  DATA-4  t35 zero_frac (18, 51.43%) longrange (2|2)
+  DATA-8  t35 zero_frac (12, 34.29%) float_one (2, 5.71%) float_int (21, 60.00%) floatrange (1|24)
+  DATA-12  t35 zero_frac (19, 54.29%) longrange (1|8)
+  DESC 4 t35 zero (all)
+  EDID 8-32 t35 string (all)
+  FULL 4 t23 longrange (1236|74864)
+  KSIZ 4 t29 longrange (1|2)
+  KWDA 4-8 t29 rectypes (KYWD=28 )
+  KWDA-0  t1 rectypes (KYWD=1 )
+  KWDA-4  t1 rectypes (KYWD=1 )
+  MODL 27-39 t30 string (all)
+  MODT 12-120 t30 longrange (2|2)
+  OBND 12 t35
+  OBND-0  t35 zero_frac (13, 37.14%) longrange (-5701639|-393216)
+  OBND-4  t35 zero_frac (15, 42.86%) longrange (65533|655355)
+  OBND-8  t35 zero_frac (16, 45.71%) longrange (2|327682) byterange (-1|88) flags_set  2@0 4@1 1@2 2@3 2@4 1@5 2@6 1@7 1@8 1@9 1@10 1@11 1@12 1@13 1@14 1@15
+  YNAM 4 t35 longrange (255927|255927) flags_set  35@0 35@1 35@2 35@4 35@5 35@7 35@8 35@9 35@10 35@13 35@14 35@15
+  ZNAM 4 t35 longrange (256119|256119) flags_set  35@0 35@1 35@2 35@4 35@5 35@6 35@11 35@13 35@14 35@15
+
+Stats for record NPC_
+  ACBS 24 t5118 offsets:  17-int-1
+  ACBS-0  t5118 zero_frac (989, 19.32%) longrange (-2147483648|807403520) flags_set  1191@0 269@1 200@2 2430@3 3439@4 1101@5 22@6 454@7 33@8 81@11 40@14
+  ACBS-4  t5118 zero_frac (3061, 59.81%) longrange (-11796480|26214410) flags_set  775@0 1191@1 1022@2 345@3 575@4 1299@5 1068@6 712@7 567@8 566@9 564@10 564@11 562@12 562@13 564@14 562@15
+  ACBS-8  t5118 longrange (1|2293810)
+  ACBS-12  t5118 longrange (65536|13107200) flags_set  123@0 242@1 905@2 239@3 270@4 851@5 704@6
+  ACBS-16  t5118 zero_frac (339, 6.62%) longrange (35|536805411)
+  ACBS-20  t5118 zero_frac (3169, 61.92%) longrange (10|3276950)
+  AIDT 20 t5118 offsets:  13-int-4 9-int-2
+  AIDT-0  t5118 zero_frac (1, 0.02%) longrange (3276800|56886274) byterange (0|100)
+  AIDT-4  t5118 zero_frac (1862, 36.38%) longrange (1|989855744) byterange (0|59) flags_set  363@0 277@1 132@2 1026@8 2073@9
+  AIDT-8  t5118 zero_frac (5005, 97.79%) longrange (1|4096) flags_set  2@0 5@1 22@2 11@3 31@4 17@5 32@6 38@7 38@8 24@9 24@10 75@11 2@12
+  AIDT-12  t5118 zero_frac (4903, 95.80%) longrange (150|354966912) flags_set  29@0 41@1 58@2 61@3 101@4 72@5 109@6 113@7 100@8 115@9 154@10 57@11 42@12 46@13 42@14 50@15
+  AIDT-16  t5118 zero_frac (4892, 95.58%) longrange (37|88741728) flags_set  41@0 46@1 106@2 106@3 105@4 88@5 116@6 117@7 127@8 124@9 86@10 48@11 42@12 50@13 60@14 53@15
+  ANAM 4 t25 longrange (130428|1014932) flags_set  18@0 1@1 7@2 6@3 23@4 21@5 6@6 2@7 21@8 17@9 23@10 8@11 6@12 6@13 8@14 6@15
+  ATKD 44 t86
+  ATKD-0  t86 float_int (86, 100.00%) floatrange (3|3)
+  ATKD-4  t86 floatrange (0.5|0.5) longrange (1056964608|1056964608) byterange (0|63)
+  ATKD-8  t86 rectypes (SPEL=86 )
+  ATKD-12  t86 longrange (-2147483644|-2147483644) flags_set  86@2
+  ATKD-16  t86 zero (all)
+  ATKD-20  t86 float_int (86, 100.00%) floatrange (35|35)
+  ATKD-24  t86 float_one (86, 100.00%) floatrange (1|1)
+  ATKD-28  t86 zero (all)
+  ATKD-32  t86 zero (all)
+  ATKD-36  t86 zero (all)
+  ATKD-40  t86 float_one (86, 100.00%) floatrange (1|1)
+  ATKE 24 t86 string (all)
+  ATKR 4 t685 rectypes (RACE=682 )
+  CNAM 4 t5118 rectypes (CLAS=5118 )
+  CNTO 8 t9647
+  CNTO-0  t9647 longrange (10|1113866)
+  CNTO-4  t9647 longrange (1|500) flags_set  9226@0 402@1 186@2 163@3 32@4 6@5 3@6 3@7 1@8
+  COCT 4 t3487 longrange (1|16)
+  CRIF 4 t1272 rectypes (FACT=1272 )
+  CSCR 4 t725 longrange (98105|1113444)
+  CSDC 1 t36 string (all)
+  CSDI 4 t36 longrange (114783|1113443)
+  CSDT 4 t36 zero_frac (1, 2.78%) longrange (6|7)
+  DATA 0 t5118 string (all)
+  DEST 8 t2
+  DEST-0  t2 longrange (50|325) byterange (0|69)
+  DEST-4  t2 longrange (1426063360|1426063361) byterange (0|85)
+  DNAM 52 t5118 offsets:  33-int-169 37-int-8 42-int-19 34-int-9
+  DNAM-0  t5118 longrange (84215045|1684279140) byterange (5|100)
+  DNAM-4  t5118 longrange (84215045|772740111) byterange (5|100) flags_set  4037@0 2394@1 4921@2 2407@3 1210@4 18@5 6@6 4334@8 2727@9 4561@10 2639@11 925@12 360@13 46@14
+  DNAM-8  t5118 longrange (84215045|1684279055) byterange (5|100) flags_set  5013@0 3331@1 5050@2 3359@3 166@4 2@5 3899@8 2470@9 3887@10 2065@11 1571@12 768@13 183@14
+  DNAM-12  t5118 longrange (1285|1684281615) byterange (0|100) flags_set  3913@0 2347@1 4714@2 2319@3 1278@4 468@5 143@6 4623@8 2619@9 4410@10 2937@11 900@12 369@13 224@14
+  DNAM-16  t5118 zero_frac (9, 0.18%) longrange (1285|25700) byterange (0|100)
+  DNAM-20  t5118 zero_frac (5117, 99.98%) longrange (60|60)
+  DNAM-24  t5118 zero_frac (5105, 99.75%) floatrange (8192|8192) longrange (1174405120|1174405120) byterange (0|70)
+  DNAM-28  t5118 zero_frac (5114, 99.92%) longrange (12800|838860800) byterange (0|100)
+  DNAM-32  t5118 zero_frac (5116, 99.96%) longrange (3276850|3276850) byterange (0|50) flags_set  2@1 2@4 2@5
+  DNAM-36  t5118 zero_frac (222, 4.34%) longrange (-1265348117|1953775918)
+  DNAM-40  t5118 longrange (25|1103625)
+  DNAM-44  t5118 zero_frac (5097, 99.59%) float_int (2, 0.04%) floatrange (25|10000) longrange (1103626240|1176256512)
+  DNAM-48  t5118 longrange (5537280|5540868) flags_set  4352@0 25@1 9@2 1@5 2959@9 5118@10 5118@11 2959@12 2959@13 2959@14 2159@15
+  DOFT 4 t3633 longrange (87264|1113730)
+  DPLT 4 t2382 longrange (94272|1110694) flags_set  2013@0 398@1 41@2 72@3 66@4 308@5 396@6 2224@7 44@8 2282@9 1995@10 2252@11 2042@12 375@13 156@14 95@15
+  DSTD 20 t1
+  DSTD-0  t1 longrange (65546|65546) byterange (0|10)
+  DSTD-4  t1 longrange (1|1)
+  DSTD-8  t1 zero (all)
+  DSTD-12  t1 zero (all)
+  DSTD-16  t1 zero (all)
+  DSTF 0 t1 string (all)
+  ECOR 4 t181 longrange (101525|1108775)
+  EDID 4-64 t5118 string (all)
+  FTST 4 t1638 rectypes (TXST=1638 )
+  FULL 4 t2159 longrange (3|75406)
+  GNAM 4 t14 longrange (659020|664719) flags_set  6@0 8@1 10@2 14@3 5@4 8@6 6@7 8@9 14@10 8@11 6@13
+  HCLF 4 t2657 longrange (534983|1013093) flags_set  1531@0 1006@1 1454@2 824@3 2089@4 2604@5 169@6 53@7 169@8 5@9 2599@10 53@11 121@12 169@13 116@14
+  INAM 4 t1847 longrange (241015|1113977)
+  KSIZ 4 t431 longrange (1|5)
+  KWDA 4-20 t431 rectypes (KYWD=419 )
+  KWDA-0  t12 rectypes (KYWD=12 )
+  KWDA-4  t12 rectypes (KYWD=12 )
+  NAM5 2 t5118 byterange (-1|0)
+  NAM6 4 t5118 string_frac (1, 0.02%) float_one (5088, 99.41%) float_int (3, 0.06%) floatrange (0.5|3.2999999523163)
+  NAM7 4 t5118 zero_frac (574, 11.22%) float_one (480, 9.38%) float_int (4064, 79.41%) floatrange (1|100)
+  NAM8 4 t5118 zero_frac (2, 0.04%) longrange (1|1)
+  NAM9 76 t2743 offsets:  45-int-28 53-int-23 25-int-4 57-int-1 13-int-5 41-int-4 33-int-2 34-int-1 54-int-1 17-int-39 46-int-1 29-int-1
+  NAM9-0  t2743 zero_frac (382, 13.93%) float_one (512, 18.67%) floatrange (-1|1)
+  NAM9-4  t2743 zero_frac (306, 11.16%) float_one (295, 10.75%) floatrange (-1|1)
+  NAM9-8  t2743 zero_frac (511, 18.63%) float_one (414, 15.09%) floatrange (-1|1)
+  NAM9-12  t2743 zero_frac (346, 12.61%) float_one (679, 24.75%) floatrange (-1|1)
+  NAM9-16  t2743 zero_frac (1245, 45.39%) float_one (190, 6.93%) floatrange (-1|1)
+  NAM9-20  t2743 zero_frac (387, 14.11%) float_one (446, 16.26%) floatrange (-1|1)
+  NAM9-24  t2743 zero_frac (381, 13.89%) float_one (488, 17.79%) floatrange (-1|1)
+  NAM9-28  t2743 zero_frac (175, 6.38%) float_one (358, 13.05%) floatrange (-1|1)
+  NAM9-32  t2743 zero_frac (299, 10.90%) float_one (172, 6.27%) floatrange (-1|1)
+  NAM9-36  t2743 zero_frac (265, 9.66%) float_one (856, 31.21%) floatrange (-1|1)
+  NAM9-40  t2743 zero_frac (540, 19.69%) float_one (419, 15.28%) floatrange (-1|1)
+  NAM9-44  t2743 zero_frac (806, 29.38%) float_one (457, 16.66%) floatrange (-1|1)
+  NAM9-48  t2743 zero_frac (245, 8.93%) float_one (286, 10.43%) floatrange (-1|1)
+  NAM9-52  t2743 zero_frac (550, 20.05%) float_one (557, 20.31%) floatrange (-1|1)
+  NAM9-56  t2743 zero_frac (420, 15.31%) float_one (344, 12.54%) floatrange (-1|1)
+  NAM9-60  t2743 zero_frac (419, 15.28%) float_one (308, 11.23%) floatrange (-1|1)
+  NAM9-64  t2743 zero_frac (485, 17.68%) float_one (251, 9.15%) floatrange (-1|1)
+  NAM9-68  t2743 zero_frac (494, 18.01%) float_one (246, 8.97%) floatrange (-1|1)
+  NAM9-72  t2743 zero_frac (184, 6.71%) longrange (2139095039|2139095039) flags_set  2559@0 2559@1 2559@2 2559@3 2559@4 2559@5 2559@6 2559@7 2559@8 2559@9 2559@10 2559@11 2559@12 2559@13 2559@14 2559@15
+  NAMA 16 t2733
+  NAMA-0  t2733 zero_frac (47, 1.72%) longrange (1|31)
+  NAMA-4  t2733 zero_frac (65, 2.38%) longrange (-1|-1)
+  NAMA-8  t2733 zero_frac (37, 1.35%) longrange (1|37)
+  NAMA-12  t2733 zero_frac (56, 2.05%) longrange (-1|30)
+  OBND 12 t5118 offsets:  3-int-45
+  OBND-0  t5118 zero_frac (3030, 59.20%) longrange (-63112005|-655383) flags_set  282@0 1800@1 220@2 1740@3 204@4 1859@5 2074@6 2051@7 2078@8 2086@9 2088@10 2088@11 2088@12 2088@13 2088@14 2088@15
+  OBND-4  t5118 zero_frac (3030, 59.20%) longrange (786432|54919146) flags_set  1@0 2@1 1@2 3@3 1@4 3@5 3@6 3@7 3@8 3@9 3@10 3@11 3@12 3@13 3@14 3@15
+  OBND-8  t5118 zero_frac (3030, 59.20%) longrange (3670057|26542463) flags_set  99@0 1793@1 1669@2 1901@3 165@4 162@5 260@6 6@7 53@8
+  PKID 4 t5268 longrange (3648|1113880)
+  PNAM 4 t12073 rectypes (HDPT=12073 )
+  PRKR 8 t7993 offsets:  2-int-34
+  PRKR-0  t7993 longrange (86991|1113604)
+  PRKR-4  t7993 longrange (307865345|376754689)
+  PRKZ 4 t1620 longrange (1|16)
+  QNAM 12 t5118
+  QNAM-0  t5118 zero_frac (1134, 22.16%) float_one (1, 0.02%) floatrange (0.078431375324726|1) longrange (1033937057|1065353216)
+  QNAM-4  t5118 zero_frac (1134, 22.16%) float_one (1, 0.02%) floatrange (0.054901964962482|1) longrange (1029759202|1065353216)
+  QNAM-8  t5118 zero_frac (1134, 22.16%) float_one (1, 0.02%) floatrange (0.04313725605607|1) longrange (1026601137|1065353216)
+  RNAM 4 t5118 rectypes (RACE=4539 ) longrange (25|1088636)
+  SHRT 4 t260 longrange (65076|72196)
+  SNAM 8 t12333
+  SNAM-0  t12333 rectypes (FACT=11673 )
+  SNAM-4  t12333 zero_frac (11515, 93.37%) longrange (1|255) byterange (-1|6) flags_set  806@0 760@1 765@2 753@3 753@4 753@5 753@6 753@7
+  SOFT 4 t548 longrange (92541|1113730) flags_set  349@0 193@1 351@2 489@3 354@4 521@5 349@6 55@7 356@8 183@9 16@10 334@11 182@12 350@13 343@14 61@15
+  SPCT 4 t1700 longrange (1|27)
+  SPLO 4 t6828 longrange (77772|1113636)
+  SPOR 4 t2 longrange (566117|566117)
+  TIAS 2 t33050 string_frac (5814, 17.59%)
+  TINC 4 t33050 string_frac (1913, 5.79%) zero_frac (13064, 39.53%) longrange (-1|16777215)
+  TINI 2 t33050 string_frac (14458, 43.75%) byterange (0|74)
+  TINV 4 t33050 zero_frac (17005, 51.45%) longrange (2|100)
+  TPLT 4 t3651 longrange (78497|1113319)
+  VMAD 27-994 t805 longrange (131077|131077) byterange (0|5) flags_set  805@0 805@2
+  VTCK 4 t3887 longrange (45|1111671)
+  WNAM 4 t664 longrange (93924|1111461)
+  ZNAM 4 t2880 longrange (3341|1113909)
+
+Stats for record LVLN
+  COED 12 t1
+  COED-0  t1 rectypes (FACT=1 )
+  COED-4  t1 longrange (-1|-1)
+  COED-8  t1 float_one (1, 100.00%) floatrange (1|1)
+  EDID 9-46 t527 string (all)
+  LLCT 1 t527 byterange (1|26)
+  LVLD 1 t527 byterange (0|0)
+  LVLF 1 t527 byterange (0|3)
+  LVLO 12 t3141 offsets:  2-int-120 1-int-137
+  LVLO-0  t3141 longrange (1|60)
+  LVLO-4  t3141 longrange (93936|1113605)
+  LVLO-8  t3141 longrange (1|1)
+  MODL 31-35 t8 string (all)
+  MODT 12 t8 longrange (2|2)
+  OBND 12 t527
+  OBND-0  t527 zero (all)
+  OBND-4  t527 zero (all)
+  OBND-8  t527 zero (all)
+
+Stats for record KEYM
+  DATA 8 t334
+  DATA-0  t334 zero_frac (333, 99.70%) longrange (3|3)
+  DATA-4  t334 zero_frac (333, 99.70%) floatrange (0.15000000596046|0.15000000596046) longrange (1041865114|1041865114) flags_set  1@1 1@3 1@4 1@7 1@8 1@11 1@12 1@15
+  EDID 8-35 t334 string (all)
+  FULL 4 t334 longrange (373|74668)
+  KSIZ 4 t330 longrange (1|1)
+  KWDA 4 t330 rectypes (KYWD=330 )
+  MODL 18-25 t334 string (all)
+  MODT 36-60 t334 longrange (2|2)
+  OBND 12 t334
+  OBND-0  t334 zero_frac (45, 13.47%) longrange (-917509|-720896) flags_set  6@0 6@1 1@2 6@3 6@4 6@5 6@6 6@7 6@8 6@9 6@10 6@11 6@12 6@13 6@14 6@15
+  OBND-4  t334 zero_frac (45, 13.47%) longrange (65533|327676)
+  OBND-8  t334 zero_frac (45, 13.47%) longrange (131084|327692) byterange (0|13)
+  VMAD 54-97 t4 longrange (131077|131077) byterange (0|5)
+  YNAM 4 t217 longrange (257397|257397) flags_set  217@0 217@2 217@4 217@5 217@6 217@8 217@10 217@11 217@13 217@14 217@15
+  ZNAM 4 t217 longrange (257400|257400) flags_set  217@3 217@4 217@5 217@6 217@8 217@10 217@11 217@13 217@14 217@15
+
+Stats for record ALCH
+  CTDA 32 t1
+  CTDA-0  t1 longrange (307624960|307624960)
+  CTDA-4  t1 float_one (1, 100.00%) floatrange (1|1)
+  CTDA-8  t1 longrange (69|69)
+  CTDA-12  t1 rectypes (RACE=1 )
+  CTDA-16  t1 zero (all)
+  CTDA-20  t1 zero (all)
+  CTDA-24  t1 zero (all)
+  CTDA-28  t1 longrange (-1|-1)
+  DATA 4 t363 float_one (5, 1.38%) float_int (11, 3.03%) floatrange (0.10000000149012|3)
+  EDID 4-33 t363 string (all)
+  EFID 4 t427 rectypes (MGEF=427 )
+  EFIT 12 t427
+  EFIT-0  t427 zero_frac (22, 5.15%) float_one (27, 6.32%) float_int (375, 87.82%) floatrange (1|9999)
+  EFIT-4  t427 zero (all)
+  EFIT-8  t427 zero_frac (140, 32.79%) longrange (1|720)
+  ENIT 20 t363
+  ENIT-0  t363 zero_frac (5, 1.38%) longrange (1|4008)
+  ENIT-4  t363 zero_frac (198, 54.55%) longrange (1|131072) byterange (0|3)
+  ENIT-8  t363 zero (all)
+  ENIT-12  t363 zero (all)
+  ENIT-16  t363 zero_frac (3, 0.83%) longrange (562050|1106666) flags_set  226@0 9@1 351@2 8@3 351@4 234@5 8@6 58@7 50@8 134@9 351@10 49@11 1@12 359@13 310@14 58@15
+  FULL 4 t360 longrange (199|72794)
+  KSIZ 4 t336 longrange (1|2)
+  KWDA 4-8 t336 rectypes (KYWD=327 )
+  KWDA-0  t9 rectypes (KYWD=9 )
+  KWDA-4  t9 rectypes (KYWD=9 )
+  MODL 18-50 t363 string (all)
+  MODS 32 t1 longrange (1|1)
+  MODT 36-132 t361 longrange (2|22863715) flags_set  1@0 361@1 1@5 1@6 1@8 1@9 1@10 1@11 1@12 1@14 1@15
+  OBND 12 t363
+  OBND-0  t363 zero_frac (64, 17.63%) longrange (-1376280|-65538)
+  OBND-4  t363 zero_frac (64, 17.63%) longrange (131072|2228224) flags_set  8@0 19@1 17@2 15@3 17@4 18@5 18@6 18@7 18@8 18@9 18@10 18@11 18@12 18@13 18@14 18@15
+  OBND-8  t363 zero_frac (64, 17.63%) longrange (6|2621461) byterange (0|40) flags_set  123@0 234@1 186@2 31@3 5@4
+  YNAM 4 t309 longrange (257469|1032735) flags_set  309@0 8@1 309@2 309@3 309@4 301@5 301@7 301@8 8@9 301@10 301@11 301@13 309@14 309@15
+  ZNAM 4 t301 longrange (257472|257472)
+
+Stats for record IDLM
+  EDID 12-33 t81 string (all)
+  IDLA 4-40 t77 longrange (82696|1112062)
+  IDLA-0  t8 longrange (189738|766034)
+  IDLA-4  t8 longrange (192106|620525)
+  IDLC 1 t77 byterange (1|10)
+  IDLF 1 t77 byterange (0|29)
+  IDLT 4 t77 zero_frac (65, 84.42%) float_int (10, 12.99%) floatrange (0.5|40000) longrange (1056964608|1193033728)
+  OBND 12 t81
+  OBND-0  t81 zero_frac (9, 11.11%) longrange (-3473462|-3473462)
+  OBND-4  t81 zero_frac (9, 11.11%) longrange (3538944|3538944) byterange (0|54)
+  OBND-8  t81 zero_frac (9, 11.11%) longrange (852057|852057) byterange (0|89)
+
+Stats for record COBJ
+  BNAM 4 t601 rectypes (KYWD=601 )
+  CNAM 4 t594 longrange (77382|1089642)
+  CNTO 8 t952
+  CNTO-0  t952 longrange (117604|991249)
+  CNTO-4  t952 longrange (1|5)
+  COCT 4 t599 longrange (1|4)
+  CTDA 32 t931
+  CTDA-0  t931 zero_frac (523, 56.18%) longrange (1|9527841)
+  CTDA-4  t931 float_one (931, 100.00%) floatrange (1|1)
+  CTDA-8  t931 longrange (5505071|378012307) flags_set  419@0 428@1 23@2 44@3 404@4 27@5 512@6 887@7 503@8 392@9
+  CTDA-12  t931 zero_frac (384, 41.25%) longrange (125521|1001169) flags_set  98@0 445@1 460@2 450@3 105@4 19@5 31@6 417@7 412@8 28@9 133@10 35@11 113@12 527@13 32@14 129@15
+  CTDA-16  t931 zero_frac (919, 98.71%) longrange (40|70)
+  CTDA-20  t931 zero_frac (916, 98.39%) longrange (2|2)
+  CTDA-24  t931 zero_frac (916, 98.39%) longrange (20|20)
+  CTDA-28  t931 longrange (-1|-1)
+  EDID 16-46 t601 string (all)
+  NAM1 2 t601 byterange (0|5)
+
+Stats for record PROJ
+  DATA 84-92 t134 longrange (65536|4194496) flags_set  26@1 6@2 11@3 1@5 16@6 4@7 57@9
+  DEST 8 t1
+  DEST-0  t1 longrange (20|20)
+  DEST-4  t1 longrange (2|2)
+  DSTD 20 t2
+  DSTD-0  t2 longrange (16777316|100729088) byterange (0|100)
+  DSTD-4  t2 longrange (1|1)
+  DSTD-8  t2 zero (all)
+  DSTD-12  t2 zero (all)
+  DSTD-16  t2 zero (all)
+  DSTF 0 t2 string (all)
+  EDID 13-46 t134 string (all)
+  FULL 4 t21 longrange (3172|74667)
+  MODL 23-60 t133 string (all)
+  MODT 12-144 t125 longrange (-1585380474|2139825103)
+  NAM1 1-36 t134 string (all)
+  NAM2 12-24 t13 longrange (2|2)
+  OBND 12 t134
+  OBND-0  t134 zero_frac (47, 35.07%) longrange (-2147450880|65528)
+  OBND-4  t134 zero_frac (48, 35.82%) longrange (327671|2147450880)
+  OBND-8  t134 zero_frac (47, 35.07%) longrange (2|2147450879)
+  VNAM 4 t134 zero_frac (17, 12.69%) longrange (1|2)
+
+Stats for record HAZD
+  DATA 40 t44 offsets:  3-int-17 7-int-1
+  DATA-0  t44 zero_frac (21, 47.73%) float_one (2, 4.55%) longrange (1|1065353216)
+  DATA-4  t44 zero_frac (4, 9.09%) float_one (1, 2.27%) float_int (28, 63.64%) floatrange (1|40)
+  DATA-8  t44 zero_frac (9, 20.45%) float_one (2, 4.55%) float_int (32, 72.73%) floatrange (1|40)
+  DATA-12  t44 zero_frac (42, 95.45%) float_int (2, 4.55%) floatrange (256|256) longrange (1132462080|1132462080)
+  DATA-16  t44 float_one (1, 2.27%) float_int (6, 13.64%) floatrange (0.10000000149012|10) longrange (1036831949|1092616192)
+  DATA-20  t44 zero_frac (15, 34.09%) longrange (2|21)
+  DATA-24  t44 zero_frac (8, 18.18%) rectypes (SPEL=36 )
+  DATA-28  t44 zero_frac (38, 86.36%) longrange (249338|1101256) flags_set  2@0 2@1 6@3 3@4 2@5 4@6 3@7 3@8 1@9 2@10 6@11 2@12 4@13 6@14 5@15
+  DATA-32  t44 zero (all)
+  DATA-36  t44 zero_frac (8, 18.18%) longrange (104796|1108856)
+  EDID 12-33 t44 string (all)
+  FULL 4 t27 longrange (603|72216)
+  MNAM 4 t2 longrange (149437|149437)
+  MODL 22-47 t44 string (all)
+  MODT 12-148 t43 longrange (-1143881031|330211964) flags_set  2@0 40@1 7@2 7@3 7@4 8@5 6@6 1@7 6@8 7@9 6@10 5@11 1@12 2@13 2@14 3@15
+  OBND 12 t44 offsets:  3-int-6
+  OBND-0  t44 zero_frac (15, 34.09%) longrange (-456006447|-1900574)
+  OBND-4  t44 zero_frac (15, 34.09%) longrange (1966080|456065292) flags_set  7@0 2@1 8@2 6@3 10@4 9@5 10@6 9@7 13@8 14@9 14@10 14@11 14@12 14@13 14@14 14@15
+  OBND-8  t44 zero_frac (15, 34.09%) longrange (262304|218897199)
+
+Stats for record SLGM
+  DATA 8 t17
+  DATA-0  t17 zero_frac (2, 11.76%) longrange (10|1000)
+  DATA-4  t17 zero_frac (4, 23.53%) float_one (2, 11.76%) floatrange (0.10000000149012|1) longrange (1036831949|1065353216)
+  EDID 13-22 t17 string (all)
+  FULL 4 t16 longrange (14342|59832)
+  KSIZ 4 t16 longrange (1|3)
+  KWDA 4-12 t16 rectypes (KYWD=15 )
+  KWDA-0  t1 rectypes (KYWD=1 )
+  KWDA-4  t1 rectypes (KYWD=1 )
+  MODL 30-38 t17 string (all)
+  MODT 48-60 t16 longrange (2|2)
+  NAM0 4 t2 longrange (189695|189700)
+  OBND 12 t17
+  OBND-0  t17 longrange (-1507332|-65537) flags_set  7@0 8@1 11@2 16@3 17@4 17@5 17@6 17@7 17@8 17@9 17@10 17@11 17@12 17@13 17@14 17@15
+  OBND-4  t17 longrange (196599|851949) flags_set  8@0 3@1 11@2 7@3 14@4 17@5 17@6 17@7 17@8 17@9 17@10 17@11 17@12 17@13 17@14 17@15
+  OBND-8  t17 longrange (524294|1572888) byterange (0|24)
+  SLCP 1 t17 byterange (0|5)
+  SOUL 1 t17 byterange (0|5)
+
+Stats for record LVLI
+  EDID 10-48 t3075 string (all)
+  LLCT 1 t3056 string_frac (40, 1.31%)
+  LVLD 1 t3075 string_frac (389, 12.65%) byterange (0|100)
+  LVLF 1 t3075 byterange (0|11)
+  LVLG 4 t65 rectypes (GLOB=65 )
+  LVLO 12 t20340 offsets:  1-int-705 2-int-70
+  LVLO-0  t20340 longrange (1|55)
+  LVLO-4  t20340 longrange (10|1113976)
+  LVLO-8  t20340 longrange (1|1800) flags_set  19755@0 409@1 440@2 409@3 315@4 240@5 218@6 93@7 35@8 20@9 6@10
+  OBND 12 t3075
+  OBND-0  t3075 zero (all)
+  OBND-4  t3075 zero (all)
+  OBND-8  t3075 zero (all)
+
+Stats for record WTHR
+  00TX 14-35 t70 string (all)
+  10TX 14-32 t70 string (all)
+  20TX 14-32 t30 string (all)
+  30TX 14-35 t70 string (all)
+  40TX 28 t16 string (all)
+  50TX 28 t16 string (all)
+  60TX 28 t16 string (all)
+  70TX 28 t16 string (all)
+  80TX 23-28 t49 string (all)
+  90TX 23-28 t49 string (all)
+  :0TX 23-28 t49 string (all)
+  ;0TX 23-28 t50 string (all)
+  <0TX 28 t14 string (all)
+  =0TX 28 t14 string (all)
+  >0TX 28 t14 string (all)
+  ?0TX 30 t20 string (all)
+  @0TX 30 t23 string (all)
+  A0TX 30 t9 string (all)
+  ANAM 14 t1 string (all)
+  B0TX 30 t5 string (all)
+  BNAM 35 t1 string (all)
+  C0TX 30 t19 string (all)
+  CNAM 32 t1 string (all)
+  D0TX 30 t19 string (all)
+  DALC 24-32 t336 zero_frac (52, 15.48%) longrange (789259|12302229)
+  DATA 19 t84
+  DATA-0  t84 zero_frac (17, 20.24%) longrange (38|2097152178)
+  DATA-4  t84 zero_frac (21, 25.00%) longrange (-16777216|1738099712) flags_set  21@0 8@1 11@2 29@3 25@4 7@5 2@6 32@7 30@8 23@9 44@10 51@11 30@12 23@13 45@14 43@15
+  DATA-8  t84 zero_frac (1, 1.19%) longrange (16711680|318701568)
+  DATA-12  t84 zero_frac (75, 89.29%) longrange (13752032|16777173) flags_set  7@0 6@1 3@2 6@3 7@4 1@5 9@6 9@7 3@8 3@9 9@10 8@11 9@12 2@13 9@14 9@15
+  DATA-16  t84 byterange (0|43)
+  DNAM 35 t1 string (all)
+  E0TX 30 t23 string (all)
+  EDID 10-30 t84 string (all)
+  F0TX 30 t23 string (all)
+  FNAM 32 t84 offsets:  3-int-18 2-int-9 10-int-16 11-int-7 19-int-6 15-int-3
+  FNAM-0  t84 zero_frac (56, 66.67%) float_one (1, 1.19%) float_int (2, 2.38%) floatrange (1|27852.80078125) longrange (1065353216|1188665754) flags_set  1@1 1@3 1@4 1@7 1@8 1@11 1@12 1@15
+  FNAM-4  t84 zero_frac (13, 15.48%) floatrange (7000|300000) longrange (1171963904|1217559552)
+  FNAM-8  t84 zero_frac (52, 61.90%) float_one (1, 1.19%) float_int (1, 1.19%) floatrange (1|27852.80078125) longrange (1065353216|1188665754) flags_set  1@1 1@3 1@4 1@7 1@8 1@11 1@12 2@15
+  FNAM-12  t84 zero_frac (13, 15.48%) floatrange (7000|300000) longrange (1171963904|1217559552)
+  FNAM-16  t84 float_one (14, 16.67%) floatrange (0.30000001192093|1)
+  FNAM-20  t84 float_one (14, 16.67%) floatrange (0.20000000298023|1)
+  FNAM-24  t84 float_one (21, 25.00%) floatrange (0.60000002384186|1)
+  FNAM-28  t84 float_one (21, 25.00%) floatrange (0.60000002384186|1)
+  G0TX 30 t8 string (all)
+  H0TX 30 t8 string (all)
+  I0TX 30 t5 string (all)
+  IMSP 16 t84
+  IMSP-0  t84 longrange (353|1113847)
+  IMSP-4  t84 longrange (353|1113847)
+  IMSP-8  t84 longrange (353|1113847)
+  IMSP-12  t84 longrange (353|1113847)
+  J0TX 30 t5 string (all)
+  JNAM 512 t83 offsets:  259-int-20 251-int-2 315-int-2 331-int-2 431-int-1 435-int-1 439-int-1 443-int-1 263-int-1 451-int-1 243-int-1
+  JNAM-0  t83 float_one (67, 80.72%) floatrange (0.60000002384186|1)
+  JNAM-4  t83 float_one (67, 80.72%) floatrange (0.5|1)
+  JNAM-8  t83 float_one (67, 80.72%) floatrange (0.60000002384186|1)
+  JNAM-12  t83 zero_frac (7, 8.43%) float_one (67, 80.72%) floatrange (0.5|1)
+  JNAM-16  t83 float_one (83, 100.00%) floatrange (1|1)
+  JNAM-20  t83 float_one (81, 97.59%) floatrange (0.80000001192093|1)
+  JNAM-24  t83 zero_frac (2, 2.41%) float_one (79, 95.18%) floatrange (0.5|1)
+  JNAM-28  t83 zero_frac (2, 2.41%) float_one (80, 96.39%) floatrange (0.60000002384186|1)
+  JNAM-32  t83 float_one (83, 100.00%) floatrange (1|1)
+  JNAM-36  t83 float_one (67, 80.72%) floatrange (0.30000001192093|1)
+  JNAM-40  t83 float_one (67, 80.72%) floatrange (0.69999998807907|1)
+  JNAM-44  t83 zero_frac (2, 2.41%) float_one (79, 95.18%) floatrange (0.80000001192093|1)
+  JNAM-48  t83 float_one (67, 80.72%) floatrange (0.30000001192093|1)
+  JNAM-52  t83 float_one (67, 80.72%) floatrange (0.5|1)
+  JNAM-56  t83 float_one (67, 80.72%) floatrange (0.5|1)
+  JNAM-60  t83 float_one (83, 100.00%) floatrange (1|1)
+  JNAM-64  t83 float_one (81, 97.59%) floatrange (0.80000001192093|1)
+  JNAM-68  t83 zero_frac (8, 9.64%) float_one (75, 90.36%) floatrange (1|1)
+  JNAM-72  t83 zero_frac (2, 2.41%) float_one (67, 80.72%) floatrange (0.80000001192093|1)
+  JNAM-76  t83 zero_frac (1, 1.20%) float_one (80, 96.39%) floatrange (0.69999998807907|1)
+  JNAM-80  t83 float_one (83, 100.00%) floatrange (1|1)
+  JNAM-84  t83 float_one (83, 100.00%) floatrange (1|1)
+  JNAM-88  t83 float_one (83, 100.00%) floatrange (1|1)
+  JNAM-92  t83 zero_frac (2, 2.41%) float_one (81, 97.59%) floatrange (1|1)
+  JNAM-96  t83 float_one (67, 80.72%) floatrange (0.5|1)
+  JNAM-100  t83 float_one (67, 80.72%) floatrange (0.5|1)
+  JNAM-104  t83 float_one (79, 95.18%) floatrange (0.80000001192093|1)
+  JNAM-108  t83 float_one (79, 95.18%) floatrange (0.69999998807907|1)
+  JNAM-112  t83 float_one (67, 80.72%) floatrange (0.40000000596046|1)
+  JNAM-116  t83 float_one (67, 80.72%) floatrange (0.80000001192093|1)
+  JNAM-120  t83 zero_frac (8, 9.64%) float_one (67, 80.72%) floatrange (0.89999997615814|1)
+  JNAM-124  t83 float_one (79, 95.18%) floatrange (0.69999998807907|1)
+  JNAM-128  t83 float_one (83, 100.00%) floatrange (1|1)
+  JNAM-132  t83 float_one (83, 100.00%) floatrange (1|1)
+  JNAM-136  t83 float_one (83, 100.00%) floatrange (1|1)
+  JNAM-140  t83 float_one (83, 100.00%) floatrange (1|1)
+  JNAM-144  t83 float_one (83, 100.00%) floatrange (1|1)
+  JNAM-148  t83 float_one (83, 100.00%) floatrange (1|1)
+  JNAM-152  t83 float_one (83, 100.00%) floatrange (1|1)
+  JNAM-156  t83 float_one (83, 100.00%) floatrange (1|1)
+  JNAM-160  t83 float_one (83, 100.00%) floatrange (1|1)
+  JNAM-164  t83 float_one (83, 100.00%) floatrange (1|1)
+  JNAM-168  t83 float_one (83, 100.00%) floatrange (1|1)
+  JNAM-172  t83 float_one (83, 100.00%) floatrange (1|1)
+  JNAM-176  t83 float_one (82, 98.80%) floatrange (0.80000001192093|1)
+  JNAM-180  t83 float_one (82, 98.80%) floatrange (0.80000001192093|1)
+  JNAM-184  t83 float_one (82, 98.80%) floatrange (0.80000001192093|1)
+  JNAM-188  t83 float_one (82, 98.80%) floatrange (0.80000001192093|1)
+  JNAM-192  t83 float_one (83, 100.00%) floatrange (1|1)
+  JNAM-196  t83 float_one (75, 90.36%) floatrange (0.69999998807907|1)
+  JNAM-200  t83 float_one (83, 100.00%) floatrange (1|1)
+  JNAM-204  t83 float_one (83, 100.00%) floatrange (1|1)
+  JNAM-208  t83 float_one (83, 100.00%) floatrange (1|1)
+  JNAM-212  t83 float_one (75, 90.36%) floatrange (0.69999998807907|1)
+  JNAM-216  t83 float_one (83, 100.00%) floatrange (1|1)
+  JNAM-220  t83 float_one (83, 100.00%) floatrange (1|1)
+  JNAM-224  t83 float_one (83, 100.00%) floatrange (1|1)
+  JNAM-228  t83 float_one (75, 90.36%) floatrange (0.69999998807907|1)
+  JNAM-232  t83 float_one (83, 100.00%) floatrange (1|1)
+  JNAM-236  t83 float_one (83, 100.00%) floatrange (1|1)
+  JNAM-240  t83 float_one (67, 80.72%) floatrange (0.60000002384186|1)
+  JNAM-244  t83 float_one (82, 98.80%) floatrange (0.75|1)
+  JNAM-248  t83 float_one (67, 80.72%) floatrange (0.69999998807907|1)
+  JNAM-252  t83 float_one (81, 97.59%) floatrange (0.75|1)
+  JNAM-256  t83 float_one (81, 97.59%) floatrange (0.69999998807907|1)
+  JNAM-260  t83 float_one (63, 75.90%) floatrange (0.75|1)
+  JNAM-264  t83 float_one (80, 96.39%) floatrange (0.69999998807907|1)
+  JNAM-268  t83 float_one (83, 100.00%) floatrange (1|1)
+  JNAM-272  t83 float_one (82, 98.80%) floatrange (0.69999998807907|1)
+  JNAM-276  t83 float_one (82, 98.80%) floatrange (0.69999998807907|1)
+  JNAM-280  t83 float_one (75, 90.36%) floatrange (0.69999998807907|1)
+  JNAM-284  t83 float_one (81, 97.59%) floatrange (0.60000002384186|1)
+  JNAM-288  t83 float_one (82, 98.80%) floatrange (0.69999998807907|1)
+  JNAM-292  t83 float_one (82, 98.80%) floatrange (0.69999998807907|1)
+  JNAM-296  t83 float_one (78, 93.98%) floatrange (0.69999998807907|1.3999999761581)
+  JNAM-300  t83 float_one (82, 98.80%) floatrange (0.69999998807907|1)
+  JNAM-304  t83 float_one (83, 100.00%) floatrange (1|1)
+  JNAM-308  t83 float_one (67, 80.72%) floatrange (0.5|1)
+  JNAM-312  t83 float_one (67, 80.72%) floatrange (0.5|1)
+  JNAM-316  t83 float_one (81, 97.59%) floatrange (0.75|1)
+  JNAM-320  t83 float_one (67, 80.72%) floatrange (0.5|1)
+  JNAM-324  t83 float_one (67, 80.72%) floatrange (0.5|1)
+  JNAM-328  t83 float_one (67, 80.72%) floatrange (0.80000001192093|1)
+  JNAM-332  t83 float_one (81, 97.59%) floatrange (0.75|1)
+  JNAM-336  t83 zero_frac (1, 1.20%) float_one (81, 97.59%) floatrange (0.69999998807907|1)
+  JNAM-340  t83 float_one (83, 100.00%) floatrange (1|1)
+  JNAM-344  t83 float_one (82, 98.80%) floatrange (0.80000001192093|1)
+  JNAM-348  t83 float_one (83, 100.00%) floatrange (1|1)
+  JNAM-352  t83 float_one (83, 100.00%) floatrange (1|1)
+  JNAM-356  t83 float_one (83, 100.00%) floatrange (1|1)
+  JNAM-360  t83 zero_frac (1, 1.20%) float_one (77, 92.77%) floatrange (0.80000001192093|1.2000000476837)
+  JNAM-364  t83 float_one (83, 100.00%) floatrange (1|1)
+  JNAM-368  t83 float_one (83, 100.00%) floatrange (1|1)
+  JNAM-372  t83 float_one (82, 98.80%) floatrange (0.69999998807907|1)
+  JNAM-376  t83 float_one (75, 90.36%) floatrange (0.69999998807907|1)
+  JNAM-380  t83 float_one (81, 97.59%) floatrange (0.60000002384186|1)
+  JNAM-384  t83 float_one (82, 98.80%) floatrange (0.69999998807907|1)
+  JNAM-388  t83 float_one (82, 98.80%) floatrange (0.69999998807907|1)
+  JNAM-392  t83 float_one (82, 98.80%) floatrange (0.69999998807907|1)
+  JNAM-396  t83 float_one (81, 97.59%) floatrange (0.60000002384186|1)
+  JNAM-400  t83 float_one (82, 98.80%) floatrange (0.69999998807907|1)
+  JNAM-404  t83 float_one (82, 98.80%) floatrange (0.69999998807907|1)
+  JNAM-408  t83 float_one (78, 93.98%) floatrange (0.69999998807907|1.3999999761581)
+  JNAM-412  t83 float_one (82, 98.80%) floatrange (0.69999998807907|1)
+  JNAM-416  t83 float_one (82, 98.80%) floatrange (0.69999998807907|1)
+  JNAM-420  t83 float_one (82, 98.80%) floatrange (0.69999998807907|1)
+  JNAM-424  t83 float_one (78, 93.98%) floatrange (0.69999998807907|1.3999999761581)
+  JNAM-428  t83 float_one (82, 98.80%) floatrange (0.69999998807907|1)
+  JNAM-432  t83 float_one (81, 97.59%) floatrange (0.20000000298023|1)
+  JNAM-436  t83 float_one (80, 96.39%) floatrange (0.20000000298023|1)
+  JNAM-440  t83 float_one (81, 97.59%) floatrange (0.20000000298023|1)
+  JNAM-444  t83 float_one (80, 96.39%) floatrange (0.20000000298023|1)
+  JNAM-448  t83 float_one (42, 50.60%) floatrange (0.20000000298023|1)
+  JNAM-452  t83 float_one (37, 44.58%) floatrange (0.30000001192093|1)
+  JNAM-456  t83 float_one (34, 40.96%) floatrange (0.20000000298023|1)
+  JNAM-460  t83 float_one (38, 45.78%) floatrange (0.20000000298023|1)
+  JNAM-464  t83 float_one (83, 100.00%) floatrange (1|1)
+  JNAM-468  t83 float_one (83, 100.00%) floatrange (1|1)
+  JNAM-472  t83 float_one (83, 100.00%) floatrange (1|1)
+  JNAM-476  t83 float_one (83, 100.00%) floatrange (1|1)
+  JNAM-480  t83 float_one (83, 100.00%) floatrange (1|1)
+  JNAM-484  t83 float_one (83, 100.00%) floatrange (1|1)
+  JNAM-488  t83 float_one (83, 100.00%) floatrange (1|1)
+  JNAM-492  t83 float_one (83, 100.00%) floatrange (1|1)
+  JNAM-496  t83 float_one (83, 100.00%) floatrange (1|1)
+  JNAM-500  t83 float_one (83, 100.00%) floatrange (1|1)
+  JNAM-504  t83 float_one (83, 100.00%) floatrange (1|1)
+  JNAM-508  t83 float_one (83, 100.00%) floatrange (1|1)
+  K0TX 23-28 t31 string (all)
+  L0TX 25 t68 string (all)
+  LNAM 4 t84 longrange (4|29)
+  MNAM 4 t84 zero_frac (66, 78.57%) longrange (146504|1113540) flags_set  8@0 5@1 9@2 14@3 5@4 3@5 11@6 3@7 4@8 2@9 13@10 16@11 14@12 15@13 8@14 4@15
+  MODL 21-23 t21 string (all)
+  MODT 12 t20 longrange (2|2)
+  NAM0 208-272 t84 zero_frac (14, 16.67%) longrange (592391|12703184)
+  NAM1 4 t83 longrange (-503582465|-1) flags_set  67@0 75@1 67@2 67@3 67@4 67@5 67@6 75@7 34@8 34@9 34@10 33@11 72@12 72@13 72@14 64@15
+  NAM2 16 t11
+  NAM2-0  t11 longrange (-1|16777215) byterange (-1|0) flags_set  11@0 11@1 11@2 11@3 11@4 11@5 11@6 11@7 11@8 11@9 11@10 11@11 11@12 11@13 11@14 11@15
+  NAM2-4  t11 longrange (-1|16777215) byterange (-1|0) flags_set  11@0 11@1 11@2 11@3 11@4 11@5 11@6 11@7 11@8 11@9 11@10 11@11 11@12 11@13 11@14 11@15
+  NAM2-8  t11 longrange (-1|16777215) byterange (-1|0) flags_set  11@0 11@1 11@2 11@3 11@4 11@5 11@6 11@7 11@8 11@9 11@10 11@11 11@12 11@13 11@14 11@15
+  NAM2-12  t11 longrange (-1|16777215) byterange (-1|0) flags_set  11@0 11@1 11@2 11@3 11@4 11@5 11@6 11@7 11@8 11@9 11@10 11@11 11@12 11@13 11@14 11@15
+  NAM3 16 t11
+  NAM3-0  t11 longrange (-1|16777215) byterange (-1|0) flags_set  11@0 11@1 11@2 11@3 11@4 11@5 11@6 11@7 11@8 11@9 11@10 11@11 11@12 11@13 11@14 11@15
+  NAM3-4  t11 longrange (-1|16777215) byterange (-1|0) flags_set  11@0 11@1 11@2 11@3 11@4 11@5 11@6 11@7 11@8 11@9 11@10 11@11 11@12 11@13 11@14 11@15
+  NAM3-8  t11 longrange (-1|16777215) byterange (-1|0) flags_set  11@0 11@1 11@2 11@3 11@4 11@5 11@6 11@7 11@8 11@9 11@10 11@11 11@12 11@13 11@14 11@15
+  NAM3-12  t11 longrange (-1|16777215) byterange (-1|0) flags_set  11@0 11@1 11@2 11@3 11@4 11@5 11@6 11@7 11@8 11@9 11@10 11@11 11@12 11@13 11@14 11@15
+  NNAM 4 t84 zero_frac (82, 97.62%) longrange (562202|1055994) flags_set  2@1 2@3 2@4 1@5 1@6 1@7 2@10 1@11 2@12 1@15
+  ONAM 4 t1 floatrange (33554584|33554584) longrange (1275068454|1275068454) byterange (0|76)
+  PNAM 64-512 t84 zero_frac (14, 16.67%) longrange (2171929|13088220)
+  QNAM 32 t83
+  QNAM-0  t83 longrange (-1398429569|2139062143) flags_set  68@0 68@1 68@2 83@3 68@4 83@5 68@6 15@7 67@8 67@9 67@10 83@11 67@12 83@13 67@14 16@15
+  QNAM-4  t83 longrange (-1414809428|2139062143) flags_set  67@0 67@1 83@2 83@3 67@4 83@5 67@6 16@7 67@8 67@9 67@10 83@11 83@12 83@13 67@14 16@15
+  QNAM-8  t83 longrange (-1935695969|2139062143) flags_set  76@0 56@1 64@2 53@3 42@4 79@5 35@6 48@7 64@8 44@9 76@10 53@11 42@12 79@13 35@14 48@15
+  QNAM-12  t83 longrange (-1904246913|2139062143) flags_set  73@0 75@1 83@2 79@3 71@4 74@5 74@6 9@7 73@8 75@9 83@10 79@11 71@12 74@13 74@14 9@15
+  QNAM-16  t83 longrange (-1904246913|2141159295) flags_set  83@0 83@1 83@2 82@3 82@4 62@5 62@6 21@7 83@8 83@9 83@10 83@11 83@12 75@13 75@14 8@15
+  QNAM-20  t83 longrange (-1619034241|2141167487) flags_set  66@0 83@1 82@2 80@3 65@4 66@5 66@6 17@7 82@8 83@9 82@10 81@11 82@12 61@13 61@14 22@15
+  QNAM-24  t83 longrange (-1937801345|2139062143) flags_set  83@0 83@1 83@2 83@3 83@4 75@5 75@6 8@7 83@8 83@9 83@10 83@11 83@12 78@13 78@14 5@15
+  QNAM-28  t83 longrange (2139062143|2139062184) flags_set  82@0 82@1 82@2 83@3 82@4 83@5 82@6 1@7 83@8 83@9 83@10 83@11 83@12 83@13 83@14
+  RNAM 32 t83
+  RNAM-0  t83 longrange (2138206834|2139062143) flags_set  68@0 83@1 68@2 68@3 83@4 83@5 83@6 67@8 83@9 67@10 67@11 83@12 83@13 83@14
+  RNAM-4  t83 longrange (2139062143|2139062143) flags_set  83@0 83@1 83@2 83@3 83@4 83@5 83@6 83@8 83@9 83@10 83@11 83@12 83@13 83@14
+  RNAM-8  t83 longrange (-1938656654|2139062143)
+  RNAM-12  t83 longrange (2139062143|2139062143) flags_set  83@0 83@1 83@2 83@3 83@4 83@5 83@6 83@8 83@9 83@10 83@11 83@12 83@13 83@14
+  RNAM-16  t83 longrange (2139062143|2139062143) flags_set  83@0 83@1 83@2 83@3 83@4 83@5 83@6 83@8 83@9 83@10 83@11 83@12 83@13 83@14
+  RNAM-20  t83 longrange (2139062143|2139062143) flags_set  83@0 83@1 83@2 83@3 83@4 83@5 83@6 83@8 83@9 83@10 83@11 83@12 83@13 83@14
+  RNAM-24  t83 longrange (-1937801345|2139062143) flags_set  83@0 83@1 83@2 83@3 83@4 83@5 83@6 83@8 83@9 83@10 83@11 83@12 83@13 83@14
+  RNAM-28  t83 longrange (2139062130|2139062143) flags_set  82@0 83@1 82@2 82@3 83@4 83@5 83@6 83@8 83@9 83@10 83@11 83@12 83@13 83@14
+  SNAM 8 t30
+  SNAM-0  t30 longrange (77474|1110513)
+  SNAM-4  t30 zero_frac (10, 33.33%) longrange (1|3)
+  TNAM 4 t6768 longrange (95518|1098962)
+
+Stats for record CLMT
+  EDID 14-19 t6 string (all)
+  FNAM 10-12 t6 string (all)
+  GNAM 10-17 t6 string (all)
+  MODL 14 t6 string (all)
+  MODT 12 t2 longrange (2|2)
+  TNAM 6 t6
+  TNAM-0  t6 longrange (-2107752681|2069904417)
+  TNAM-4  t6
+  WLST 12 t6
+  WLST-0  t6 longrange (2074|1113848)
+  WLST-4  t6 longrange (100|100)
+  WLST-8  t6 zero (all)
+
+Stats for record SPGD
+  DATA 40-48 t16 zero_frac (1, 6.25%) float_int (11, 68.75%) floatrange (-70|1000)
+  EDID 13-22 t16 string (all)
+  ICON 23-36 t14 string (all)
+
+Stats for record RFCT
+  DATA 12 t103 offsets:  2-int-3
+  DATA-0  t103 zero_frac (1, 0.97%) longrange (87229|1111303)
+  DATA-4  t103 zero_frac (85, 82.52%) longrange (344611|1075933) flags_set  11@0 10@1 12@2 7@3 9@4 9@5 9@6 5@7 8@8 18@9 8@10 8@11 8@12 9@13 9@14 12@15
+  DATA-8  t103 zero_frac (58, 56.31%) longrange (1|6)
+  EDID 6-38 t103 string (all)
+
+Stats for record REGN
+  EDID 6-39 t317 string (all)
+  ICON 23 t1 string (all)
+  RCLR 4 t317 string_frac (9, 2.84%) longrange (1|16777215)
+  RDAT 8 t192
+  RDAT-0  t192 longrange (2|7)
+  RDAT-4  t192 longrange (12544|25600) byterange (0|100)
+  RDMO 4 t28 longrange (3956|761294) flags_set  8@0 27@1 21@2 20@3 1@4 1@5 27@6 19@7 28@8 1@9 27@10 21@11 26@12 1@13 8@14 26@15
+  RDMP 4 t7 longrange (17190|69775)
+  RDOT 0 t69 string (all)
+  RDSA 12-708 t53 longrange (247561|1112332)
+  RDWT 12-84 t53 longrange (2074|1113848)
+  RPLD 32-1384 t328 floatrange (-196522.140625|214603.78125) longrange (-992943072|1213305586)
+  RPLI 4 t328 zero_frac (47, 14.33%) longrange (10|1024) byterange (0|10) flags_set  1@1 1@3 280@10
+  WNAM 4 t296 longrange (60|1065495) flags_set  20@0 13@1 269@2 279@3 283@4 280@5 19@6 10@7 20@8 20@9 24@10 28@11 7@12 30@13 33@14 21@15
