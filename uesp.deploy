@@ -5,9 +5,11 @@
 name = uesp.cslist
 
 ignore = .hg*
+ignore = .git*
 ignore = *.deploy
 ignore = *.sh
 ignore = maintenance/*
+ignore = examples/*
 
-dest = content3.uesp.net:/home/uesp/www/cslist/
+dest = content3.uesp.net:/home/uesp/cslist/
 
