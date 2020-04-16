@@ -2217,7 +2217,8 @@ class CSItem {
 			if ($this->_rectype=='QUST' && in_array($table, array('INDX', 'QOBJ', 'ALLS', 'ALST')))
 				continue;
 			
-			$cname = array_shift(array_keys($sdata));
+			$keys = array_keys($sdata);
+			$cname = array_shift($keys);
 			if ($this->_complex_index && !preg_match('/[a-z]/', $table)) {
 				$indices = $this->indices($cname, $table);
 			}
