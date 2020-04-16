@@ -2569,12 +2569,12 @@ class CSItem {
 			$query .= " AND item_count=1 ";
 		
 		$res = $this->_parentlist->do_query($query);
-		if (mysql_num_rows($res)>1)
+		if ($res->num_rows>1)
 			return NULL;
 		while ($row=$this->_parentlist->row_query($res)) {
 			$squery = "SELECT * FROM $table WHERE ordid=".$row['ordid']." ORDER BY item_lvl";
 			$sres = $this->_parentlist->do_query($squery);
-			if (mysql_num_rows($sres)<=1)
+			if ($sres->num_rows<=1)
 				break;
 			$lvllast = NULL;
 			$ok = TRUE;
@@ -2708,7 +2708,7 @@ class CSItem {
 	public function do_query($query, $option=NULL) {
 		return $this->_parentlist->do_query($query, $option);
 	}
-	public function row_query($resource=NULL, $querytype=MYSQL_ASSOC) {
+	public function row_query($resource=NULL, $querytype=MYSQLI_ASSOC) {
 		return $this->_parentlist->row_query($resource, $querytype);
 	}
 		
@@ -3075,7 +3075,7 @@ class CSItem {
 		// derived classes
 		$dquery = "SELECT * from AllItems where rectype not in ('".implode("', '", $this->get_disambig_types())."') and name='".addslashes($this->get('name'))."'";
 		$dres = $this->do_query($dquery);
-		if (mysql_num_rows($dres)!=0) {
+		if ($dres->num_rows!=0) {
 			if ($showtrigger) {
 				while ($drow=$this->row_query($dres)) {
 					fwrite (STDERR, "disambig triggered for rectype=".$drow['rectype']." edid=".$drow['edid']." 	name=".$drow['name']."\n");

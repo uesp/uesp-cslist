@@ -136,7 +136,7 @@ class GenItem_RefItem extends GenItem {
 				if (!$lctn_id) {
 					$query = "SELECT ordid FROM AllItems where rectype='LCTN' and name='".addslashes($this->get('name'))."' and mod_status&0x02>0";
 					$res = $this->do_query($query);
-					if (mysql_num_rows($res)==1) {
+					if ($res->num_rows==1) {
 						$row = $this->row_query($res);
 						$lctn_id = $row['ordid'];
 					}

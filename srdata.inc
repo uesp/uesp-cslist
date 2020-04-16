@@ -383,13 +383,13 @@ class SRItem_CELL extends GenItem_CELL {
 		if (!empty($name)) {
 			$query = "SELECT ordid from AllItems where rectype='LCTN' and name='".addslashes($name)."' and mod_status&0x02>0";
 			$res = $this->do_query($query);
-			if (mysql_num_rows($res)==1) {
+			if ($res->num_rows==1) {
 				$row = $this->row_query($res);
 				return $row['ordid'];
 			}
 			$query = "SELECT ordid from AllItems where rectype='LCTN' and edid='".addslashes($name)."Location' and mod_status&0x02>0";
 			$res = $this->do_query($query);
-			if (mysql_num_rows($res)==1) {
+			if ($res->num_rows==1) {
 				$row = $this->row_query($res);
 				return $row['ordid'];
 			}
@@ -1561,7 +1561,7 @@ class SRItem_FACT extends GenItem_FACT {
 		$dquery = "SELECT * from AllItems where rectype='".$this->get('rectype')."' and name='".addslashes($this->get('name'))."' and ordid!=".$this->get('ordid').'  and mod_status&0x02>0';
 		$dres = $this->do_query($dquery);
 		// Use edid for any cases where multiple factions share the same name
-		if (mysql_num_rows($dres)!=0) {
+		if ($dres->num_rows!=0) {
 			return $this->get('edid');
 		}
 		// Use edid if name contains =

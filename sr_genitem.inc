@@ -147,7 +147,7 @@ class GenItem extends CSItem {
 		}
 		if (!empty($query)) {
 			$res = $this->do_query($query);
-			if (mysql_num_rows($res)==1) {
+			if ($res->num_rows==1) {
 				$row = $this->row_query($res);
 				$cell = $this->_parentlist->get_item($row['cell_id']);
 				if (!$cell->get('exterior') && $cell->get('name'))

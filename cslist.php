@@ -701,7 +701,7 @@ function display_search($search) {
 				$res = $gCSData->do_query($query);
 				if (empty($res))
 					continue;
-//				$nrows = mysql_num_rows($res);
+//				$nrows = $res->num_rows;
 //var_dump($nrows);
 //				if (!$nrows)
 //					continue;
@@ -743,7 +743,7 @@ function display_search($search) {
 		$query .= ' fileid, formid, edid, name';
 		$query .= ' LIMIT 50';
 		$res = $gCSData->do_query($query);
-		if (!empty($res) && mysql_num_rows($res)) {
+		if (!empty($res) && $res->num_rows) {
 			while ($row=$gCSData->row_query($res)) {
 				$row['formid'] = $gCSData->get_mod_formid($row['formid']);
 				$list[$row['ordid']] = $row;
@@ -767,7 +767,7 @@ function display_search($search) {
 		$query .= ' LIMIT 500';
 		
 		$res = $gCSData->do_query($query);
-		if (!empty($res) && mysql_num_rows($res)) {
+		if (!empty($res) && $res->num_rows) {
 			while ($row=$gCSData->row_query($res)) {
 				$row['formid'] = $gCSData->get_mod_formid($row['formid']);
 				$list[$row['ordid']] = $row;
@@ -790,7 +790,7 @@ function display_search($search) {
 		$query .= ' LIMIT 50';
 		
 		$res = $gCSData->do_query($query);
-		if (!empty($res) && mysql_num_rows($res)) {
+		if (!empty($res) && $res->num_rows) {
 			while ($row=$gCSData->row_query($res)) {
 				if (isset($row['filename']))
 					$list[] = array('script' => $row['filename']);
@@ -886,7 +886,7 @@ function display_history() {
 		if (empty($_GET['rec'])) {
 			$squery = 'SELECT rectype FROM History WHERE setid='.$row['setid'].' AND rectype is NOT NULL ORDER BY rectype LIMIT 11';
 			$sres = $gCSData->do_query($squery);
-			$nsub = mysql_num_rows($sres);
+			$nsub = $sres->num_rows;
 		}
 		print "<li>\n";
 		print $row['time'];

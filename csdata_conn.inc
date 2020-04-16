@@ -5,6 +5,6 @@
 include('/home/uesp/secrets/cslist.secrets');
 
 global $gConnection;
-$gConnection = mysql_connect($uespCSListReadDBHost, $uespCSListReadUser, $uespCSListReadPW, TRUE);
+$gConnection = new mysqli($uespCSListReadDBHost, $uespCSListReadUser, $uespCSListReadPW, "CSData_SRData");
 
 ?>

@@ -180,6 +180,8 @@ class CSData {
 	}
 	
 	function create_db() {
+		global $gConnection;
+		
 		// Drop then create DB
 		$dbname = 'CSData_'.$this->_classid."Data";
 		$this->do_query('DROP DATABASE IF EXISTS '.$dbname);
@@ -196,7 +198,7 @@ class CSData {
 		$this->_datatables = array();
 		$this->_dbtables = array();
 		
-		mysql_select_db($dbname);
+		$gConnection->select_db($dbname);
 	}
 	
 	// Originally, this was only be called by CSData, as part of get_data
@@ -208,21 +210,21 @@ class CSData {
 		if (!empty($connfile))
 			$this->_connfile = $connfile;
 		if (!empty($this->_connection)) {
-			if (!mysql_ping($this->_connection))
+			if (!$gConnection->ping())
 				$this->_connection = NULL;
 		}
 		if (empty($this->_connection)) {
 			if (!empty($gConnection)) {
-				if (!mysql_ping($gConnection))
+				if (!$gConnection->ping())
 					$gConnection = NULL;
 			}
 			if (empty($gConnection))
 				include($this->_connfile);
 			$this->_connection = $gConnection;
 		}
-		mysql_set_charset('utf8', $this->_connection);
+		$gConnection->set_charset('utf8');
 		$dbname = 'CSData_'.$this->_classid."Data";
-		$dbok = mysql_select_db($dbname);
+		$dbok = $gConnection->select_db($dbname);
 		return $dbok;
 	}
 	
@@ -241,7 +243,7 @@ class CSData {
 		if (empty($res))
 			return;
 		
-		while ($row=$this->row_query($res, MYSQL_NUM)) {
+		while ($row=$this->row_query($res, MYSQLI_NUM)) {
 			$table = $row[0];
 			$this->_dbtables[$table] = TRUE;
 			if (preg_match('/(.*)_Lookup$/', $table, $matches)) {
@@ -558,28 +560,33 @@ class CSData {
 	}
 		
 	function do_query($query, $option=NULL) {
+		global $gConnection;
 		if (empty($this->_connection)) {
 			print "mysql error: connection does not exist\n";
 			exit;
 		}
-		elseif (!mysql_ping($this->_connection)) {
+		elseif (!$gConnection->ping()) {
 			$this->set_connection();
 		}
-		if (($this->_resource=mysql_query($query, $this->_connection))===false) {
-			print "mysql error ".mysql_errno($this->_connection).": ".mysql_error($this->_connection)."\n  query: ".$query."\n";
+		
+		if (($this->_resource=$gConnection->query($query))===false) {
+			print "mysql error ".$gConnection->errno.": ".$gConnection->error."\n  query: ".$query."\n";
 			exit;
 			return NULL;
 		}
-		if (is_null($option))
+		
+		if (is_null($option)) {
 			return $this->_resource;
+		}
 		
 		if (strtolower($option)=='getid') {
-			return mysql_insert_id($this->_connection);
+			return $gConnection->insert_id;
 		}
 		
 		if (strtolower($option)=='onerow') {
-			if (mysql_num_rows($this->_resource)==1)
+			if ($this->_resource->num_rows==1) {
 				return $this->row_query($this->_resource);
+			}
 			else {
 				//				print "mysql error.  Multiple rows returned from query: {$query}\n";
 				return NULL;
@@ -587,11 +594,13 @@ class CSData {
 		}
 	}
 	
-	function row_query($resource=NULL, $querytype=MYSQL_ASSOC) {
+	function row_query($resource=NULL, $querytype=MYSQLI_ASSOC) {
 		if (is_null($resource))
 			$resource = $this->_resource;
-		if (!is_array($row = mysql_fetch_array($resource, $querytype)))
-			return $row;
+		
+		if (!is_array($row = $resource->fetch_array($querytype))) {
+			return false;
+		}
 		
 		// how to identify boolean values and change them back to boolean?
 		foreach ($row as $valname => $value) {
@@ -1141,7 +1150,7 @@ class CSData {
 			else
 				$queryex .= " ORDER BY mod_status&0x02 desc, ordid desc";
 			$allrows = array();
-			if (!is_null($res = $this->do_query($query.$queryex)) && ($nrow= mysql_num_rows($res))>0) {
+			if (!is_null($res = $this->do_query($query.$queryex)) && ($nrow=$res->num_rows)>0) {
 				if ($nrow==1) {
 					$allrows[] = $this->row_query($res);
 				}
