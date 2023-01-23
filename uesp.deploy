@@ -10,6 +10,7 @@ ignore = *.deploy
 ignore = *.sh
 ignore = maintenance/*
 ignore = examples/*
+ignore = cs_input/*
 
 dest = content3.uesp.net:/home/uesp/cslist/
 # dest = content3.uesp.net:/home/uesp/www/cstest/

@@ -50,7 +50,7 @@ class CSData {
 	public function __construct() {
 		global $gCSData;
 		
-		$this->_classid = substr(get_class($this),0,2);
+		$this->_classid = $this->generateClassId();
 		$this->_data = array();
 		$this->_datastats = array();
 		$this->_ndata = 0;
@@ -85,6 +85,12 @@ class CSData {
 		
 		if (!isset($gCSData))
 			$gCSData = $this;
+	}
+	
+	
+	protected function generateClassId()
+	{
+		return substr(get_class($this),0,2);
 	}
 	
 	public static function getInstance() {

@@ -44,8 +44,9 @@
 #  probably anything requiring CELL records and most tasks requiring leveled lists
 
 //require_once "mwdata.inc";
+require_once "mwfrdata.inc";
 //require_once "obdata.inc";
-require_once "srdata.inc";
+//require_once "srdata.inc";
 
 // At simplest level, read can be triggered with two commands:
 //$cs = CSData::getInstance();
@@ -72,8 +73,9 @@ $csread->set_param(FALSE, 'setup_cells');
 // note that redoing WRLD/CELL/REFR has to basically be done all together
 //$cs->get_data(CSData::DATAMODE_WRITE, array('WRLD', 'CELL', 'REFR', 'ACHR', 'ACRE'));
 
-//$cs->get_data(CSData::DATAMODE_WRITE, array('NPC_', 'LVLI', 'RACE', 'CLAS', 'WEAP', 'QUST'));
-$cs->get_data(CSData::DATAMODE_WRITE, array('WRLD', 'CELL', 'REFR', 'ACHR', 'PGRE', 'PHZD'));
+$cs->get_data(CSData::DATAMODE_WRITE);
+$cs->get_data(CSData::DATAMODE_WRITE, array('NPC_', 'LVLI', 'RACE', 'CLAS', 'WEAP', 'QUST'));
+//$cs->get_data(CSData::DATAMODE_WRITE, array('WRLD', 'CELL', 'REFR', 'ACHR', 'PGRE', 'PHZD'));
 //$cs->get_data(CSData::DATAMODE_WRITE, array('SMQN'));
 
 //$cs->set_datamode(CSData::DATAMODE_WRITE);

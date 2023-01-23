@@ -103,7 +103,7 @@ class CSRead {
 		'calc_levlists' => NULL, // NULL means to auto-set value
 		'redo_cells' => FALSE,
 		'setup_cells' => FALSE,
-		'inputdir' => '../cs_input/',
+		'inputdir' => './cs_input/',
 		'redo_db' => FALSE,
 	);
 	protected $_parentlist;
@@ -232,13 +232,18 @@ class CSRead {
 		$this->_general_setup();
 		
 		$this->init_csdata($parentlist, FALSE);
-	}	
+	}
+	
+	protected function getClassId()
+	{
+		return substr(get_class($this),0,2);
+	}
 	
 	function init_csdata($parentlist=NULL, $autoset=TRUE) {
 		if (is_null($parentlist)) {
 			if (empty($this->_parentlist)) {
 				if ($autoset) {
-					$classname = substr(get_class($this),0,2)."Data";
+					$classname = $this->getClassId()."Data";
 					$this->_parentlist = new $classname();
 				}
 				else {
@@ -374,9 +379,15 @@ class CSRead {
 		$this->_groupordid = array();
 		$this->_groupid = array();
 		
+		print("\tReading file $file...\n");
+		$this->recordsRead = 0;
+		
 		$this->set_fileinfo($file, $filenum);
 		$this->open_file($file);
-		while ($this->read_next()) {
+		
+		while ($this->read_next())
+		{
+			++$this->recordsRead;
 		}
 		$this->close_file();
 		
@@ -672,6 +683,11 @@ print "fileid=$fileid cv=$cv\n";
 		$header = $this->_read_header($this->_header_rec);
 		if (!$header)
 			return FALSE;
+		
+		if ($this->recordsRead % 100 == 0)
+		{
+			print("\t{$this->recordsRead}: Reading {$header['type']} record at offset {$header['loc']}...\n");
+		}
 		
 		if ($header['type']=='GRUP') {
 			fseek($this->_fpin, $header['loc']);
@@ -2598,6 +2614,9 @@ print "fileid=$fileid cv=$cv\n";
 			// do I need this.. if so, why isn't it getting filtered out earlier on?
 			//			if (!array_key_exists($rectype, $this->keep))
 			//	continue;
+		$query = "DROP TABLE IF EXISTS $table;";
+		$this->_parentlist->do_query($query);
+		
 		$query = "CREATE TABLE {$table} (\n";
 		$query .= "ordid int NOT NULL,\n";
 		// not doing auto increment because I want to be able to start arrays at zero

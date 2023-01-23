@@ -37,6 +37,7 @@ global $reclist;
 global $gamenames;
 $gamenames = array('ob' => 'Oblivion',
                    'mw' => 'Morrowind',
+                   'mwfr' => 'Morrowind (French)',
                    /*'fo' => 'Fallout',*/
                    'sr' => 'Skyrim',);
 global $libdir;
@@ -111,7 +112,7 @@ function process_get() {
 	
 	$game = NULL;
 	if (isset($_GET['game']))
-		$game = strtolower(substr($_GET['game'],0,2));
+		$game = strtolower(substr($_GET['game'],0,4));
 	if (!isset($game) || !isset($gamenames[$game]))
 		$game = 'ob';
 	$_GET['game'] = $game;
