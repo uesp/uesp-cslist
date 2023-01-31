@@ -2,17 +2,11 @@
 require_once 'csread.inc';
 
 class MWFRRead extends CSRead {
-	//protected $_files = array("Morrowind.esm", "Bloodmoon.esm", "Tribunal.esm");
-	//protected $_fileofficial = array("Morrowind.esm", "Bloodmoon.esm", "Tribunal.esm");
-	//protected $_filenamespace = array('Morrowind', 'Bloodmoon', 'Tribunal');
-	//protected $_filemodname = array('', '', '');
-	//protected $_filemodabbrev = array('MW', 'BM', 'TR');
-	
-	protected $_files = array("MorrowindFR.esm");
-	protected $_fileofficial = array("Morrowind.esm");
-	protected $_filenamespace = array('Morrowind');
-	protected $_filemodname = array('');
-	protected $_filemodabbrev = array('MW');
+	protected $_files = array("Morrowind_FR.esm", "Bloodmoon_FR.esm", "Tribunal_FR.esm");
+	protected $_fileofficial = array("Morrowind.esm", "Bloodmoon.esm", "Tribunal.esm");
+	protected $_filenamespace = array('Morrowind', 'Bloodmoon', 'Tribunal');
+	protected $_filemodname = array('', '', '');
+	protected $_filemodabbrev = array('MW', 'BM', 'TR');
 	
 	// MW-specific values for header_rec and header_sub
 	protected $_header_rec = array(
