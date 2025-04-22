@@ -38,6 +38,7 @@ global $gamenames;
 $gamenames = array('ob' => 'Oblivion',
                    'mw' => 'Morrowind',
                    'mwfr' => 'Morrowind (French)',
+                   'mwde' => 'Morrowind (German)',
                    /*'fo' => 'Fallout',*/
                    'sr' => 'Skyrim',);
 global $libdir;

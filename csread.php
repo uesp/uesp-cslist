@@ -1,4 +1,4 @@
-#!/usr/bin/php -q
+!/usr/bin/php -q
 <?php
 //print memory_get_usage()."\n";
 //print memory_get_usage(true)."\n";
@@ -44,9 +44,13 @@
 #  probably anything requiring CELL records and most tasks requiring leveled lists
 
 //require_once "mwdata.inc";
-require_once "mwfrdata.inc";
+//require_once "mwfrdata.inc";
+require_once "mwdedata.inc";
 //require_once "obdata.inc";
+//require_once "obfrdata.inc";
 //require_once "srdata.inc";
+
+$IGNORE_SQL_ERRORS = true;
 
 // At simplest level, read can be triggered with two commands:
 //$cs = CSData::getInstance();

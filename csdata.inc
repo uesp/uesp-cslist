@@ -567,6 +567,8 @@ class CSData {
 		
 	function do_query($query, $option=NULL) {
 		global $gConnection;
+		global $IGNORE_SQL_ERRORS;
+		
 		if (empty($this->_connection)) {
 			print "mysql error: connection does not exist\n";
 			exit;
@@ -576,7 +578,9 @@ class CSData {
 		}
 		
 		if (($this->_resource=$gConnection->query($query))===false) {
-			print "mysql error ".$gConnection->errno.": ".$gConnection->error."\n  query: ".$query."\n";
+			print "mysql error ".$gConnection->errno.": ".$gConnection->error."\n  query: ".$query."\nOption = $option\n";
+			//debug_print_backtrace();
+			if ($IGNORE_SQL_ERRORS === true) return true;
 			exit;
 			return NULL;
 		}
@@ -594,7 +598,7 @@ class CSData {
 				return $this->row_query($this->_resource);
 			}
 			else {
-				//				print "mysql error.  Multiple rows returned from query: {$query}\n";
+				//print "mysql error.  Multiple rows returned from query: {$query}\n";
 				return NULL;
 			}
 		}
