@@ -1,6 +1,9 @@
 <?php
 require_once 'csread.inc';
 
+print("included OBREAD\n");
+debug_print_backtrace();
+
 class OBRead extends CSRead {
 	protected $_files = array("Oblivion.noSI.esm.mod",
 	                           "Oblivion.esm.mod",

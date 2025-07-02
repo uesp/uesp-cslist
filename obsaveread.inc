@@ -1,6 +1,6 @@
 <?php
-require_once 'obread.inc';
-require_once 'obdata.inc';
+require_once 'obrmread.inc';
+require_once 'obrmdata.inc';
 
 /* Extending OBRead because some records use standard OBRead data definitions */
 class OBSaveRead extends OBRead {

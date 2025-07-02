@@ -36,6 +36,7 @@ global $gHistory;
 global $reclist;
 global $gamenames;
 $gamenames = array('ob' => 'Oblivion',
+				   'obrm' => 'Oblivion Remastered',
                    'mw' => 'Morrowind',
                    'mwfr' => 'Morrowind (French)',
                    'mwde' => 'Morrowind (German)',
@@ -734,7 +735,7 @@ function display_search($search) {
 	}
 
 	if (count($list)<50 && !empty($_GET['do_book'])) {
-		if ($_GET['game']=='mw') {
+		if ($_GET['game']=='mw' || $_GET['game']=='mwfr' || $_GET['game']=='mwde') {
 			$query = "SELECT ordid, name, edid, formid, rectype FROM AllItems inner join BOOK_Record using (ordid) WHERE CONVERT(TEXT USING utf8) COLLATE utf8_unicode_ci LIKE '%".addcslashes($search, "'%_\\")."%' ";
 		}
 		else {
@@ -756,7 +757,7 @@ function display_search($search) {
 		if ($_GET['game']=='sr') {
 			$query = "SELECT ordid, name, edid, formid, rectype FROM AllItems inner join INFO_TRDT_Record using (ordid) WHERE CONVERT(dialogue USING utf8) COLLATE utf8_unicode_ci LIKE '%".addcslashes($search, "'%_\\")."%' ";
 		}
-		elseif ($_GET['game']=='mw') {
+		elseif ($_GET['game']=='mw' || $_GET['game']=='mwfr' || $_GET['game']=='mwde') {
 			$query = "SELECT ordid, name, edid, formid, rectype FROM AllItems inner join INFO_Record using (ordid) WHERE CONVERT(infotext USING utf8) COLLATE utf8_unicode_ci LIKE '%".addcslashes($search, "'%_\\")."%' ";
 		}
 		// Oblivion
@@ -851,7 +852,7 @@ function display_search($search) {
 					continue;
 				$text[] = htmlentities($row[$idname], ENT_COMPAT, 'UTF-8');
 			}
-			if ($_GET['game'] === 'mw' && isset($row['rectype']))
+			if (($_GET['game']=='mw' || $_GET['game']=='mwfr' || $_GET['game']=='mwde') && isset($row['rectype']))
 				$idstr .= '&rectype=' . $row['rectype'];
 			foreach ($text as $i => $str) {
 				if ($i)

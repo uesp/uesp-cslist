@@ -391,6 +391,9 @@ class GenItem_NPC_ extends GenItem_Actor {
 		$race = $this->_parentlist->get_item($this->get('race_id'));
 		$class = $this->_parentlist->get_item($this->get('class_id'));
 		
+		if ($race == null) return;
+		if ($class == null) return;
+		
 		if ($this->get('female'))
 			$gender = "_f";
 		else

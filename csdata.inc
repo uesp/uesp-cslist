@@ -90,6 +90,7 @@ class CSData {
 	
 	protected function generateClassId()
 	{
+		print("generateClassId() = " . get_class($this) . "\n");
 		return substr(get_class($this),0,2);
 	}
 	
