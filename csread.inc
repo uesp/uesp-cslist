@@ -387,7 +387,7 @@ class CSRead {
 		
 		while ($this->read_next())
 		{
-			++$this->recordsRead;
+			//++$this->recordsRead;
 		}
 		$this->close_file();
 		
@@ -684,10 +684,14 @@ print "fileid=$fileid cv=$cv\n";
 		if (!$header)
 			return FALSE;
 		
+		++$this->recordsRead;
+		
 		if ($this->recordsRead % 100 == 0)
 		{
 			print("\t{$this->recordsRead}: Reading {$header['type']} record at offset {$header['loc']}...\n");
 		}
+		
+		//print("\t{$this->recordsRead}: Reading {$header['type']} record at offset {$header['loc']} (next at {$header['next']})...\n");
 		
 		if ($header['type']=='GRUP') {
 			fseek($this->_fpin, $header['loc']);
@@ -706,6 +710,8 @@ print "fileid=$fileid cv=$cv\n";
 		$headerok = TRUE;
 		$header = array();
 		$header['loc'] = ftell($this->_fpin);
+		//print("\t\t{$header['loc']} : $format\n");
+		
 		if (is_null($this->_datachunk)) {
 			if (feof($this->_fpin))
 				return FALSE;
@@ -723,11 +729,14 @@ print "fileid=$fileid cv=$cv\n";
 			$header['header_data'] = $this->_datachunk;
 		}
 		
+		$recType = "";
+		
 		foreach ($format as $field => $datatype) {
 			if ($field=='data') {
 				// XXXX records are specific to subrecords (and not present in MW)
-				// But having the code here won't hurt 
-				if (!is_null($this->_xxxxsize))
+				// But having the code here won't hurt
+				// Dave: Fix for Oblivion.esm French having a doubled XXXX subrecord in one WRLD record.
+				if ($recType != "XXXX" && !is_null($this->_xxxxsize))
 					$size = $this->_xxxxsize;
 				else
 					$size = $header['datasize'];
@@ -739,6 +748,7 @@ print "fileid=$fileid cv=$cv\n";
 			}
 			else {
 				$header[$field] = $this->extract_single($datatype);
+				if ($field == 'type') $recType = $header[$field];
 			}
 			if (feof($this->_fpin))
 				return FALSE;
@@ -3470,7 +3480,7 @@ exit;
 						$cindex = $this->csunpack('l', fread($fp, 4));
 						$cloc = $this->csunpack('l', fread($fp, 4));
 						$cloc += ($count+1)*8;
-							
+						
 						$this->_stringindex['loc'][$cindex] = $cloc;
 						$this->_stringindex['file'][$cindex] = $fileindex;
 					}

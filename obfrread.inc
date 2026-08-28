@@ -1,21 +1,22 @@
 <?php
 require_once 'csread.inc';
 
+print("included OBFRREAD\n");
+debug_print_backtrace();
+
 class OBFRRead extends CSRead {
-	protected $_files = array("OblivionFR.noSI.esm",
-	                           "OblivionFR.esm",
-	                           "DLCThievesDen.esp",
-	                           "DLCVileLair.esp",
-	                           "DLCFrostcrag.esp",
-	                           "DLCHorseArmor.esp",
+	protected $_files = array( "OblivionFR.esm",
+	                           "DLCThievesDenFR.esp",
+	                           "DLCVileLairFR.esp",
+	                           "DLCFrostcragFR.esp",
+	                           "DLCHorseArmorFR.esp",
 	                           "KnightsFR.esp",
-	                           "DLCMehrunesRazor.esp",
-	                           "DLCOrrery.esp",
-	                           "DLCSpellTomes.esp",
-	                           "DLCBattlehornCastle.esp");
+	                           "DLCMehrunesRazorFR.esp",
+	                           "DLCOrreryFR.esp",
+	                           "DLCSpellTomesFR.esp",
+	                           "DLCBattlehornCastleFR.esp");
 	// NB DLCShiveringIsles.esp does not officially have any FormID items
 	protected $_fileofficial = array("Oblivion.esm",
-	                                 "DLCShiveringIsles.esp",
 	                                 "DLCThievesDen.esp",
 	                                 "DLCVileLair.esp",
 	                                 "DLCFrostcrag.esp",
@@ -26,7 +27,6 @@ class OBFRRead extends CSRead {
 	                                 "DLCSpellTomes.esp",
 	                                 "DLCBattlehornCastle.esp");
 	protected $_filenamespace = array("Oblivion",
-	                                  "Shivering",
 	                                  "Oblivion",
 	                                  "Oblivion",
 	                                  "Oblivion",
@@ -37,7 +37,6 @@ class OBFRRead extends CSRead {
 	                                  "Oblivion",
 	                                  "Oblivion");
 	protected $_filemodname = array("",
-	                                "",
 	                                "Dunbarrow Cove",
 	                                "Deepscorn Hollow",
 	                                "Frostcrag Spire",
@@ -47,7 +46,13 @@ class OBFRRead extends CSRead {
 	                                "Repairing the Orrery",
 	                                "Spell Tomes", 
 	                                "Battlehorn Castle");
-	protected $_filemodabbrev = array('OB', 'SI', 'DC', 'DH', 'FS', 'HA', 'KN', 'MR', 'OR', 'ST', 'BH');
+	protected $_filemodabbrev = array('OB', 'DC', 'DH', 'FS', 'HA', 'KN', 'MR', 'OR', 'ST', 'BH');
+	
+	
+	protected function getClassId()
+	{
+		return substr(get_class($this),0,4);
+	}
 	
 	// Should I manually add a record at 0x00000014 for ACHR to player's NPC_?
 	// One simple way:

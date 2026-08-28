@@ -8,13 +8,18 @@ class OBFRData extends CSData {
 	function __construct() {
 		parent::__construct();
 	}
+	
+	protected function generateClassId()
+	{
+		return substr(get_class($this),0,4);
+	}
 }
 
 /* 
-   OBItem
+   OBFRItem
 */
 
-class OBItem_ARMO extends GenItem_ARMO {
+class OBFRItem_ARMO extends GenItem_ARMO {
 	protected function derive_skill() {
 		if ($this->_data['heavy'])
 			return "Heavy Armor";
@@ -54,7 +59,7 @@ class OBItem_ARMO extends GenItem_ARMO {
 	}
 }
 
-class OBItem_CLOT extends GenItem_CLOT {
+class OBFRItem_CLOT extends GenItem_CLOT {
 	function derive_type() {
 		$body_locs = array();
 		foreach (array('hair', 'head', 'upper_body', 'lower_body', 'hand', 'foot', 'right_ring', 'left_ring', 'amulet', 'weapon', 'back_weapon', 'side_weapon', 'quiver', 'shield', 'torch', 'tail') as $loc) {
@@ -91,7 +96,7 @@ class OBItem_CLOT extends GenItem_CLOT {
 	}
 }
 
-class OBItem_CELL extends GenItem_CELL {
+class OBFRItem_CELL extends GenItem_CELL {
 	protected function derive_worldspace() {
 		if (!$this->get('exterior'))
 			return NULL;
@@ -169,7 +174,7 @@ class OBItem_CELL extends GenItem_CELL {
 	}
 }
 
-class OBItem_DIAL extends GenItem {
+class OBFRItem_DIAL extends GenItem {
         protected $_column_data =
                 array(
                        'dialogue' => array('display' => 'details_html', 'display_option' => array('details_html' => 'table_dialogue'), 'format' => 'ordid_as_name'),
@@ -196,7 +201,7 @@ class OBItem_DIAL extends GenItem {
 }
 
 
-class OBItem_MGEF extends GenItem_MGEF {
+class OBFRItem_MGEF extends GenItem_MGEF {
 	function specific_name($skillname, $attribname) {
 		$ename = $this->get('name');
 		
@@ -235,7 +240,7 @@ class OBItem_MGEF extends GenItem_MGEF {
 	}
 }
 
-class OBItem_NPC_ extends GenItem_NPC_ {
+class OBFRItem_NPC_ extends GenItem_NPC_ {
 	protected function _class_setup() {
 		$this->_column_data['level_text'] = array('title' => 'NPC Level', 'display' => 'details_html');
 		$this->_column_data['health_text'] = array('title' => 'NPC Health', 'display' => 'details_html');
@@ -414,7 +419,7 @@ class OBItem_NPC_ extends GenItem_NPC_ {
         }
 }
 
-class OBItem_LVLC extends GenItem {
+class OBFRItem_LVLC extends GenItem {
 // rewrite of perl code; has not yet been tested or even compiled (is get_t_item usage correct?)
 // based on previous tests, whether or not a LVLC respawns seems to be determined by the 
 // template creature for the leveled list -- but only if the template creature is a creature (not a NPC),
@@ -437,7 +442,7 @@ class OBItem_LVLC extends GenItem {
 	}
 }
 
-class OBItem_SPEL extends GenItem_SPEL {
+class OBFRItem_SPEL extends GenItem_SPEL {
 	function spellcost() {
 		if (!$this->get('autocalc'))
 			return $this->_getexact('spellcost');
@@ -520,7 +525,7 @@ class OBItem_SPEL extends GenItem_SPEL {
 	}
 }
 
-class OBItem_WEAP extends GenItem_WEAP {
+class OBFRItem_WEAP extends GenItem_WEAP {
 	protected function derive_skill() {
 		$type = $this->get('type');
 		if (substr($type,0,2)=='Bl')

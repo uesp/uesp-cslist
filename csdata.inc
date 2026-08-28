@@ -194,6 +194,9 @@ class CSData {
 		$this->do_query('DROP DATABASE IF EXISTS '.$dbname);
 		$this->do_query('CREATE DATABASE '.$dbname.' DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci');
 		
+		print("Created database $dbname!\n");
+		//exit(-1);
+		
 		// Clear out any data that may have come from the dropped DB
 		// _datatables is most important one -- need to figure out with the others whether to force them to be
 		// reset (means all initialization has to be done *after* last point where DB could be re-created)
@@ -232,6 +235,10 @@ class CSData {
 		$gConnection->set_charset('utf8');
 		$dbname = 'CSData_'.$this->_classid."Data";
 		$dbok = $gConnection->select_db($dbname);
+		
+		print("Set database $dbname!\n");
+		//exit(-1);
+		
 		return $dbok;
 	}
 	
