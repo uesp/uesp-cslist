@@ -13,8 +13,7 @@ class OBFRRead extends CSRead {
 	                           "KnightsFR.esp",
 	                           "DLCMehrunesRazorFR.esp",
 	                           "DLCOrreryFR.esp",
-	                           "DLCSpellTomesFR.esp",
-	                           "DLCBattlehornCastleFR.esp");
+	                           "DLCSpellTomesFR.esp");
 	// NB DLCShiveringIsles.esp does not officially have any FormID items
 	protected $_fileofficial = array("Oblivion.esm",
 	                                 "DLCThievesDen.esp",
@@ -24,10 +23,8 @@ class OBFRRead extends CSRead {
 	                                 "Knights.esp",
 	                                 "DLCMehrunesRazor.esp",
 	                                 "DLCOrrery.esp",
-	                                 "DLCSpellTomes.esp",
-	                                 "DLCBattlehornCastle.esp");
+	                                 "DLCSpellTomes.esp");
 	protected $_filenamespace = array("Oblivion",
-	                                  "Oblivion",
 	                                  "Oblivion",
 	                                  "Oblivion",
 	                                  "Oblivion",
@@ -44,9 +41,8 @@ class OBFRRead extends CSRead {
 	                                "Knights of the Nine",
 	                                "Mehrunes Razor",
 	                                "Repairing the Orrery",
-	                                "Spell Tomes", 
-	                                "Battlehorn Castle");
-	protected $_filemodabbrev = array('OB', 'DC', 'DH', 'FS', 'HA', 'KN', 'MR', 'OR', 'ST', 'BH');
+	                                "Spell Tomes");
+	protected $_filemodabbrev = array('OB', 'DC', 'DH', 'FS', 'HA', 'KN', 'MR', 'OR', 'ST');
 	
 	
 	protected function getClassId()
