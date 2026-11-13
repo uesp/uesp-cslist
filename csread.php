@@ -48,7 +48,8 @@
 //require_once "mwdedata.inc";
 //require_once "obdata.inc";
 //require_once "obrmdata.inc";
-require_once "obfrdata.inc";
+//require_once "obfrdata.inc";
+require_once "obrmfrdata.inc";
 //require_once "srdata.inc";
 
 $IGNORE_SQL_ERRORS = true;

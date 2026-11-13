@@ -37,6 +37,7 @@ global $reclist;
 global $gamenames;
 $gamenames = array('ob' => 'Oblivion',
 				   'obrm' => 'Oblivion (Remastered)',
+				   'obrmfr' => 'Oblivion (Remastered French)',
 				   'obfr' => 'Oblivion (French)',
                    'mw' => 'Morrowind',
                    'mwfr' => 'Morrowind (French)',
